@@ -36,6 +36,20 @@
             <span class="icon">⚙️</span> จัดการข้อสอบ (CRUD)
           </button>
         </nav>
+
+        <!-- User Authentication Box -->
+        <div class="auth-box">
+          <button id="btnLoginModal" class="btn btn-primary btn-sm">
+            <span>🔑</span> เข้าสู่ระบบ
+          </button>
+          <div id="userProfileBadge" class="user-profile-badge hidden">
+            <span class="user-avatar">👤</span>
+            <span id="userNameDisplay" class="user-name">admin</span>
+            <button id="btnHistoryModal" class="btn btn-sm btn-secondary" title="ประวัติการสอบ">📊 ประวัติ</button>
+            <button id="btnLogout" class="btn btn-sm btn-danger" title="ออกจากระบบ">🚪 ออก</button>
+          </div>
+        </div>
+
         <button id="themeToggleBtn" class="theme-toggle-btn" title="สลับโหมดมืด/สว่าง" aria-label="Toggle Dark/Light Mode">
           <span id="themeIcon">🌙</span>
         </button>
@@ -202,117 +216,178 @@
     <!-- ========================================== -->
     <section id="tab-admin" class="tab-content">
       
-      <!-- Add New Question Form Card -->
-      <div class="card admin-form-card">
-        <div class="section-title-box">
-          <h2 id="formHeaderTitle">➕ เพิ่มข้อสอบใหม่เข้าสู่ระบบ</h2>
-          <p>กรอกข้อมูลข้อสอบ ปีการสอบ ตัวเลือก และเฉลยละเอียดทีละขั้นตอน</p>
-        </div>
-
-        <form id="questionForm" class="crud-form">
-          <input type="hidden" id="editQuestionId" value="">
-
-          <div class="form-row">
-            <div class="form-group col-4">
-              <label for="formYear">ปีของข้อสอบ <span class="required">*</span></label>
-              <input type="text" id="formYear" class="form-control" placeholder="เช่น 2567, 2566, 2565" required>
-            </div>
-
-            <div class="form-group col-4">
-              <label for="formCategory">หมวดหมู่วิชา <span class="required">*</span></label>
-              <select id="formCategory" class="form-control" required>
-                <option value="">-- เลือกหมวดหมู่วิชา --</option>
-                <option value="ความสามารถในการคิดวิเคราะห์">ความสามารถในการคิดวิเคราะห์</option>
-                <option value="ภาษาไทย">ภาษาไทย</option>
-                <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
-                <option value="ความรู้และลักษณะการเป็นข้าราชการที่ดี">ความรู้และลักษณะการเป็นข้าราชการที่ดี</option>
-              </select>
-            </div>
-
-            <div class="form-group col-4">
-              <label for="formTags">แท็ก / เรื่องย่อย</label>
-              <input type="text" id="formTags" class="form-control" placeholder="เช่น อนุกรม, เงื่อนไขสัญลักษณ์, พ.ร.บ. แผ่นดิน">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="formQuestionText">โจทย์ข้อสอบ <span class="required">*</span></label>
-            <textarea id="formQuestionText" class="form-control" rows="4" placeholder="พิมพ์เนื้อหาโจทย์ข้อสอบ..." required></textarea>
-          </div>
-
-          <!-- Options Grid -->
-          <div class="options-box">
-            <label class="options-title">ตัวเลือกคำตอบและคำตอบที่ถูกต้อง <span class="required">*</span></label>
-            <p class="options-subtitle">กรอกตัวเลือกทั้ง 4 ข้อ และคลิกเลือกวงกลมหน้ารายการที่ถูกต้อง</p>
-
-            <div class="options-list">
-              <div class="option-row">
-                <input type="radio" name="correctOptionRadio" value="0" id="radioOpt0" checked>
-                <label for="radioOpt0" class="radio-label">ข้อ 1.</label>
-                <input type="text" id="opt0" class="form-control" placeholder="ตัวเลือกที่ 1" required>
-              </div>
-
-              <div class="option-row">
-                <input type="radio" name="correctOptionRadio" value="1" id="radioOpt1">
-                <label for="radioOpt1" class="radio-label">ข้อ 2.</label>
-                <input type="text" id="opt1" class="form-control" placeholder="ตัวเลือกที่ 2" required>
-              </div>
-
-              <div class="option-row">
-                <input type="radio" name="correctOptionRadio" value="2" id="radioOpt2">
-                <label for="radioOpt2" class="radio-label">ข้อ 3.</label>
-                <input type="text" id="opt2" class="form-control" placeholder="ตัวเลือกที่ 3" required>
-              </div>
-
-              <div class="option-row">
-                <input type="radio" name="correctOptionRadio" value="3" id="radioOpt3">
-                <label for="radioOpt3" class="radio-label">ข้อ 4.</label>
-                <input type="text" id="opt3" class="form-control" placeholder="ตัวเลือกที่ 4" required>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="formExplanation">วิธีคิดและเฉลยละเอียดทีละขั้นตอน <span class="required">*</span></label>
-            <textarea id="formExplanation" class="form-control" rows="5" placeholder="อธิบายขั้นตอนการคิด กฎหมาย หรือหลักไวยากรณ์อย่างละเอียด..." required></textarea>
-          </div>
-
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary" id="btnSubmitForm">
-              💾 บันทึกข้อสอบ
-            </button>
-            <button type="button" class="btn btn-secondary hidden" id="btnCancelEdit">
-              ยกเลิกการแก้ไข
-            </button>
-          </div>
-        </form>
+      <!-- Locked Screen if not logged in -->
+      <div id="adminLockedNotice" class="card locked-card hidden" style="text-align: center; padding: 3.5rem 1.5rem;">
+        <div style="font-size: 3.5rem; margin-bottom: 0.75rem;">🔒</div>
+        <h2 style="margin-bottom: 0.5rem;">กรุณาเข้าสู่ระบบก่อนจัดการข้อสอบ</h2>
+        <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 1.5rem;">
+          หน้านี้สำหรับผู้ดูแลระบบหรือเจ้าของคลังข้อสอบเท่านั้น กรุณาเข้าสู่ระบบด้วย Username เพื่อเพิ่ม แก้ไข หรือลบข้อสอบ
+        </p>
+        <button class="btn btn-primary btn-lg" id="btnLockLoginPrompt">
+          🔑 เข้าสู่ระบบทันที
+        </button>
       </div>
 
-      <!-- Manage Questions Table / Grid -->
-      <div class="card admin-table-card">
-        <div class="table-header">
-          <h3>📋 รายการข้อสอบทั้งหมดในระบบ (<span id="adminTotalCount">0</span> ข้อ)</h3>
+      <div id="adminContentArea">
+        <!-- Add New Question Form Card -->
+        <div class="card admin-form-card">
+          <div class="section-title-box">
+            <h2 id="formHeaderTitle">➕ เพิ่มข้อสอบใหม่เข้าสู่ระบบ</h2>
+            <p>กรอกข้อมูลข้อสอบ ปีการสอบ ตัวเลือก และเฉลยละเอียดทีละขั้นตอน</p>
+          </div>
+
+          <form id="questionForm" class="crud-form">
+            <input type="hidden" id="editQuestionId" value="">
+
+            <div class="form-row">
+              <div class="form-group col-4">
+                <label for="formYear">ปีของข้อสอบ <span class="required">*</span></label>
+                <input type="text" id="formYear" class="form-control" placeholder="เช่น 2569, 2568, 2567" required>
+              </div>
+
+              <div class="form-group col-4">
+                <label for="formCategory">หมวดหมู่วิชา <span class="required">*</span></label>
+                <select id="formCategory" class="form-control" required>
+                  <option value="">-- เลือกหมวดหมู่วิชา --</option>
+                  <option value="ความสามารถในการคิดวิเคราะห์">ความสามารถในการคิดวิเคราะห์</option>
+                  <option value="ภาษาไทย">ภาษาไทย</option>
+                  <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
+                  <option value="ความรู้และลักษณะการเป็นข้าราชการที่ดี">ความรู้และลักษณะการเป็นข้าราชการที่ดี</option>
+                </select>
+              </div>
+
+              <div class="form-group col-4">
+                <label for="formTags">แท็ก / เรื่องย่อย</label>
+                <input type="text" id="formTags" class="form-control" placeholder="เช่น อนุกรม, เงื่อนไขสัญลักษณ์, พ.ร.บ. แผ่นดิน">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formQuestionText">โจทย์ข้อสอบ <span class="required">*</span></label>
+              <textarea id="formQuestionText" class="form-control" rows="4" placeholder="พิมพ์เนื้อหาโจทย์ข้อสอบ..." required></textarea>
+            </div>
+
+            <!-- Options Grid -->
+            <div class="options-box">
+              <label class="options-title">ตัวเลือกคำตอบและคำตอบที่ถูกต้อง <span class="required">*</span></label>
+              <p class="options-subtitle">กรอกตัวเลือกทั้ง 4 ข้อ และคลิกเลือกวงกลมหน้ารายการที่ถูกต้อง</p>
+
+              <div class="options-list">
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="0" id="radioOpt0" checked>
+                  <label for="radioOpt0" class="radio-label">ข้อ 1.</label>
+                  <input type="text" id="opt0" class="form-control" placeholder="ตัวเลือกที่ 1" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="1" id="radioOpt1">
+                  <label for="radioOpt1" class="radio-label">ข้อ 2.</label>
+                  <input type="text" id="opt1" class="form-control" placeholder="ตัวเลือกที่ 2" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="2" id="radioOpt2">
+                  <label for="radioOpt2" class="radio-label">ข้อ 3.</label>
+                  <input type="text" id="opt2" class="form-control" placeholder="ตัวเลือกที่ 3" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="3" id="radioOpt3">
+                  <label for="radioOpt3" class="radio-label">ข้อ 4.</label>
+                  <input type="text" id="opt3" class="form-control" placeholder="ตัวเลือกที่ 4" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formExplanation">วิธีคิดและเฉลยละเอียดทีละขั้นตอน <span class="required">*</span></label>
+              <textarea id="formExplanation" class="form-control" rows="5" placeholder="อธิบายขั้นตอนการคิด กฎหมาย หรือหลักไวยากรณ์อย่างละเอียด..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="btnSubmitForm">
+                💾 บันทึกข้อสอบ
+              </button>
+              <button type="button" class="btn btn-secondary hidden" id="btnCancelEdit">
+                ยกเลิกการแก้ไข
+              </button>
+            </div>
+          </form>
         </div>
-        <div class="table-responsive">
-          <table class="data-table">
-            <thead>
-              <tr>
-                <th style="width: 60px;">ID</th>
-                <th style="width: 90px;">ปีสอบ</th>
-                <th style="width: 220px;">หมวดหมู่วิชา</th>
-                <th>โจทย์ข้อสอบ</th>
-                <th style="width: 140px; text-align: center;">จัดการ</th>
-              </tr>
-            </thead>
-            <tbody id="adminTableBody">
-              <!-- Rendered by JS -->
-            </tbody>
-          </table>
+
+        <!-- Manage Questions Table / Grid -->
+        <div class="card admin-table-card">
+          <div class="table-header">
+            <h3>📋 รายการข้อสอบทั้งหมดในระบบ (<span id="adminTotalCount">0</span> ข้อ)</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th style="width: 60px;">ID</th>
+                  <th style="width: 90px;">ปีสอบ</th>
+                  <th style="width: 220px;">หมวดหมู่วิชา</th>
+                  <th>โจทย์ข้อสอบ</th>
+                  <th style="width: 140px; text-align: center;">จัดการ</th>
+                </tr>
+              </thead>
+              <tbody id="adminTableBody">
+                <!-- Rendered by JS -->
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
+
+  <!-- Login / Register Modal -->
+  <div id="authModal" class="modal-overlay hidden">
+    <div class="modal-box auth-modal-box">
+      <div class="auth-modal-header">
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab-btn active" id="tabAuthLogin">เข้าสู่ระบบ</button>
+          <button type="button" class="auth-tab-btn" id="tabAuthRegister">สมัครสมาชิก</button>
+        </div>
+        <button type="button" class="btn-close-modal" id="btnCloseAuthModal">✕</button>
+      </div>
+
+      <form id="authForm" class="auth-form" style="margin-top: 1.25rem;">
+        <div class="form-group">
+          <label for="authUsername">ชื่อผู้ใช้งาน (Username) <span class="required">*</span></label>
+          <input type="text" id="authUsername" class="form-control" placeholder="เช่น somchai หรือ admin" required minlength="3">
+        </div>
+
+        <div class="form-group">
+          <label for="authPassword">รหัสผ่าน (Password) <span class="required">*</span></label>
+          <input type="password" id="authPassword" class="form-control" placeholder="รหัสผ่านอย่างน้อย 4 ตัวอักษร" required minlength="4">
+        </div>
+
+        <div id="authDemoHint" class="auth-demo-hint">
+          💡 บัญชีทดสอบเริ่มต้น: Username <strong>admin</strong> | รหัสผ่าน <strong>password123</strong>
+        </div>
+
+        <div class="modal-actions" style="margin-top: 1.5rem;">
+          <button type="button" class="btn btn-secondary" id="btnCancelAuth">ยกเลิก</button>
+          <button type="submit" class="btn btn-primary" id="btnSubmitAuth">เข้าสู่ระบบ</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Exam History Modal -->
+  <div id="historyModal" class="modal-overlay hidden">
+    <div class="modal-box history-modal-box">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0;">📊 ประวัติการทำข้อสอบจำลอง</h3>
+        <button type="button" class="btn-close-modal" id="btnCloseHistoryModal">✕</button>
+      </div>
+      <div id="historyContainer" class="history-list-container">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </div>
+  </div>
 
   <!-- Delete Confirmation Modal -->
   <div id="deleteModal" class="modal-overlay hidden">

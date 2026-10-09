@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any
 
 class QuestionBase(BaseModel):
-    year: str = Field(..., description="ปีของข้อสอบ เช่น 2565, 2566, 2567")
+    year: str = Field(..., description="ปีของข้อสอบ เช่น 2565, 2566, 2567, 2568, 2569")
     category: str = Field(..., description="หมวดหมู่วิชา เช่น ความสามารถในการคิดวิเคราะห์, ภาษาไทย, ภาษาอังกฤษ, ความรู้และลักษณะการเป็นข้าราชการที่ดี")
     tags: Optional[str] = Field("", description="แท็กหรือเรื่องย่อย เช่น อนุกรม, เงื่อนไขสัญลักษณ์, บทความ")
     question_text: str = Field(..., description="โจทย์ข้อสอบ")
@@ -50,3 +50,33 @@ class ExamSubmitResponse(BaseModel):
     overall_passed: bool
     categories: Dict[str, CategoryResult]
     review: List[Dict[str, Any]]
+
+# --- User & Authentication Models ---
+class UserRegister(BaseModel):
+    username: str = Field(..., min_length=3, max_length=30, description="ชื่อผู้ใช้งาน (3-30 ตัวอักษร)")
+    password: str = Field(..., min_length=4, description="รหัสผ่านอย่างน้อย 4 ตัวอักษร")
+
+class UserLogin(BaseModel):
+    username: str
+    password: str
+
+class UserResponse(BaseModel):
+    id: int
+    username: str
+    role: str
+    created_at: str
+
+class LoginResponse(BaseModel):
+    token: str
+    user: UserResponse
+    message: str = "เข้าสู่ระบบสำเร็จ"
+
+class ExamHistoryItem(BaseModel):
+    id: int
+    username: str
+    total_questions: int
+    correct_count: int
+    score_percentage: float
+    overall_passed: bool
+    time_spent_seconds: int
+    created_at: str

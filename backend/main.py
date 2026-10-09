@@ -10,7 +10,7 @@ for p in [project_root, current_dir]:
 
 from contextlib import asynccontextmanager
 from typing import List, Optional, Dict, Any
-from fastapi import FastAPI, HTTPException, Query, status
+from fastapi import FastAPI, HTTPException, Query, Header, Depends, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
@@ -26,6 +26,13 @@ try:
         get_distinct_categories,
         get_mock_questions,
         get_db_stats,
+        create_user,
+        authenticate_user,
+        create_session,
+        get_user_by_token,
+        delete_session,
+        record_exam_history,
+        get_exam_history_by_user,
     )
     from backend.models import (
         QuestionCreate,
@@ -34,6 +41,11 @@ try:
         ExamSubmitRequest,
         ExamSubmitResponse,
         CategoryResult,
+        UserRegister,
+        UserLogin,
+        UserResponse,
+        LoginResponse,
+        ExamHistoryItem,
     )
 except ImportError:
     from database import (
@@ -47,6 +59,13 @@ except ImportError:
         get_distinct_categories,
         get_mock_questions,
         get_db_stats,
+        create_user,
+        authenticate_user,
+        create_session,
+        get_user_by_token,
+        delete_session,
+        record_exam_history,
+        get_exam_history_by_user,
     )
     from models import (
         QuestionCreate,
@@ -55,20 +74,23 @@ except ImportError:
         ExamSubmitRequest,
         ExamSubmitResponse,
         CategoryResult,
+        UserRegister,
+        UserLogin,
+        UserResponse,
+        LoginResponse,
+        ExamHistoryItem,
     )
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Initialize DB and seed initial exam questions if empty
+    # Startup: Initialize DB, seed questions, and default admin user if empty
     init_db()
     yield
-    # Shutdown logic if any
 
 app = FastAPI(
     title="ระบบจัดการคลังข้อสอบ ก.พ. ภาค ก.",
-    description="API สำหรับคลังข้อสอบ ก.พ. ภาค ก. พร้อมระบบจำลองการสอบ นาฬิกาจับเวลา และเฉลยละเอียด",
-    version="1.0.0",
+    description="API สำหรับคลังข้อสอบ ก.พ. ภาค ก. พร้อมระบบสมาชิก การจำลองสอบ และตรวจคะแนน",
+    version="1.1.0",
     lifespan=lifespan
 )
 
@@ -81,11 +103,72 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ----------------- AUTHENTICATION HELPERS -----------------
+
+def get_current_user_optional(authorization: Optional[str] = Header(None)) -> Optional[Dict[str, Any]]:
+    if not authorization:
+        return None
+    token = authorization.replace("Bearer ", "").strip()
+    return get_user_by_token(token)
+
+def get_current_user_required(authorization: Optional[str] = Header(None)) -> Dict[str, Any]:
+    if not authorization:
+        raise HTTPException(status_code=401, detail="กรุณาเข้าสู่ระบบก่อนทำรายการนี้")
+    token = authorization.replace("Bearer ", "").strip()
+    user = get_user_by_token(token)
+    if not user:
+        raise HTTPException(status_code=401, detail="เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่อีกครั้ง")
+    return user
+
+# ----------------- AUTHENTICATION APIs -----------------
+
+@app.post("/api/auth/register", response_model=LoginResponse, summary="สมัครสมาชิกใหม่")
+def register_user(payload: UserRegister):
+    username = payload.username.strip()
+    if not username:
+        raise HTTPException(status_code=400, detail="กรุณากรอกชื่อผู้ใช้งาน")
+    user = create_user(username, payload.password)
+    if not user:
+        raise HTTPException(status_code=400, detail="ชื่อผู้ใช้งานนี้มีอยู่ในระบบแล้ว กรุณาใช้ชื่ออื่น")
+    token = create_session(user["id"], user["username"], user["role"])
+    return LoginResponse(
+        token=token,
+        user=UserResponse(**user),
+        message="สมัครสมาชิกและเข้าสู่ระบบสำเร็จ"
+    )
+
+@app.post("/api/auth/login", response_model=LoginResponse, summary="เข้าสู่ระบบ")
+def login_user(payload: UserLogin):
+    user = authenticate_user(payload.username.strip(), payload.password)
+    if not user:
+        raise HTTPException(status_code=401, detail="ชื่อผู้ใช้งานหรือรหัสผ่านไม่ถูกต้อง")
+    token = create_session(user["id"], user["username"], user["role"])
+    return LoginResponse(
+        token=token,
+        user=UserResponse(**user),
+        message="เข้าสู่ระบบสำเร็จ"
+    )
+
+@app.post("/api/auth/logout", summary="ออกจากระบบ")
+def logout_user(authorization: Optional[str] = Header(None)):
+    if authorization:
+        token = authorization.replace("Bearer ", "").strip()
+        delete_session(token)
+    return {"message": "ออกจากระบบสำเร็จ"}
+
+@app.get("/api/auth/me", response_model=UserResponse, summary="ดึงข้อมูลโปรไฟล์ผู้ใช้ปัจจุบัน")
+def get_me(user: Dict[str, Any] = Depends(get_current_user_required)):
+    return UserResponse(**user)
+
+@app.get("/api/auth/history", response_model=List[ExamHistoryItem], summary="ดึงประวัติการสอบของผู้ใช้")
+def get_history(user: Dict[str, Any] = Depends(get_current_user_required)):
+    return get_exam_history_by_user(user["id"])
+
 # ----------------- EXAM CRUD APIs -----------------
 
 @app.get("/api/exams", response_model=List[QuestionResponse], summary="ดึงรายการข้อสอบทั้งหมด (พร้อมฟิลเตอร์)")
 def list_questions(
-    year: Optional[str] = Query(None, description="กรองตามปีข้อสอบ เช่น 2565, 2566, 2567"),
+    year: Optional[str] = Query(None, description="กรองตามปีข้อสอบ เช่น 2565, 2566, 2567, 2568, 2569"),
     category: Optional[str] = Query(None, description="กรองตามหมวดหมู่วิชา"),
     search: Optional[str] = Query(None, description="ค้นหาข้อความในโจทย์ แท็ก หรือคำอธิบาย")
 ):
@@ -98,9 +181,8 @@ def get_question(question_id: int):
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการ")
     return q
 
-@app.post("/api/exams", response_model=QuestionResponse, status_code=status.HTTP_201_CREATED, summary="เพิ่มข้อสอบใหม่")
-def add_question(payload: QuestionCreate):
-    # Validate correct_answer index is within options range
+@app.post("/api/exams", response_model=QuestionResponse, status_code=status.HTTP_201_CREATED, summary="เพิ่มข้อสอบใหม่ (ต้องล็อกอิน)")
+def add_question(payload: QuestionCreate, user: Dict[str, Any] = Depends(get_current_user_required)):
     if payload.correct_answer < 0 or payload.correct_answer >= len(payload.options):
         raise HTTPException(
             status_code=400,
@@ -109,15 +191,13 @@ def add_question(payload: QuestionCreate):
     created = create_question(payload.model_dump())
     return created
 
-@app.put("/api/exams/{question_id}", response_model=QuestionResponse, summary="แก้ไขข้อสอบ")
-def edit_question(question_id: int, payload: QuestionUpdate):
+@app.put("/api/exams/{question_id}", response_model=QuestionResponse, summary="แก้ไขข้อสอบ (ต้องล็อกอิน)")
+def edit_question(question_id: int, payload: QuestionUpdate, user: Dict[str, Any] = Depends(get_current_user_required)):
     existing = get_question_by_id(question_id)
     if not existing:
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการแก้ไข")
 
     data = payload.model_dump(exclude_unset=True)
-    
-    # If options or correct_answer updated, validate
     new_options = data.get("options", existing["options"])
     new_ans = data.get("correct_answer", existing["correct_answer"])
     if new_ans < 0 or new_ans >= len(new_options):
@@ -129,8 +209,8 @@ def edit_question(question_id: int, payload: QuestionUpdate):
     updated = update_question(question_id, data)
     return updated
 
-@app.delete("/api/exams/{question_id}", summary="ลบข้อสอบ")
-def remove_question(question_id: int):
+@app.delete("/api/exams/{question_id}", summary="ลบข้อสอบ (ต้องล็อกอิน)")
+def remove_question(question_id: int, user: Dict[str, Any] = Depends(get_current_user_required)):
     success = delete_question(question_id)
     if not success:
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการลบ")
@@ -162,11 +242,11 @@ def generate_mock_exam(
     return questions
 
 @app.post("/api/submit", response_model=ExamSubmitResponse, summary="ส่งคำตอบ ตรวจข้อสอบ และประเมินผลคะแนน")
-def submit_exam(submission: ExamSubmitRequest):
+def submit_exam(submission: ExamSubmitRequest, current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional)):
     answers_map = {item.question_id: item.selected_option for item in submission.answers}
     question_ids = list(answers_map.keys())
 
-    # Passing thresholds according to OCSC criteria
+    # เกณฑ์คะแนนขั้นต่ำของ ก.พ. แต่ละวิชา
     PASSING_THRESHOLDS = {
         "ความสามารถในการคิดวิเคราะห์": 60.0,
         "ภาษาไทย": 60.0,
@@ -210,7 +290,6 @@ def submit_exam(submission: ExamSubmitRequest):
             "explanation": q["explanation"]
         })
 
-    # Calculate category results & passing status
     categories_result: Dict[str, CategoryResult] = {}
     all_categories_passed = True
 
@@ -231,13 +310,27 @@ def submit_exam(submission: ExamSubmitRequest):
         )
 
     score_pct = (correct_count / total_questions * 100.0) if total_questions > 0 else 0.0
+    overall_passed = all_categories_passed and (total_questions > 0)
+    time_spent = submission.time_spent_seconds or 0
+
+    # บันทึกประวัติการสอบลงฐานข้อมูลถ้าผู้ใช้ล็อกอินอยู่
+    if current_user:
+        record_exam_history(
+            user_id=current_user["id"],
+            username=current_user["username"],
+            total=total_questions,
+            correct=correct_count,
+            percentage=round(score_pct, 1),
+            passed=overall_passed,
+            time_spent=time_spent
+        )
 
     return ExamSubmitResponse(
         total_questions=total_questions,
         correct_count=correct_count,
         score_percentage=round(score_pct, 1),
-        time_spent_seconds=submission.time_spent_seconds or 0,
-        overall_passed=all_categories_passed and (total_questions > 0),
+        time_spent_seconds=time_spent,
+        overall_passed=overall_passed,
         categories=categories_result,
         review=review_list
     )
@@ -261,4 +354,3 @@ if __name__ == "__main__":
     print("[API] Swagger Docs:     http://127.0.0.1:8000/docs")
     print("=================================================================")
     uvicorn.run(app, host="127.0.0.1", port=8000)
-

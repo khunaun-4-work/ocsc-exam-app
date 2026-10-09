@@ -17,7 +17,10 @@ const state = {
     remainingSeconds: 0,
     timerInterval: null
   },
-  deleteTargetId: null
+  deleteTargetId: null,
+  authToken: localStorage.getItem('ocsc_token') || null,
+  currentUser: null,
+  authMode: 'login' // 'login' or 'register'
 };
 
 // Category Badge Helper
@@ -51,6 +54,15 @@ function showToast(message, type = 'success') {
   }, 3500);
 }
 
+// Auth Headers Helper
+function getAuthHeaders() {
+  const headers = { 'Content-Type': 'application/json' };
+  if (state.authToken) {
+    headers['Authorization'] = `Bearer ${state.authToken}`;
+  }
+  return headers;
+}
+
 // ==========================================
 // API Calls
 // ==========================================
@@ -79,7 +91,7 @@ async function apiGetQuestionById(id) {
 async function apiCreateQuestion(payload) {
   const res = await fetch('/api/exams', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: getAuthHeaders(),
     body: JSON.stringify(payload)
   });
   if (!res.ok) {
@@ -92,7 +104,7 @@ async function apiCreateQuestion(payload) {
 async function apiUpdateQuestion(id, payload) {
   const res = await fetch(`/api/exams/${id}`, {
     method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
+    headers: getAuthHeaders(),
     body: JSON.stringify(payload)
   });
   if (!res.ok) {
@@ -104,9 +116,13 @@ async function apiUpdateQuestion(id, payload) {
 
 async function apiDeleteQuestion(id) {
   const res = await fetch(`/api/exams/${id}`, {
-    method: 'DELETE'
+    method: 'DELETE',
+    headers: getAuthHeaders()
   });
-  if (!res.ok) throw new Error('ไม่สามารถลบข้อสอบได้');
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.detail || 'ไม่สามารถลบข้อสอบได้');
+  }
   return await res.json();
 }
 
@@ -128,10 +144,63 @@ async function apiSubmitExam(answers, timeSpent) {
   };
   const res = await fetch('/api/submit', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: getAuthHeaders(),
     body: JSON.stringify(payload)
   });
   if (!res.ok) throw new Error('ไม่สามารถประเมินผลคะแนนได้');
+  return await res.json();
+}
+
+// Authentication API Calls
+async function apiLogin(username, password) {
+  const res = await fetch('/api/auth/login', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username, password })
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.detail || 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง');
+  }
+  return await res.json();
+}
+
+async function apiRegister(username, password) {
+  const res = await fetch('/api/auth/register', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username, password })
+  });
+  if (!res.ok) {
+    const err = await res.json();
+    throw new Error(err.detail || 'สมัครสมาชิกไม่สำเร็จ');
+  }
+  return await res.json();
+}
+
+async function apiLogout() {
+  try {
+    await fetch('/api/auth/logout', {
+      method: 'POST',
+      headers: getAuthHeaders()
+    });
+  } catch (e) {}
+}
+
+async function apiGetMe() {
+  if (!state.authToken) return null;
+  const res = await fetch('/api/auth/me', {
+    headers: getAuthHeaders()
+  });
+  if (!res.ok) return null;
+  return await res.json();
+}
+
+async function apiGetExamHistory() {
+  const res = await fetch('/api/auth/history', {
+    headers: getAuthHeaders()
+  });
+  if (!res.ok) throw new Error('ไม่สามารถดึงประวัติการสอบได้');
   return await res.json();
 }
 
@@ -141,14 +210,15 @@ async function apiSubmitExam(answers, timeSpent) {
 document.addEventListener('DOMContentLoaded', async () => {
   initTheme();
   initNavigation();
+  initAuthUI();
   initFormListeners();
   initFilterListeners();
   initMockControls();
   initModalListeners();
 
+  await checkUserSession();
   await loadMetaFilters();
   await loadBrowseQuestions();
-  await loadAdminTable();
 });
 
 function initTheme() {
@@ -208,7 +278,203 @@ function switchTab(tabId) {
   if (tabId === 'tab-browse') {
     loadBrowseQuestions();
   } else if (tabId === 'tab-admin') {
+    checkAdminAccess();
+  }
+}
+
+// ==========================================
+// Authentication UI Logic
+// ==========================================
+async function checkUserSession() {
+  if (state.authToken) {
+    try {
+      const user = await apiGetMe();
+      if (user) {
+        state.currentUser = user;
+        updateAuthHeaderUI();
+      } else {
+        // Token expired
+        state.authToken = null;
+        state.currentUser = null;
+        localStorage.removeItem('ocsc_token');
+        updateAuthHeaderUI();
+      }
+    } catch (e) {
+      state.authToken = null;
+      state.currentUser = null;
+      localStorage.removeItem('ocsc_token');
+      updateAuthHeaderUI();
+    }
+  } else {
+    updateAuthHeaderUI();
+  }
+}
+
+function updateAuthHeaderUI() {
+  const btnLogin = document.getElementById('btnLoginModal');
+  const badge = document.getElementById('userProfileBadge');
+  const nameDisplay = document.getElementById('userNameDisplay');
+
+  if (state.currentUser) {
+    btnLogin.classList.add('hidden');
+    badge.classList.remove('hidden');
+    nameDisplay.textContent = state.currentUser.username;
+  } else {
+    btnLogin.classList.remove('hidden');
+    badge.classList.add('hidden');
+  }
+
+  // If currently on admin tab, update access
+  if (state.currentTab === 'tab-admin') {
+    checkAdminAccess();
+  }
+}
+
+function checkAdminAccess() {
+  const lockedNotice = document.getElementById('adminLockedNotice');
+  const contentArea = document.getElementById('adminContentArea');
+  if (!lockedNotice || !contentArea) return;
+
+  if (state.currentUser) {
+    lockedNotice.classList.add('hidden');
+    contentArea.classList.remove('hidden');
     loadAdminTable();
+  } else {
+    lockedNotice.classList.remove('hidden');
+    contentArea.classList.add('hidden');
+  }
+}
+
+function initAuthUI() {
+  const btnLoginModal = document.getElementById('btnLoginModal');
+  const btnLockLoginPrompt = document.getElementById('btnLockLoginPrompt');
+  const authModal = document.getElementById('authModal');
+  const btnCloseAuth = document.getElementById('btnCloseAuthModal');
+  const btnCancelAuth = document.getElementById('btnCancelAuth');
+  const tabLogin = document.getElementById('tabAuthLogin');
+  const tabRegister = document.getElementById('tabAuthRegister');
+  const authForm = document.getElementById('authForm');
+  const btnSubmitAuth = document.getElementById('btnSubmitAuth');
+  const demoHint = document.getElementById('authDemoHint');
+  const btnLogout = document.getElementById('btnLogout');
+  const btnHistory = document.getElementById('btnHistoryModal');
+  const historyModal = document.getElementById('historyModal');
+  const btnCloseHistory = document.getElementById('btnCloseHistoryModal');
+
+  const openAuth = (mode = 'login') => {
+    state.authMode = mode;
+    authModal.classList.remove('hidden');
+    tabLogin.classList.toggle('active', mode === 'login');
+    tabRegister.classList.toggle('active', mode === 'register');
+    btnSubmitAuth.textContent = mode === 'login' ? 'เข้าสู่ระบบ' : 'สมัครสมาชิก';
+    demoHint.style.display = mode === 'login' ? 'block' : 'none';
+  };
+
+  const closeAuth = () => {
+    authModal.classList.add('hidden');
+    authForm.reset();
+  };
+
+  if (btnLoginModal) btnLoginModal.addEventListener('click', () => openAuth('login'));
+  if (btnLockLoginPrompt) btnLockLoginPrompt.addEventListener('click', () => openAuth('login'));
+  if (btnCloseAuth) btnCloseAuth.addEventListener('click', closeAuth);
+  if (btnCancelAuth) btnCancelAuth.addEventListener('click', closeAuth);
+
+  tabLogin.addEventListener('click', () => openAuth('login'));
+  tabRegister.addEventListener('click', () => openAuth('register'));
+
+  authForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const u = document.getElementById('authUsername').value.trim();
+    const p = document.getElementById('authPassword').value.trim();
+
+    try {
+      let res;
+      if (state.authMode === 'login') {
+        res = await apiLogin(u, p);
+        showToast(`ยินดีต้อนรับคุณ ${res.user.username}!`, 'success');
+      } else {
+        res = await apiRegister(u, p);
+        showToast(`สมัครสมาชิกสำเร็จ! ยินดีต้อนรับคุณ ${res.user.username}`, 'success');
+      }
+
+      state.authToken = res.token;
+      state.currentUser = res.user;
+      localStorage.setItem('ocsc_token', res.token);
+      updateAuthHeaderUI();
+      closeAuth();
+    } catch (err) {
+      showToast(err.message, 'error');
+    }
+  });
+
+  if (btnLogout) {
+    btnLogout.addEventListener('click', async () => {
+      await apiLogout();
+      state.authToken = null;
+      state.currentUser = null;
+      localStorage.removeItem('ocsc_token');
+      updateAuthHeaderUI();
+      showToast('ออกจากระบบเรียบร้อยแล้ว', 'info');
+    });
+  }
+
+  // History Modal handlers
+  if (btnHistory) {
+    btnHistory.addEventListener('click', async () => {
+      await openHistoryModal();
+    });
+  }
+  if (btnCloseHistory) {
+    btnCloseHistory.addEventListener('click', () => {
+      historyModal.classList.add('hidden');
+    });
+  }
+}
+
+async function openHistoryModal() {
+  const modal = document.getElementById('historyModal');
+  const container = document.getElementById('historyContainer');
+  modal.classList.remove('hidden');
+
+  try {
+    const list = await apiGetExamHistory();
+    if (!list || list.length === 0) {
+      container.innerHTML = `
+        <div style="text-align: center; color: var(--text-muted); padding: 2.5rem 1rem;">
+          <p style="font-size: 2.5rem; margin-bottom: 0.5rem;">📝</p>
+          <p style="font-weight: 600;">ยังไม่มีประวัติการทำข้อสอบ</p>
+          <p style="font-size: 0.85rem;">ลองไปที่แท็บ 'จำลองการสอบจริง' แล้วทำข้อสอบเพื่อบันทึกสถิติของคุณ!</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = list.map(item => {
+      const mins = Math.floor(item.time_spent_seconds / 60);
+      const secs = item.time_spent_seconds % 60;
+      const timeStr = `${mins} น. ${secs} ว.`;
+      const badge = item.overall_passed 
+        ? `<span class="history-badge-pass">✅ ผ่านเกณฑ์ ก.พ.</span>`
+        : `<span class="history-badge-fail">❌ ยังไม่ผ่าน</span>`;
+
+      return `
+        <div class="history-item">
+          <div class="history-item-left">
+            <span class="history-date">📅 ${escapeHtml(item.created_at)}</span>
+            <div class="history-stats">
+              คะแนน: <strong>${item.correct_count}/${item.total_questions}</strong> ข้อ (${item.score_percentage}%)
+            </div>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">⏱️ ใช้เวลา: ${timeStr}</span>
+          </div>
+          <div>
+            ${badge}
+          </div>
+        </div>
+      `;
+    }).join('');
+  } catch (err) {
+    showToast(err.message, 'error');
   }
 }
 
@@ -468,7 +734,6 @@ function updateTimerDisplay() {
 
 function renderMockQuestionDots() {
   const grid = document.getElementById('qNavGrid');
-  const total = state.mockSession.questions.length;
 
   grid.innerHTML = state.mockSession.questions.map((q, idx) => {
     const isAnswered = state.mockSession.answers[q.id] !== undefined;
@@ -709,12 +974,17 @@ function initFormListeners() {
   const form = document.getElementById('questionForm');
   const btnCancel = document.getElementById('btnCancelEdit');
 
-  form.addEventListener('submit', handleFormSubmit);
-  btnCancel.addEventListener('click', resetAdminForm);
+  if (form) form.addEventListener('submit', handleFormSubmit);
+  if (btnCancel) btnCancel.addEventListener('click', resetAdminForm);
 }
 
 async function handleFormSubmit(e) {
   e.preventDefault();
+
+  if (!state.currentUser) {
+    showToast('กรุณาเข้าสู่ระบบก่อนบันทึกข้อสอบ', 'error');
+    return;
+  }
 
   const editId = document.getElementById('editQuestionId').value;
   const year = document.getElementById('formYear').value.trim();
@@ -866,6 +1136,10 @@ function initModalListeners() {
 }
 
 window.promptDeleteQuestion = function(id) {
+  if (!state.currentUser) {
+    showToast('กรุณาเข้าสู่ระบบก่อนลบข้อสอบ', 'error');
+    return;
+  }
   state.deleteTargetId = id;
   const modal = document.getElementById('deleteModal');
   const msg = document.getElementById('deleteModalMsg');
