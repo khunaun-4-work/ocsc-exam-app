@@ -120,6 +120,11 @@ def get_current_user_required(authorization: Optional[str] = Header(None)) -> Di
         raise HTTPException(status_code=401, detail="เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่อีกครั้ง")
     return user
 
+def get_current_admin_required(user: Dict[str, Any] = Depends(get_current_user_required)) -> Dict[str, Any]:
+    if user.get("role") != "admin":
+        raise HTTPException(status_code=403, detail="เฉพาะผู้ดูแลระบบ (Admin) เท่านั้นที่สามารถจัดการข้อสอบได้")
+    return user
+
 # ----------------- AUTHENTICATION APIs -----------------
 
 @app.post("/api/auth/register", response_model=LoginResponse, summary="สมัครสมาชิกใหม่")
@@ -166,23 +171,24 @@ def get_history(user: Dict[str, Any] = Depends(get_current_user_required)):
 
 # ----------------- EXAM CRUD APIs -----------------
 
-@app.get("/api/exams", response_model=List[QuestionResponse], summary="ดึงรายการข้อสอบทั้งหมด (พร้อมฟิลเตอร์)")
+@app.get("/api/exams", response_model=List[QuestionResponse], summary="ดึงรายการข้อสอบทั้งหมด (ต้องล็อกอิน)")
 def list_questions(
     year: Optional[str] = Query(None, description="กรองตามปีข้อสอบ เช่น 2565, 2566, 2567, 2568, 2569"),
     category: Optional[str] = Query(None, description="กรองตามหมวดหมู่วิชา"),
-    search: Optional[str] = Query(None, description="ค้นหาข้อความในโจทย์ แท็ก หรือคำอธิบาย")
+    search: Optional[str] = Query(None, description="ค้นหาข้อความในโจทย์ แท็ก หรือคำอธิบาย"),
+    user: Dict[str, Any] = Depends(get_current_user_required)
 ):
     return get_questions(year=year, category=category, search=search)
 
-@app.get("/api/exams/{question_id}", response_model=QuestionResponse, summary="ดึงข้อมูลข้อสอบรายข้อ")
-def get_question(question_id: int):
+@app.get("/api/exams/{question_id}", response_model=QuestionResponse, summary="ดึงข้อมูลข้อสอบรายข้อ (ต้องล็อกอิน)")
+def get_question(question_id: int, user: Dict[str, Any] = Depends(get_current_user_required)):
     q = get_question_by_id(question_id)
     if not q:
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการ")
     return q
 
-@app.post("/api/exams", response_model=QuestionResponse, status_code=status.HTTP_201_CREATED, summary="เพิ่มข้อสอบใหม่ (ต้องล็อกอิน)")
-def add_question(payload: QuestionCreate, user: Dict[str, Any] = Depends(get_current_user_required)):
+@app.post("/api/exams", response_model=QuestionResponse, status_code=status.HTTP_201_CREATED, summary="เพิ่มข้อสอบใหม่ (เฉพาะแอดมิน)")
+def add_question(payload: QuestionCreate, admin: Dict[str, Any] = Depends(get_current_admin_required)):
     if payload.correct_answer < 0 or payload.correct_answer >= len(payload.options):
         raise HTTPException(
             status_code=400,
@@ -191,8 +197,8 @@ def add_question(payload: QuestionCreate, user: Dict[str, Any] = Depends(get_cur
     created = create_question(payload.model_dump())
     return created
 
-@app.put("/api/exams/{question_id}", response_model=QuestionResponse, summary="แก้ไขข้อสอบ (ต้องล็อกอิน)")
-def edit_question(question_id: int, payload: QuestionUpdate, user: Dict[str, Any] = Depends(get_current_user_required)):
+@app.put("/api/exams/{question_id}", response_model=QuestionResponse, summary="แก้ไขข้อสอบ (เฉพาะแอดมิน)")
+def edit_question(question_id: int, payload: QuestionUpdate, admin: Dict[str, Any] = Depends(get_current_admin_required)):
     existing = get_question_by_id(question_id)
     if not existing:
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการแก้ไข")
@@ -209,8 +215,8 @@ def edit_question(question_id: int, payload: QuestionUpdate, user: Dict[str, Any
     updated = update_question(question_id, data)
     return updated
 
-@app.delete("/api/exams/{question_id}", summary="ลบข้อสอบ (ต้องล็อกอิน)")
-def remove_question(question_id: int, user: Dict[str, Any] = Depends(get_current_user_required)):
+@app.delete("/api/exams/{question_id}", summary="ลบข้อสอบ (เฉพาะแอดมิน)")
+def remove_question(question_id: int, admin: Dict[str, Any] = Depends(get_current_admin_required)):
     success = delete_question(question_id)
     if not success:
         raise HTTPException(status_code=404, detail="ไม่พบข้อสอบที่ต้องการลบ")
@@ -218,31 +224,32 @@ def remove_question(question_id: int, user: Dict[str, Any] = Depends(get_current
 
 # ----------------- METADATA & STATS APIs -----------------
 
-@app.get("/api/exams/meta/years", summary="ดึงรายการปีของข้อสอบทั้งหมดที่มีในระบบ")
-def get_years():
+@app.get("/api/exams/meta/years", summary="ดึงรายการปีของข้อสอบทั้งหมดที่มีในระบบ (ต้องล็อกอิน)")
+def get_years(user: Dict[str, Any] = Depends(get_current_user_required)):
     return get_distinct_years()
 
-@app.get("/api/exams/meta/categories", summary="ดึงรายการหมวดหมู่วิชาทั้งหมด")
-def get_categories():
+@app.get("/api/exams/meta/categories", summary="ดึงรายการหมวดหมู่วิชาทั้งหมด (ต้องล็อกอิน)")
+def get_categories(user: Dict[str, Any] = Depends(get_current_user_required)):
     return get_distinct_categories()
 
-@app.get("/api/exams/meta/stats", summary="ดึงสถิติจำนวนข้อสอบ")
-def get_stats():
+@app.get("/api/exams/meta/stats", summary="ดึงสถิติจำนวนข้อสอบ (ต้องล็อกอิน)")
+def get_stats(user: Dict[str, Any] = Depends(get_current_user_required)):
     return get_db_stats()
 
 # ----------------- MOCK EXAM & SUBMISSION -----------------
 
-@app.get("/api/mock", response_model=List[QuestionResponse], summary="สุ่มข้อสอบสำหรับจำลองการสอบจริง")
+@app.get("/api/mock", response_model=List[QuestionResponse], summary="สุ่มข้อสอบสำหรับจำลองการสอบจริง (ต้องล็อกอิน)")
 def generate_mock_exam(
     count: int = Query(10, ge=1, le=100, description="จำนวนข้อที่ต้องการสุ่ม"),
     year: Optional[str] = Query(None, description="กรองเฉพาะปีที่กำหนด"),
-    category: Optional[str] = Query(None, description="กรองเฉพาะวิชาที่กำหนด")
+    category: Optional[str] = Query(None, description="กรองเฉพาะวิชาที่กำหนด"),
+    user: Dict[str, Any] = Depends(get_current_user_required)
 ):
     questions = get_mock_questions(count=count, year=year, category=category)
     return questions
 
-@app.post("/api/submit", response_model=ExamSubmitResponse, summary="ส่งคำตอบ ตรวจข้อสอบ และประเมินผลคะแนน")
-def submit_exam(submission: ExamSubmitRequest, current_user: Optional[Dict[str, Any]] = Depends(get_current_user_optional)):
+@app.post("/api/submit", response_model=ExamSubmitResponse, summary="ส่งคำตอบ ตรวจข้อสอบ และประเมินผลคะแนน (ต้องล็อกอิน)")
+def submit_exam(submission: ExamSubmitRequest, current_user: Dict[str, Any] = Depends(get_current_user_required)):
     answers_map = {item.question_id: item.selected_option for item in submission.answers}
     question_ids = list(answers_map.keys())
 

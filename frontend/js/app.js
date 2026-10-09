@@ -66,24 +66,51 @@ function getAuthHeaders() {
 // ==========================================
 // API Calls
 // ==========================================
+function handleUnauthorized() {
+  state.authToken = null;
+  state.currentUser = null;
+  localStorage.removeItem('ocsc_token');
+  setAppState(false);
+  showToast('กรุณาเข้าสู่ระบบก่อนใช้งาน', 'error');
+}
+
 async function apiGetQuestions(params = {}) {
   const query = new URLSearchParams();
   if (params.year && params.year !== 'all') query.append('year', params.year);
   if (params.category && params.category !== 'all') query.append('category', params.category);
   if (params.search && params.search.trim()) query.append('search', params.search.trim());
 
-  const res = await fetch(`/api/exams?${query.toString()}`);
+  const res = await fetch(`/api/exams?${query.toString()}`, {
+    headers: getAuthHeaders()
+  });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) throw new Error('ไม่สามารถดึงข้อมูลข้อสอบได้');
   return await res.json();
 }
 
 async function apiGetYears() {
-  const res = await fetch('/api/exams/meta/years');
+  const res = await fetch('/api/exams/meta/years', {
+    headers: getAuthHeaders()
+  });
+  if (res.status === 401) {
+    handleUnauthorized();
+    return [];
+  }
+  if (!res.ok) throw new Error('ไม่สามารถดึงข้อมูลปีข้อสอบได้');
   return await res.json();
 }
 
 async function apiGetQuestionById(id) {
-  const res = await fetch(`/api/exams/${id}`);
+  const res = await fetch(`/api/exams/${id}`, {
+    headers: getAuthHeaders()
+  });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) throw new Error('ไม่พบข้อมูลข้อสอบ');
   return await res.json();
 }
@@ -94,6 +121,10 @@ async function apiCreateQuestion(payload) {
     headers: getAuthHeaders(),
     body: JSON.stringify(payload)
   });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) {
     const err = await res.json();
     throw new Error(err.detail || 'เกิดข้อผิดพลาดในการเพิ่มข้อสอบ');
@@ -107,6 +138,10 @@ async function apiUpdateQuestion(id, payload) {
     headers: getAuthHeaders(),
     body: JSON.stringify(payload)
   });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) {
     const err = await res.json();
     throw new Error(err.detail || 'เกิดข้อผิดพลาดในการแก้ไขข้อสอบ');
@@ -119,6 +154,10 @@ async function apiDeleteQuestion(id) {
     method: 'DELETE',
     headers: getAuthHeaders()
   });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) {
     const err = await res.json();
     throw new Error(err.detail || 'ไม่สามารถลบข้อสอบได้');
@@ -132,7 +171,13 @@ async function apiGetMockExam(count, year, category) {
   if (year && year !== 'all') query.append('year', year);
   if (category && category !== 'all') query.append('category', category);
 
-  const res = await fetch(`/api/mock?${query.toString()}`);
+  const res = await fetch(`/api/mock?${query.toString()}`, {
+    headers: getAuthHeaders()
+  });
+  if (res.status === 401) {
+    handleUnauthorized();
+    throw new Error('กรุณาเข้าสู่ระบบก่อนใช้งาน');
+  }
   if (!res.ok) throw new Error('ไม่สามารถสุ่มข้อสอบได้');
   return await res.json();
 }
@@ -216,9 +261,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   initMockControls();
   initModalListeners();
 
-  await checkUserSession();
-  await loadMetaFilters();
-  await loadBrowseQuestions();
+  const loggedIn = await checkUserSession();
+  if (loggedIn) {
+    setAppState(true);
+    await loadMetaFilters();
+    await loadBrowseQuestions();
+  } else {
+    setAppState(false);
+  }
 });
 
 function initTheme() {
@@ -291,42 +341,41 @@ async function checkUserSession() {
       const user = await apiGetMe();
       if (user) {
         state.currentUser = user;
-        updateAuthHeaderUI();
-      } else {
-        // Token expired
-        state.authToken = null;
-        state.currentUser = null;
-        localStorage.removeItem('ocsc_token');
-        updateAuthHeaderUI();
+        return true;
       }
-    } catch (e) {
-      state.authToken = null;
-      state.currentUser = null;
-      localStorage.removeItem('ocsc_token');
-      updateAuthHeaderUI();
-    }
-  } else {
-    updateAuthHeaderUI();
+    } catch (e) {}
+    state.authToken = null;
+    state.currentUser = null;
+    localStorage.removeItem('ocsc_token');
   }
+  return false;
 }
 
-function updateAuthHeaderUI() {
-  const btnLogin = document.getElementById('btnLoginModal');
-  const badge = document.getElementById('userProfileBadge');
+function setAppState(isLoggedIn) {
+  const mainNav = document.getElementById('mainNav');
+  const appLoginGate = document.getElementById('appLoginGate');
+  const appTabsWrapper = document.getElementById('appTabsWrapper');
+  const userBadge = document.getElementById('userProfileBadge');
   const nameDisplay = document.getElementById('userNameDisplay');
 
-  if (state.currentUser) {
-    btnLogin.classList.add('hidden');
-    badge.classList.remove('hidden');
-    nameDisplay.textContent = state.currentUser.username;
-  } else {
-    btnLogin.classList.remove('hidden');
-    badge.classList.add('hidden');
-  }
-
-  // If currently on admin tab, update access
-  if (state.currentTab === 'tab-admin') {
+  if (isLoggedIn && state.currentUser) {
+    if (appLoginGate) appLoginGate.classList.add('hidden');
+    if (appTabsWrapper) appTabsWrapper.classList.remove('hidden');
+    if (mainNav) mainNav.classList.remove('hidden');
+    if (userBadge) userBadge.classList.remove('hidden');
+    if (nameDisplay) nameDisplay.textContent = state.currentUser.username;
     checkAdminAccess();
+  } else {
+    if (appLoginGate) appLoginGate.classList.remove('hidden');
+    if (appTabsWrapper) appTabsWrapper.classList.add('hidden');
+    if (mainNav) mainNav.classList.add('hidden');
+    if (userBadge) userBadge.classList.add('hidden');
+    const questionList = document.getElementById('questionList');
+    if (questionList) questionList.innerHTML = '';
+    if (state.mockSession.timerInterval) {
+      clearInterval(state.mockSession.timerInterval);
+      state.mockSession.active = false;
+    }
   }
 }
 
@@ -335,7 +384,7 @@ function checkAdminAccess() {
   const contentArea = document.getElementById('adminContentArea');
   if (!lockedNotice || !contentArea) return;
 
-  if (state.currentUser) {
+  if (state.currentUser && state.currentUser.role === 'admin') {
     lockedNotice.classList.add('hidden');
     contentArea.classList.remove('hidden');
     loadAdminTable();
@@ -346,67 +395,56 @@ function checkAdminAccess() {
 }
 
 function initAuthUI() {
-  const btnLoginModal = document.getElementById('btnLoginModal');
-  const btnLockLoginPrompt = document.getElementById('btnLockLoginPrompt');
-  const authModal = document.getElementById('authModal');
-  const btnCloseAuth = document.getElementById('btnCloseAuthModal');
-  const btnCancelAuth = document.getElementById('btnCancelAuth');
-  const tabLogin = document.getElementById('tabAuthLogin');
-  const tabRegister = document.getElementById('tabAuthRegister');
-  const authForm = document.getElementById('authForm');
-  const btnSubmitAuth = document.getElementById('btnSubmitAuth');
-  const demoHint = document.getElementById('authDemoHint');
+  const gateTabLogin = document.getElementById('gateTabLogin');
+  const gateTabRegister = document.getElementById('gateTabRegister');
+  const gateAuthForm = document.getElementById('gateAuthForm');
+  const btnGateSubmit = document.getElementById('btnGateSubmitAuth');
+  const gateAuthHint = document.getElementById('gateAuthHint');
   const btnLogout = document.getElementById('btnLogout');
   const btnHistory = document.getElementById('btnHistoryModal');
   const historyModal = document.getElementById('historyModal');
   const btnCloseHistory = document.getElementById('btnCloseHistoryModal');
 
-  const openAuth = (mode = 'login') => {
+  const setGateMode = (mode) => {
     state.authMode = mode;
-    authModal.classList.remove('hidden');
-    tabLogin.classList.toggle('active', mode === 'login');
-    tabRegister.classList.toggle('active', mode === 'register');
-    btnSubmitAuth.textContent = mode === 'login' ? 'เข้าสู่ระบบ' : 'สมัครสมาชิก';
-    demoHint.style.display = mode === 'login' ? 'block' : 'none';
+    if (gateTabLogin) gateTabLogin.classList.toggle('active', mode === 'login');
+    if (gateTabRegister) gateTabRegister.classList.toggle('active', mode === 'register');
+    if (btnGateSubmit) btnGateSubmit.textContent = mode === 'login' ? 'เข้าสู่ระบบทันที' : 'สมัครสมาชิกทันที';
+    if (gateAuthHint) gateAuthHint.style.display = mode === 'login' ? 'block' : 'none';
   };
 
-  const closeAuth = () => {
-    authModal.classList.add('hidden');
-    authForm.reset();
-  };
+  if (gateTabLogin) gateTabLogin.addEventListener('click', () => setGateMode('login'));
+  if (gateTabRegister) gateTabRegister.addEventListener('click', () => setGateMode('register'));
 
-  if (btnLoginModal) btnLoginModal.addEventListener('click', () => openAuth('login'));
-  if (btnLockLoginPrompt) btnLockLoginPrompt.addEventListener('click', () => openAuth('login'));
-  if (btnCloseAuth) btnCloseAuth.addEventListener('click', closeAuth);
-  if (btnCancelAuth) btnCancelAuth.addEventListener('click', closeAuth);
+  if (gateAuthForm) {
+    gateAuthForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const u = document.getElementById('gateAuthUsername').value.trim();
+      const p = document.getElementById('gateAuthPassword').value.trim();
 
-  tabLogin.addEventListener('click', () => openAuth('login'));
-  tabRegister.addEventListener('click', () => openAuth('register'));
+      try {
+        let res;
+        if (state.authMode === 'login') {
+          res = await apiLogin(u, p);
+          showToast(`ยินดีต้อนรับคุณ ${res.user.username}!`, 'success');
+        } else {
+          res = await apiRegister(u, p);
+          showToast(`สมัครสมาชิกสำเร็จ! ยินดีต้อนรับคุณ ${res.user.username}`, 'success');
+        }
 
-  authForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const u = document.getElementById('authUsername').value.trim();
-    const p = document.getElementById('authPassword').value.trim();
+        state.authToken = res.token;
+        state.currentUser = res.user;
+        localStorage.setItem('ocsc_token', res.token);
+        setAppState(true);
 
-    try {
-      let res;
-      if (state.authMode === 'login') {
-        res = await apiLogin(u, p);
-        showToast(`ยินดีต้อนรับคุณ ${res.user.username}!`, 'success');
-      } else {
-        res = await apiRegister(u, p);
-        showToast(`สมัครสมาชิกสำเร็จ! ยินดีต้อนรับคุณ ${res.user.username}`, 'success');
+        // Load data for authenticated user
+        await loadMetaFilters();
+        await loadBrowseQuestions();
+      } catch (err) {
+        showToast(err.message, 'error');
       }
-
-      state.authToken = res.token;
-      state.currentUser = res.user;
-      localStorage.setItem('ocsc_token', res.token);
-      updateAuthHeaderUI();
-      closeAuth();
-    } catch (err) {
-      showToast(err.message, 'error');
-    }
-  });
+    });
+  }
 
   if (btnLogout) {
     btnLogout.addEventListener('click', async () => {
@@ -414,7 +452,7 @@ function initAuthUI() {
       state.authToken = null;
       state.currentUser = null;
       localStorage.removeItem('ocsc_token');
-      updateAuthHeaderUI();
+      setAppState(false);
       showToast('ออกจากระบบเรียบร้อยแล้ว', 'info');
     });
   }
