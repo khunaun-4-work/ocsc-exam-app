@@ -399,7 +399,6 @@ function initAuthUI() {
   const gateTabRegister = document.getElementById('gateTabRegister');
   const gateAuthForm = document.getElementById('gateAuthForm');
   const btnGateSubmit = document.getElementById('btnGateSubmitAuth');
-  const gateAuthHint = document.getElementById('gateAuthHint');
   const btnLogout = document.getElementById('btnLogout');
   const btnHistory = document.getElementById('btnHistoryModal');
   const historyModal = document.getElementById('historyModal');
@@ -410,7 +409,6 @@ function initAuthUI() {
     if (gateTabLogin) gateTabLogin.classList.toggle('active', mode === 'login');
     if (gateTabRegister) gateTabRegister.classList.toggle('active', mode === 'register');
     if (btnGateSubmit) btnGateSubmit.textContent = mode === 'login' ? 'เข้าสู่ระบบทันที' : 'สมัครสมาชิกทันที';
-    if (gateAuthHint) gateAuthHint.style.display = mode === 'login' ? 'block' : 'none';
   };
 
   if (gateTabLogin) gateTabLogin.addEventListener('click', () => setGateMode('login'));
