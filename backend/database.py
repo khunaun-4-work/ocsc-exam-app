@@ -122,18 +122,24 @@ def init_db():
         except Exception as e:
             print(f"[Database] Failed to seed initial data: {e}")
 
-    # Seed Default Admin User if empty
-    cursor.execute("SELECT COUNT(*) FROM users")
-    user_count = cursor.fetchone()[0]
-    if user_count == 0:
-        pwd_hash, salt = hash_password("password123")
-        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Seed or Update Default Admin User with password '0000'
+    cursor.execute("SELECT id FROM users WHERE username = 'admin'")
+    admin_row = cursor.fetchone()
+    pwd_hash, salt = hash_password("0000")
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if not admin_row:
         cursor.execute("""
         INSERT INTO users (username, password_hash, salt, role, created_at)
         VALUES (?, ?, ?, ?, ?)
         """, ("admin", pwd_hash, salt, "admin", now))
         conn.commit()
-        print("[Database] Created default admin user (username: admin / password: password123)")
+        print("[Database] Created default admin user (username: admin / password: 0000)")
+    else:
+        cursor.execute("""
+        UPDATE users SET password_hash = ?, salt = ?, role = 'admin' WHERE username = 'admin'
+        """, (pwd_hash, salt))
+        conn.commit()
+        print("[Database] Updated admin password to 0000")
 
     conn.close()
 
