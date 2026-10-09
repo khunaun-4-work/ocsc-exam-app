@@ -139,6 +139,7 @@ async function apiSubmitExam(answers, timeSpent) {
 // Initialization & Navigation
 // ==========================================
 document.addEventListener('DOMContentLoaded', async () => {
+  initTheme();
   initNavigation();
   initFormListeners();
   initFilterListeners();
@@ -149,6 +150,41 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadBrowseQuestions();
   await loadAdminTable();
 });
+
+function initTheme() {
+  const toggleBtn = document.getElementById('themeToggleBtn');
+  const themeIcon = document.getElementById('themeIcon');
+  if (!toggleBtn || !themeIcon) return;
+
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const isDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+
+  if (isDark) {
+    document.body.classList.add('dark-mode');
+    themeIcon.textContent = '☀️';
+    toggleBtn.title = 'เปลี่ยนเป็นโหมดสว่าง (Light Mode)';
+  } else {
+    document.body.classList.remove('dark-mode');
+    themeIcon.textContent = '🌙';
+    toggleBtn.title = 'เปลี่ยนเป็นโหมดมืด (Dark Mode)';
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const isNowDark = document.body.classList.toggle('dark-mode');
+    if (isNowDark) {
+      themeIcon.textContent = '☀️';
+      toggleBtn.title = 'เปลี่ยนเป็นโหมดสว่าง (Light Mode)';
+      localStorage.setItem('theme', 'dark');
+      showToast('เปิดใช้งานโหมดมืด (Dark Mode)', 'info');
+    } else {
+      themeIcon.textContent = '🌙';
+      toggleBtn.title = 'เปลี่ยนเป็นโหมดมืด (Dark Mode)';
+      localStorage.setItem('theme', 'light');
+      showToast('เปิดใช้งานโหมดสว่าง (Light Mode)', 'info');
+    }
+  });
+}
 
 function initNavigation() {
   const navButtons = document.querySelectorAll('.nav-btn');

@@ -900,10 +900,15 @@ body {
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+  }
+  .header-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   .main-nav {
-    width: 100%;
+    flex: 1;
     overflow-x: auto;
     padding-bottom: 0.25rem;
   }
@@ -915,3 +920,185 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- Theme Toggle & Dark Mode --- */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--bg-main);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+
+.theme-toggle-btn:hover {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  transform: scale(1.1) rotate(15deg);
+}
+
+body.dark-mode {
+  --primary: #3b82f6;
+  --primary-hover: #60a5fa;
+  --primary-light: #1e293b;
+  --bg-main: #0b0f19;
+  --bg-card: #151d2e;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border-color: #26334d;
+  --border-focus: #60a5fa;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.6);
+}
+
+body, .app-header, .card, .q-card, .form-control, .theme-toggle-btn, .modal-box {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+body.dark-mode .app-header {
+  background: var(--bg-card);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .logo-title {
+  color: #60a5fa;
+}
+
+body.dark-mode .form-group label {
+  color: #cbd5e1;
+}
+
+body.dark-mode .form-control {
+  background-color: var(--bg-card);
+  color: var(--text-main);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .q-card {
+  background: var(--bg-card);
+  border-color: var(--border-color);
+}
+
+body.dark-mode .q-text {
+  color: var(--text-main);
+}
+
+body.dark-mode .q-option-item {
+  background: #0f172a;
+  border-color: #27354f;
+  color: #cbd5e1;
+}
+
+body.dark-mode .q-option-item:hover {
+  background: #1e293b;
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
+body.dark-mode .q-option-item.selected {
+  background: #1e3a5f;
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+body.dark-mode .opt-index {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+body.dark-mode .q-explanation-box {
+  background: #2a1f10;
+  border-color: #78350f;
+  color: #fde68a;
+}
+
+body.dark-mode .q-explanation-box strong {
+  color: #fbbf24;
+}
+
+body.dark-mode .options-box {
+  background: #0f172a;
+  border-color: #27354f;
+}
+
+body.dark-mode .options-title {
+  color: var(--text-main);
+}
+
+body.dark-mode .data-table th {
+  background: #0f172a;
+  color: #94a3b8;
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .data-table td {
+  border-bottom-color: var(--border-color);
+  color: #cbd5e1;
+}
+
+body.dark-mode .data-table tr:hover {
+  background-color: #1e293b;
+}
+
+body.dark-mode .modal-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+}
+
+body.dark-mode .modal-box h3 {
+  color: var(--text-main);
+}
+
+body.dark-mode .btn-secondary {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+body.dark-mode .btn-secondary:hover {
+  background-color: #334155;
+}
+
+body.dark-mode .cat-stat-card {
+  background: #0f172a;
+  border-color: #27354f;
+}
+
+body.dark-mode .cat-stat-progress-bg {
+  background: #334155;
+}
+
+body.dark-mode .badge-tag {
+  background-color: #1e293b;
+  color: #94a3b8;
+  border-color: #334155;
+}
+
+body.dark-mode .q-dot {
+  background: #1e293b;
+  border-color: #334155;
+  color: #94a3b8;
+}
+
+body.dark-mode .q-dot.answered {
+  background: #1e3a5f;
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+

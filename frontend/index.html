@@ -24,17 +24,22 @@
         </div>
       </div>
 
-      <nav class="main-nav">
-        <button class="nav-btn active" data-tab="tab-browse" id="navBrowse">
-          <span class="icon">📚</span> คลังข้อสอบ
+      <div class="header-right">
+        <nav class="main-nav">
+          <button class="nav-btn active" data-tab="tab-browse" id="navBrowse">
+            <span class="icon">📚</span> คลังข้อสอบ
+          </button>
+          <button class="nav-btn" data-tab="tab-mock" id="navMock">
+            <span class="icon">⏱️</span> จำลองการสอบจริง
+          </button>
+          <button class="nav-btn" data-tab="tab-admin" id="navAdmin">
+            <span class="icon">⚙️</span> จัดการข้อสอบ (CRUD)
+          </button>
+        </nav>
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="สลับโหมดมืด/สว่าง" aria-label="Toggle Dark/Light Mode">
+          <span id="themeIcon">🌙</span>
         </button>
-        <button class="nav-btn" data-tab="tab-mock" id="navMock">
-          <span class="icon">⏱️</span> จำลองการสอบจริง
-        </button>
-        <button class="nav-btn" data-tab="tab-admin" id="navAdmin">
-          <span class="icon">⚙️</span> จัดการข้อสอบ (CRUD)
-        </button>
-      </nav>
+      </div>
     </div>
   </header>
 
