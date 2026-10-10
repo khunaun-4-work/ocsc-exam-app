@@ -533,6 +533,19 @@ async function loadMetaFilters() {
 
     if (filterYear) renderYearOptions(filterYear);
     if (mockYear) renderYearOptions(mockYear);
+
+    const formYear = document.getElementById('formYear');
+    if (formYear && state.metaYears) {
+      state.metaYears.forEach(yr => {
+        const exists = Array.from(formYear.options).some(o => o.value === String(yr));
+        if (!exists) {
+          const opt = document.createElement('option');
+          opt.value = yr;
+          opt.textContent = yr;
+          formYear.appendChild(opt);
+        }
+      });
+    }
   } catch (err) {
     console.error('Error loading years:', err);
   }
@@ -1117,9 +1130,35 @@ window.startEditQuestion = async function(id) {
   try {
     const q = await apiGetQuestionById(id);
     document.getElementById('editQuestionId').value = q.id;
-    document.getElementById('formYear').value = q.year;
+    const yearSelect = document.getElementById('formYear');
+    if (yearSelect && q.year) {
+      const exists = Array.from(yearSelect.options).some(o => o.value === String(q.year));
+      if (!exists) {
+        const opt = document.createElement('option');
+        opt.value = q.year;
+        opt.textContent = q.year;
+        yearSelect.appendChild(opt);
+      }
+      yearSelect.value = q.year;
+    }
+
     document.getElementById('formCategory').value = q.category;
-    document.getElementById('formTags').value = q.tags || '';
+
+    const tagsSelect = document.getElementById('formTags');
+    if (tagsSelect) {
+      if (q.tags) {
+        const exists = Array.from(tagsSelect.options).some(o => o.value === q.tags);
+        if (!exists) {
+          const opt = document.createElement('option');
+          opt.value = q.tags;
+          opt.textContent = q.tags;
+          tagsSelect.appendChild(opt);
+        }
+        tagsSelect.value = q.tags;
+      } else {
+        tagsSelect.value = '';
+      }
+    }
     document.getElementById('formQuestionText').value = q.question_text;
     document.getElementById('formExplanation').value = q.explanation;
 

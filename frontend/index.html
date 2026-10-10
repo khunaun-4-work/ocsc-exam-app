@@ -283,7 +283,20 @@
             <div class="form-row">
               <div class="form-group col-4">
                 <label for="formYear">ปีของข้อสอบ <span class="required">*</span></label>
-                <input type="text" id="formYear" class="form-control" placeholder="เช่น 2569, 2568, 2567" required>
+                <select id="formYear" class="form-control" required>
+                  <option value="">-- เลือกปีของข้อสอบ --</option>
+                  <option value="2570">2570</option>
+                  <option value="2569">2569</option>
+                  <option value="2568">2568</option>
+                  <option value="2567">2567</option>
+                  <option value="2566">2566</option>
+                  <option value="2565">2565</option>
+                  <option value="2564">2564</option>
+                  <option value="2563">2563</option>
+                  <option value="2562">2562</option>
+                  <option value="2561">2561</option>
+                  <option value="2560">2560</option>
+                </select>
               </div>
 
               <div class="form-group col-4">
@@ -299,7 +312,43 @@
 
               <div class="form-group col-4">
                 <label for="formTags">แท็ก / เรื่องย่อย</label>
-                <input type="text" id="formTags" class="form-control" placeholder="เช่น อนุกรม, เงื่อนไขสัญลักษณ์, พ.ร.บ. แผ่นดิน">
+                <select id="formTags" class="form-control">
+                  <option value="">-- เลือกแท็ก / เรื่องย่อย --</option>
+                  <optgroup label="💡 ความสามารถในการคิดวิเคราะห์">
+                    <option value="อนุกรม, คณิตศาสตร์">อนุกรม, คณิตศาสตร์</option>
+                    <option value="อนุกรม, ตรรกศาสตร์ขั้นสูง">อนุกรม, ตรรกศาสตร์ขั้นสูง</option>
+                    <option value="คณิตศาสตร์ทั่วไป, ร้อยละและกำไรขาดทุน">คณิตศาสตร์ทั่วไป, ร้อยละและกำไรขาดทุน</option>
+                    <option value="เงื่อนไขสัญลักษณ์, ตรรกศาสตร์">เงื่อนไขสัญลักษณ์, ตรรกศาสตร์</option>
+                    <option value="เงื่อนไขภาษา, การวิเคราะห์ข้อมูล">เงื่อนไขภาษา, การวิเคราะห์ข้อมูล</option>
+                    <option value="อุปมาอุปไมย">อุปมาอุปไมย</option>
+                    <option value="ตารางข้อมูลและสถิติ">ตารางข้อมูลและสถิติ</option>
+                  </optgroup>
+                  <optgroup label="📖 ภาษาไทย">
+                    <option value="การอ่านจับใจความ, บทความ">การอ่านจับใจความ, บทความ</option>
+                    <option value="การใช้ภาษา, ความรัดกุมของประโยค">การใช้ภาษา, ความรัดกุมของประโยค</option>
+                    <option value="การสะกดคำ, การใช้ภาษา">การสะกดคำ, การใช้ภาษา</option>
+                    <option value="การเรียงลำดับข้อความ">การเรียงลำดับข้อความ</option>
+                    <option value="สำนวนและคำราชาศัพท์">สำนวนและคำราชาศัพท์</option>
+                  </optgroup>
+                  <optgroup label="🇬🇧 ภาษาอังกฤษ">
+                    <option value="Conversation, Situational English">Conversation, Situational English</option>
+                    <option value="Grammar, Subjunctive Mood">Grammar, Subjunctive Mood</option>
+                    <option value="Grammar & Structure">Grammar & Structure</option>
+                    <option value="Vocabulary, Context Clues">Vocabulary, Context Clues</option>
+                    <option value="Reading Comprehension">Reading Comprehension</option>
+                  </optgroup>
+                  <optgroup label="⚖️ ความรู้และลักษณะการเป็นข้าราชการที่ดี">
+                    <option value="พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534, กฎหมาย">พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534, กฎหมาย</option>
+                    <option value="พ.ร.ฎ. บริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546, ธรรมาภิบาล">พ.ร.ฎ. บริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546, ธรรมาภิบาล</option>
+                    <option value="พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539, กฎหมาย">พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539, กฎหมาย</option>
+                    <option value="พ.ร.บ. ความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539, กฎหมาย">พ.ร.บ. ความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539, กฎหมาย</option>
+                    <option value="พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562, กฎหมาย">พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562, กฎหมาย</option>
+                    <option value="ประมวลกฎหมายอาญา (ความผิดต่อตำแหน่งหน้าที่ราชการ)">ประมวลกฎหมายอาญา (ความผิดต่อตำแหน่งหน้าที่ราชการ)</option>
+                  </optgroup>
+                  <optgroup label="📌 อื่นๆ">
+                    <option value="ทั่วไป">ทั่วไป</option>
+                  </optgroup>
+                </select>
               </div>
             </div>
 
