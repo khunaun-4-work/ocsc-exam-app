@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ระบบคลังข้อสอบ ก.พ. ภาค ก. (OCSC Exam Management & Mock Exam)</title>
+  <!-- Google Fonts: Prompt & Sarabun -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Sarabun:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Liquid Glass Gradient Glow Orbs -->
+  <div class="liquid-bg" aria-hidden="true">
+    <div class="liquid-orb orb-1"></div>
+    <div class="liquid-orb orb-2"></div>
+    <div class="liquid-orb orb-3"></div>
+  </div>
+
+  <!-- Top Navigation Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-logo">
+        <span class="logo-icon">🏛️</span>
+        <div>
+          <h1 class="logo-title">คลังข้อสอบ ก.พ. ภาค ก.</h1>
+          <p class="logo-subtitle">ระบบบริหารจัดการและฝึกทำข้อสอบเสมือนจริงส่วนบุคคล</p>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav class="main-nav hidden" id="mainNav">
+          <button class="nav-btn active" data-tab="tab-browse" id="navBrowse">
+            <span class="icon">📚</span> คลังข้อสอบ
+          </button>
+          <button class="nav-btn" data-tab="tab-mock" id="navMock">
+            <span class="icon">⏱️</span> จำลองการสอบจริง
+          </button>
+          <button class="nav-btn" data-tab="tab-admin" id="navAdmin">
+            <span class="icon">⚙️</span> จัดการข้อสอบ (CRUD)
+          </button>
+        </nav>
+
+        <!-- User Authentication Box -->
+        <div class="auth-box">
+          <div id="userProfileBadge" class="user-profile-badge hidden">
+            <span class="user-avatar">👤</span>
+            <span id="userNameDisplay" class="user-name">admin</span>
+            <button id="btnHistoryModal" class="btn btn-sm btn-secondary" title="ประวัติการสอบ">📊 ประวัติ</button>
+            <button id="btnLogout" class="btn btn-sm btn-danger" title="ออกจากระบบ">🚪 ออก</button>
+          </div>
+        </div>
+
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="สลับโหมดมืด/สว่าง" aria-label="Toggle Dark/Light Mode">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Notification Banner -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- Main Application Content Container -->
+  <main class="main-container">
+
+    <!-- ========================================== -->
+    <!-- APP LOGIN GATE (หน้าจอบังคับเข้าสู่ระบบ)      -->
+    <!-- ========================================== -->
+    <section id="appLoginGate" class="login-gate-section">
+      <div class="login-gate-card card">
+        <div class="login-gate-header">
+          <div class="login-gate-icon">🔐</div>
+          <h2>กรุณาเข้าสู่ระบบก่อนใช้งาน</h2>
+          <p>ระบบคลังข้อสอบและจำลองการสอบ ก.พ. ภาค ก.<br><strong>เฉพาะสมาชิกเท่านั้น</strong> กรุณาเข้าสู่ระบบเพื่อเริ่มใช้งาน</p>
+        </div>
+
+        <div class="auth-tabs">
+          <button type="button" class="auth-tab-btn active" id="gateTabLogin">เข้าสู่ระบบ</button>
+          <button type="button" class="auth-tab-btn" id="gateTabRegister">สมัครสมาชิก</button>
+        </div>
+
+        <form id="gateAuthForm" class="auth-form" style="margin-top: 1.25rem;">
+          <div class="form-group">
+            <label for="gateAuthUsername">ชื่อผู้ใช้งาน (Username) <span class="required">*</span></label>
+            <input type="text" id="gateAuthUsername" class="form-control" placeholder="เช่น somchai หรือ admin" required minlength="3" autocomplete="username">
+          </div>
+
+          <div class="form-group">
+            <label for="gateAuthPassword">รหัสผ่าน (Password) <span class="required">*</span></label>
+            <input type="password" id="gateAuthPassword" class="form-control" placeholder="รหัสผ่านอย่างน้อย 4 ตัวอักษร" required minlength="4" autocomplete="current-password">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" id="btnGateSubmitAuth" style="margin-top: 1.25rem; width: 100%;">
+            เข้าสู่ระบบทันที
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- App Main Tabs Wrapper (แสดงเฉพาะเมื่อล็อกอินแล้ว) -->
+    <div id="appTabsWrapper" class="app-tabs-wrapper hidden">
+
+    <!-- ========================================== -->
+    <!-- TAB 1: BROWSE & PRACTICE (คลังข้อสอบ / ฝึกฝน) -->
+    <!-- ========================================== -->
+    <section id="tab-browse" class="tab-content active">
+      <!-- Top Filter Card -->
+      <div class="filter-card card">
+        <div class="filter-header">
+          <h2>🔍 ค้นหาและคัดกรองข้อสอบ</h2>
+          <span class="badge badge-info" id="browseCountBadge">พบ 0 ข้อ</span>
+        </div>
+        
+        <div class="filter-grid">
+          <div class="form-group">
+            <label for="filterYear">ปีของข้อสอบ</label>
+            <select id="filterYear" class="form-control">
+              <option value="all">ทุกปีการสอบ</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="filterCategory">หมวดหมู่วิชา</label>
+            <select id="filterCategory" class="form-control">
+              <option value="all">ทุกหมวดหมู่วิชา</option>
+              <option value="ความสามารถในการคิดวิเคราะห์">ความสามารถในการคิดวิเคราะห์</option>
+              <option value="ภาษาไทย">ภาษาไทย</option>
+              <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
+              <option value="ความรู้และลักษณะการเป็นข้าราชการที่ดี">ความรู้และลักษณะการเป็นข้าราชการที่ดี</option>
+            </select>
+          </div>
+
+          <div class="form-group search-group">
+            <label for="filterSearch">คำค้นหา (โจทย์ / แท็ก)</label>
+            <input type="text" id="filterSearch" class="form-control" placeholder="พิมพ์คำที่ต้องการค้นหา...">
+          </div>
+
+          <div class="filter-actions">
+            <button class="btn btn-secondary" id="btnResetFilter">ล้างตัวกรอง</button>
+            <button class="btn btn-primary" id="btnShuffleFilter" title="สุ่มลำดับข้อสอบใหม่">🔀 สุ่มข้อสอบใหม่</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Question List Container -->
+      <div id="questionList" class="question-list">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: MOCK EXAM & TIMER (จำลองการสอบจริง) -->
+    <!-- ========================================== -->
+    <section id="tab-mock" class="tab-content">
+      
+      <!-- Mock Exam Setup View -->
+      <div id="mockSetupView" class="mock-setup card">
+        <div class="section-title-box">
+          <h2>⏱️ จำลองการสอบ ก.พ. ภาค ก. เสมือนจริง</h2>
+          <p>ระบบจะสุ่มข้อสอบตามเงื่อนไขที่กำหนด พร้อมระบบจับเวลานับถอยหลังและการประเมินผลคะแนน</p>
+        </div>
+
+        <div class="mock-settings-grid">
+          <div class="form-group">
+            <label for="mockYearSelect">เลือกปีของข้อสอบ</label>
+            <select id="mockYearSelect" class="form-control">
+              <option value="all">รวมข้อสอบทุกปี</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mockCategorySelect">เลือกหมวดหมู่วิชา</label>
+            <select id="mockCategorySelect" class="form-control">
+              <option value="all">รวมทุกหมวดหมู่วิชา (เสมือนจริง)</option>
+              <option value="ความสามารถในการคิดวิเคราะห์">ความสามารถในการคิดวิเคราะห์</option>
+              <option value="ภาษาไทย">ภาษาไทย</option>
+              <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
+              <option value="ความรู้และลักษณะการเป็นข้าราชการที่ดี">ความรู้และลักษณะการเป็นข้าราชการที่ดี</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mockCountSelect">จำนวนข้อสอบ</label>
+            <select id="mockCountSelect" class="form-control">
+              <option value="5">5 ข้อ (ชุดทดสอบด่วน)</option>
+              <option value="10" selected>10 ข้อ (ชุดมาตรฐาน)</option>
+              <option value="20">20 ข้อ (ชุดเข้มข้น)</option>
+              <option value="50">50 ข้อ (จำลองชุดใหญ่)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mockTimeSelect">เวลาทำข้อสอบ</label>
+            <select id="mockTimeSelect" class="form-control">
+              <option value="5">5 นาที</option>
+              <option value="10">10 นาที</option>
+              <option value="15" selected>15 นาที</option>
+              <option value="30">30 นาที</option>
+              <option value="60">60 นาที</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="mock-btn-wrap">
+          <button class="btn btn-primary btn-lg" id="btnStartMock">
+            🚀 เริ่มทำข้อสอบจับเวลา
+          </button>
+        </div>
+      </div>
+
+      <!-- Active Mock Exam Screen (Hidden initially) -->
+      <div id="mockActiveView" class="mock-active card hidden">
+        <!-- Timer Header Bar -->
+        <div class="timer-bar">
+          <div class="timer-info">
+            <span class="timer-label">เวลาที่เหลือ:</span>
+            <span class="timer-clock" id="timerClock">15:00</span>
+          </div>
+          <div class="timer-progress-wrap">
+            <div class="timer-progress-bar" id="timerProgressBar"></div>
+          </div>
+          <div class="mock-header-actions">
+            <button class="btn btn-danger btn-sm" id="btnSubmitMockTop">ส่งข้อสอบ</button>
+          </div>
+        </div>
+
+        <!-- Question Navigator Dots -->
+        <div class="q-nav-container">
+          <span class="q-nav-label">ข้อสอบ:</span>
+          <div class="q-nav-grid" id="qNavGrid"></div>
+        </div>
+
+        <!-- Single Question Display Area -->
+        <div class="mock-question-area" id="mockQuestionArea">
+          <!-- Rendered dynamically by JS -->
+        </div>
+
+        <!-- Exam Navigation Buttons -->
+        <div class="mock-footer-nav">
+          <button class="btn btn-secondary" id="btnPrevQuestion">⬅️ ข้อก่อนหน้า</button>
+          <div class="mock-counter" id="mockCurrentCounter">ข้อ 1 จาก 10</div>
+          <button class="btn btn-secondary" id="btnNextQuestion">ข้อถัดไป ➡️</button>
+        </div>
+      </div>
+
+      <!-- Result & Performance Dashboard View (Hidden initially) -->
+      <div id="mockResultView" class="mock-result card hidden">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: ADMIN & CRUD (จัดการข้อสอบ)        -->
+    <!-- ========================================== -->
+    <section id="tab-admin" class="tab-content">
+      
+      <!-- Locked Screen if not logged in -->
+      <div id="adminLockedNotice" class="card locked-card hidden" style="text-align: center; padding: 3.5rem 1.5rem;">
+        <div style="font-size: 3.5rem; margin-bottom: 0.75rem;">🔒</div>
+        <h2 style="margin-bottom: 0.5rem;">กรุณาเข้าสู่ระบบก่อนจัดการข้อสอบ</h2>
+        <p style="color: var(--text-muted); max-width: 500px; margin: 0 auto 1.5rem;">
+          หน้านี้สำหรับผู้ดูแลระบบหรือเจ้าของคลังข้อสอบเท่านั้น กรุณาเข้าสู่ระบบด้วย Username เพื่อเพิ่ม แก้ไข หรือลบข้อสอบ
+        </p>
+        <button class="btn btn-primary btn-lg" id="btnLockLoginPrompt">
+          🔑 เข้าสู่ระบบทันที
+        </button>
+      </div>
+
+      <div id="adminContentArea">
+        <!-- Add New Question Form Card -->
+        <div class="card admin-form-card">
+          <div class="section-title-box">
+            <h2 id="formHeaderTitle">➕ เพิ่มข้อสอบใหม่เข้าสู่ระบบ</h2>
+            <p>กรอกข้อมูลข้อสอบ ปีการสอบ ตัวเลือก และเฉลยละเอียดทีละขั้นตอน</p>
+          </div>
+
+          <form id="questionForm" class="crud-form">
+            <input type="hidden" id="editQuestionId" value="">
+
+            <div class="form-row">
+              <div class="form-group col-4">
+                <label for="formYear">ปีของข้อสอบ <span class="required">*</span></label>
+                <select id="formYear" class="form-control" required>
+                  <option value="">-- เลือกปีของข้อสอบ --</option>
+                  <option value="2570">2570</option>
+                  <option value="2569">2569</option>
+                  <option value="2568">2568</option>
+                  <option value="2567">2567</option>
+                  <option value="2566">2566</option>
+                  <option value="2565">2565</option>
+                  <option value="2564">2564</option>
+                  <option value="2563">2563</option>
+                  <option value="2562">2562</option>
+                  <option value="2561">2561</option>
+                  <option value="2560">2560</option>
+                </select>
+              </div>
+
+              <div class="form-group col-4">
+                <label for="formCategory">หมวดหมู่วิชา <span class="required">*</span></label>
+                <select id="formCategory" class="form-control" required>
+                  <option value="">-- เลือกหมวดหมู่วิชา --</option>
+                  <option value="ความสามารถในการคิดวิเคราะห์">ความสามารถในการคิดวิเคราะห์</option>
+                  <option value="ภาษาไทย">ภาษาไทย</option>
+                  <option value="ภาษาอังกฤษ">ภาษาอังกฤษ</option>
+                  <option value="ความรู้และลักษณะการเป็นข้าราชการที่ดี">ความรู้และลักษณะการเป็นข้าราชการที่ดี</option>
+                </select>
+              </div>
+
+              <div class="form-group col-4">
+                <label for="formTags">แท็ก / เรื่องย่อย</label>
+                <select id="formTags" class="form-control">
+                  <option value="">-- เลือกแท็ก / เรื่องย่อย --</option>
+                  <optgroup label="💡 ความสามารถในการคิดวิเคราะห์">
+                    <option value="อนุกรม, คณิตศาสตร์">อนุกรม, คณิตศาสตร์</option>
+                    <option value="อนุกรม, ตรรกศาสตร์ขั้นสูง">อนุกรม, ตรรกศาสตร์ขั้นสูง</option>
+                    <option value="คณิตศาสตร์ทั่วไป, ร้อยละและกำไรขาดทุน">คณิตศาสตร์ทั่วไป, ร้อยละและกำไรขาดทุน</option>
+                    <option value="เงื่อนไขสัญลักษณ์, ตรรกศาสตร์">เงื่อนไขสัญลักษณ์, ตรรกศาสตร์</option>
+                    <option value="เงื่อนไขภาษา, การวิเคราะห์ข้อมูล">เงื่อนไขภาษา, การวิเคราะห์ข้อมูล</option>
+                    <option value="อุปมาอุปไมย">อุปมาอุปไมย</option>
+                    <option value="ตารางข้อมูลและสถิติ">ตารางข้อมูลและสถิติ</option>
+                  </optgroup>
+                  <optgroup label="📖 ภาษาไทย">
+                    <option value="การอ่านจับใจความ, บทความ">การอ่านจับใจความ, บทความ</option>
+                    <option value="การใช้ภาษา, ความรัดกุมของประโยค">การใช้ภาษา, ความรัดกุมของประโยค</option>
+                    <option value="การสะกดคำ, การใช้ภาษา">การสะกดคำ, การใช้ภาษา</option>
+                    <option value="การเรียงลำดับข้อความ">การเรียงลำดับข้อความ</option>
+                    <option value="สำนวนและคำราชาศัพท์">สำนวนและคำราชาศัพท์</option>
+                  </optgroup>
+                  <optgroup label="🇬🇧 ภาษาอังกฤษ">
+                    <option value="Conversation, Situational English">Conversation, Situational English</option>
+                    <option value="Grammar, Subjunctive Mood">Grammar, Subjunctive Mood</option>
+                    <option value="Grammar & Structure">Grammar & Structure</option>
+                    <option value="Vocabulary, Context Clues">Vocabulary, Context Clues</option>
+                    <option value="Reading Comprehension">Reading Comprehension</option>
+                  </optgroup>
+                  <optgroup label="⚖️ ความรู้และลักษณะการเป็นข้าราชการที่ดี">
+                    <option value="พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534, กฎหมาย">พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534, กฎหมาย</option>
+                    <option value="พ.ร.ฎ. บริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546, ธรรมาภิบาล">พ.ร.ฎ. บริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546, ธรรมาภิบาล</option>
+                    <option value="พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539, กฎหมาย">พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539, กฎหมาย</option>
+                    <option value="พ.ร.บ. ความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539, กฎหมาย">พ.ร.บ. ความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539, กฎหมาย</option>
+                    <option value="พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562, กฎหมาย">พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562, กฎหมาย</option>
+                    <option value="ประมวลกฎหมายอาญา (ความผิดต่อตำแหน่งหน้าที่ราชการ)">ประมวลกฎหมายอาญา (ความผิดต่อตำแหน่งหน้าที่ราชการ)</option>
+                  </optgroup>
+                  <optgroup label="📌 อื่นๆ">
+                    <option value="ทั่วไป">ทั่วไป</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formQuestionText">โจทย์ข้อสอบ <span class="required">*</span></label>
+              <textarea id="formQuestionText" class="form-control" rows="4" placeholder="พิมพ์เนื้อหาโจทย์ข้อสอบ..." required></textarea>
+            </div>
+
+            <!-- Options Grid -->
+            <div class="options-box">
+              <label class="options-title">ตัวเลือกคำตอบและคำตอบที่ถูกต้อง <span class="required">*</span></label>
+              <p class="options-subtitle">กรอกตัวเลือกทั้ง 4 ข้อ และคลิกเลือกวงกลมหน้ารายการที่ถูกต้อง</p>
+
+              <div class="options-list">
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="0" id="radioOpt0" checked>
+                  <label for="radioOpt0" class="radio-label">ข้อ 1.</label>
+                  <input type="text" id="opt0" class="form-control" placeholder="ตัวเลือกที่ 1" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="1" id="radioOpt1">
+                  <label for="radioOpt1" class="radio-label">ข้อ 2.</label>
+                  <input type="text" id="opt1" class="form-control" placeholder="ตัวเลือกที่ 2" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="2" id="radioOpt2">
+                  <label for="radioOpt2" class="radio-label">ข้อ 3.</label>
+                  <input type="text" id="opt2" class="form-control" placeholder="ตัวเลือกที่ 3" required>
+                </div>
+
+                <div class="option-row">
+                  <input type="radio" name="correctOptionRadio" value="3" id="radioOpt3">
+                  <label for="radioOpt3" class="radio-label">ข้อ 4.</label>
+                  <input type="text" id="opt3" class="form-control" placeholder="ตัวเลือกที่ 4" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formExplanation">วิธีคิดและเฉลยละเอียดทีละขั้นตอน <span class="required">*</span></label>
+              <textarea id="formExplanation" class="form-control" rows="5" placeholder="อธิบายขั้นตอนการคิด กฎหมาย หรือหลักไวยากรณ์อย่างละเอียด..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="btnSubmitForm">
+                💾 บันทึกข้อสอบ
+              </button>
+              <button type="button" class="btn btn-secondary hidden" id="btnCancelEdit">
+                ยกเลิกการแก้ไข
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Manage Questions Table / Grid -->
+        <div class="card admin-table-card">
+          <div class="table-header">
+            <h3>📋 รายการข้อสอบทั้งหมดในระบบ (<span id="adminTotalCount">0</span> ข้อ)</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th style="width: 60px;">ID</th>
+                  <th style="width: 90px;">ปีสอบ</th>
+                  <th style="width: 220px;">หมวดหมู่วิชา</th>
+                  <th>โจทย์ข้อสอบ</th>
+                  <th style="width: 140px; text-align: center;">จัดการ</th>
+                </tr>
+              </thead>
+              <tbody id="adminTableBody">
+                <!-- Rendered by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div> <!-- Close appTabsWrapper -->
+
+  </main>
+
+  <!-- Exam History Modal -->
+  <div id="historyModal" class="modal-overlay hidden">
+    <div class="modal-box history-modal-box">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0;">📊 ประวัติการทำข้อสอบจำลอง</h3>
+        <button type="button" class="btn-close-modal" id="btnCloseHistoryModal">✕</button>
+      </div>
+      <div id="historyContainer" class="history-list-container">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div id="deleteModal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h3>⚠️ ยืนยันการลบข้อสอบ</h3>
+      <p id="deleteModalMsg">คุณแน่ใจหรือไม่ว่าต้องการลบข้อสอบข้อนี้ออกจากระบบ? การกระทำนี้ไม่สามารถย้อนกลับได้</p>
+      <div class="modal-actions">
+        <button class="btn btn-secondary" id="btnCancelDelete">ยกเลิก</button>
+        <button class="btn btn-danger" id="btnConfirmDelete">ยืนยันการลบ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Real-Time 60+ FPS Performance HUD Monitor -->
+  <div id="fpsBadge" class="fps-badge" title="อัตราเฟรมเรตการแสดงผลแบบเรียลไทม์ (Smooth 60+ FPS)">
+    <span id="fpsDot" class="fps-dot"></span>
+    <span id="fpsValue">60</span>
+    <span class="fps-unit">FPS</span>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="js/app.js"></script>
+</body>
+</html>

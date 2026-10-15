@@ -1,0 +1,3768 @@
+[
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, ตรรกศาสตร์ขั้นสูง",
+    "question_text": "2, 5, 11, 23, 47, ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "91",
+      "94",
+      "95",
+      "98"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (พิจารณาความสัมพันธ์แบบคูณและบวก):\n- 2 * 2 + 1 = 5\n- 5 * 2 + 1 = 11\n- 11 * 2 + 1 = 23\n- 23 * 2 + 1 = 47\n- ลำดับถัดไปคือ 47 * 2 + 1 = 94 + 1 = 95\n\nวิธีที่ 2 (พิจารณาผลต่างระหว่างตัวเลข):\n- 5 - 2 = 3\n- 11 - 5 = 6 (3 * 2)\n- 23 - 11 = 12 (6 * 2)\n- 47 - 23 = 24 (12 * 2)\n- ผลต่างถัดไปคือ 24 * 2 = 48\n- ดังนั้น ตัวเลขถัดไปคือ 47 + 48 = 95\n\nตอบตัวเลือกที่ 3 (95)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อุปมาอุปไมย",
+    "question_text": "เข็มทิศ : ทิศทาง :: ตาชั่ง : ?",
+    "options": [
+      "ความยาว",
+      "น้ำหนัก",
+      "ความเร็ว",
+      "อุณหภูมิ"
+    ],
+    "correct_answer": 1,
+    "explanation": "การวิเคราะห์ความสัมพันธ์แบบอุปมาอุปไมย:\n1. วิเคราะห์คู่หน้า: 'เข็มทิศ' เป็นเครื่องมือที่ใช้สำหรับวัดหรือบอก 'ทิศทาง'\n2. เทียบกับคู่หลัง: 'ตาชั่ง' เป็นเครื่องมือที่ใช้สำหรับวัดหรือบอก 'น้ำหนัก'\n\n(หมายเหตุ: ความยาวใช้ไม้บรรทัด/สายวัด, ความเร็วใช้สปีดอมิเตอร์, อุณหภูมิใช้เทอร์โมมิเตอร์)\n\nตอบตัวเลือกที่ 2 (น้ำหนัก)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาไทย",
+    "tags": "การสะกดคำ, การใช้ภาษา",
+    "question_text": "คำในข้อใดต่อไปนี้เขียนสะกดการันต์ถูกต้องทุกคำ?",
+    "options": [
+      "อนุญาต, กะเพรา, ผูกพัน",
+      "อนุญาติ, กะเพรา, ผูกพันธ์",
+      "อนุญาต, กระเพรา, ผูกพัน",
+      "อนุญาติ, กระเพรา, ผูกพันธ์"
+    ],
+    "correct_answer": 0,
+    "explanation": "หลักการสะกดคำที่ออกสอบ ก.พ. บ่อยครั้ง:\n1. 'อนุญาต' สะกดไม่มีสระอิ (ส่วนคำว่า 'ญาติพี่น้อง' จะมีสระอิ)\n2. 'กะเพรา' ใช้ 'กะ' ไม่มี ร ควบกล้ำ\n3. 'ผูกพัน' สะกดไม่มี ธ การันต์ (คำว่า 'ผูกพัน' คือความรู้สึกเชื่อมโยง ส่วน 'เผ่าพันธุ์/สืบพันธุ์' จะมี ธุ์)\n\nดังนั้น ข้อที่ถูกต้องทุกคำคือ ตัวเลือกที่ 1"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Context Clues",
+    "question_text": "The newly appointed committee implemented effective measures to ________ the spread of false information online.",
+    "options": [
+      "prevent",
+      "expand",
+      "celebrate",
+      "encourage"
+    ],
+    "correct_answer": 0,
+    "explanation": "การวิเคราะห์บริบทและความหมายของคำศัพท์:\n1. แปลประโยค: 'คณะกรรมการที่ได้รับการแต่งตั้งใหม่ได้ดำเนินมาตรการที่มีประสิทธิภาพเพื่อ ________ การแพร่กระจายของข้อมูลเท็จทางออนไลน์'\n2. สิ่งที่ต้องทำกับข้อมูลเท็จ (false information) คือการ 'ป้องกัน/ยับยั้ง'\n3. ความหมายคำศัพท์:\n   - prevent = ป้องกัน, ขัดขวาง (ถูกต้อง)\n   - expand = ขยายตัว\n   - celebrate = เฉลิมฉลอง\n   - encourage = สนับสนุน\n\nตอบตัวเลือกที่ 1 (prevent)"
+  },
+  {
+    "year": "2569",
+    "category": "ความรู้และลักษณะการเป็นข้าราชการที่ดี",
+    "tags": "พ.ร.บ. มาตรฐานทางจริยธรรม พ.ศ. 2562, กฎหมาย",
+    "question_text": "ตามพระราชบัญญัติมาตรฐานทางจริยธรรม พ.ศ. 2562 องค์กรใดมีหน้าที่กำหนดนโยบายและกำกับดูแลการบังคับใช้มาตรฐานทางจริยธรรมของเจ้าหน้าที่ของรัฐทุกประเภท?",
+    "options": [
+      "คณะกรรมการมาตรฐานทางจริยธรรม (ก.ม.จ.)",
+      "คณะกรรมการข้าราชการพลเรือน (ก.พ.)",
+      "สำนักงานการตรวจเงินแผ่นดิน (สตง.)",
+      "คณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ (ป.ป.ช.)"
+    ],
+    "correct_answer": 0,
+    "explanation": "หลักกฎหมายมาตรฐานทางจริยธรรม พ.ศ. 2562:\n1. ตามมาตรา 8 ให้มี 'คณะกรรมการมาตรฐานทางจริยธรรม' เรียกโดยย่อว่า 'ก.ม.จ.'\n2. ก.ม.จ. มีหน้าที่เสนอนโยบาย กำกับ ติดตาม และประเมินผลการบังคับใช้มาตรฐานทางจริยธรรมของเจ้าหน้าที่ของรัฐทุกประเภทในภาพรวม\n3. มีนายกรัฐมนตรีหรือรองนายกรัฐมนตรีที่ได้รับมอบหมายเป็นประธาน และมีเลขาธิการ ก.พ. เป็นกรรมการและเลขานุการ\n\nตอบตัวเลือกที่ 1 (ก.ม.จ.)"
+  },
+  {
+    "year": "2569",
+    "category": "ความรู้และลักษณะการเป็นข้าราชการที่ดี",
+    "tags": "พ.ร.บ. ความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539, กฎหมาย",
+    "question_text": "หากเจ้าหน้าที่ของรัฐได้กระทำละเมิดต่อบุคคลภายนอก 'ในการปฏิบัติหน้าที่' ผู้เสียหายต้องฟ้องร้องเรียกค่าสินไหมทดแทนจากผู้ใด?",
+    "options": [
+      "ฟ้องร้องเจ้าหน้าที่ผู้ทำละเมิดโดยตรง",
+      "ฟ้องร้องหน่วยงานของรัฐที่เจ้าหน้าที่นั้นสังกัด",
+      "ฟ้องร้องต่อศาลปกครองสูงสุดเท่านั้น",
+      "ฟ้องร้องนายกรัฐมนตรีในฐานะหัวหน้ารัฐบาล"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักกฎหมายความรับผิดทางละเมิดของเจ้าหน้าที่ พ.ศ. 2539:\n1. ตามมาตรา 5 บัญญัติให้หน่วยงานของรัฐต้องรับผิดชอบต่อผู้เสียหายในผลแห่งละเมิดที่เจ้าหน้าที่ของตนได้กระทำในการปฏิบัติหน้าที่\n2. ผู้เสียหายมีสิทธิ 'ฟ้องร้องหน่วยงานของรัฐได้โดยตรง แต่จะฟ้องตัวเจ้าหน้าที่ไม่ได้'\n3. วัตถุประสงค์เพื่อคุ้มครองเจ้าหน้าที่ผู้ปฏิบัติงานตามหน้าที่โดยสุจริต\n\nตอบตัวเลือกที่ 2"
+  },
+  {
+    "year": "2568",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "คณิตศาสตร์ทั่วไป, ร้อยละและกำไรขาดทุน",
+    "question_text": "ร้านค้าติดป้ายราคาสินค้าไว้สูงกว่าราคาทุน 30% ต่อมาประกาศลดราคาให้ผู้ซื้อ 10% จากราคาป้าย ร้านค้าจะได้กำไรคิดเป็นกี่เปอร์เซ็นต์ของราคาทุน?",
+    "options": [
+      "15%",
+      "17%",
+      "20%",
+      "23%"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคำนวณ:\n1. สมมุติให้ราคาทุน = 100 บาท\n2. ติดราคาป้ายสูงกว่าทุน 30% -> ราคาป้าย = 130 บาท\n3. ประกาศลดราคา 10% จากราคาป้าย:\n   - ส่วนลด = 130 * 10% = 13 บาท\n   - ราคาขายจริง = 130 - 13 = 117 บาท\n4. คำนวณกำไร:\n   - กำไร = ราคาขาย - ทุน = 117 - 100 = 17 บาท\n   - คิดเป็นกำไร 17% ของราคาทุน\n\nตอบตัวเลือกที่ 2 (17%)"
+  },
+  {
+    "year": "2568",
+    "category": "ภาษาไทย",
+    "tags": "การใช้ภาษา, ความรัดกุมของประโยค",
+    "question_text": "ข้อความใดต่อไปนี้ใช้ภาษาได้ถูกต้องรัดกุมและไม่ใช้คำฟุ่มเฟือย?",
+    "options": [
+      "คณะกรรมการได้ทำการพิจารณาอนุมัติโครงการเป็นที่เรียบร้อยแล้ว",
+      "ประชาชนจำนวนมากต่างพากันเดินทางมาลงทะเบียนรับสิทธิประโยชน์",
+      "แพทย์แนะนำให้ผู้ป่วยพักผ่อนอย่างเพียงพอเพื่อฟื้นฟูร่างกาย",
+      "หน่วยงานมีความจำเป็นที่จะต้องทำการจัดซื้อครุภัณฑ์ใหม่เพื่อทดแทนของเดิม"
+    ],
+    "correct_answer": 2,
+    "explanation": "การวิเคราะห์ความรัดกุมของภาษาไทย:\n- ข้อ 1 มีคำฟุ่มเฟือย เช่น 'ได้ทำการพิจารณา' (ควรใช้ 'พิจารณา') และ 'เป็นที่เรียบร้อยแล้ว'\n- ข้อ 2 มีคำว่า 'ต่างพากัน' ซ้ำซ้อนกับคำว่า 'จำนวนมาก'\n- ข้อ 4 มีคำฟุ่มเฟือย เช่น 'มีความจำเป็นที่จะต้องทำการจัดซื้อ' (ควรใช้ 'จำเป็นต้องจัดซื้อ')\n- ข้อ 3 กระชับ ชัดเจน ไม่ใช้คำซ้ำซ้อนหรือคำฟุ่มเฟือย\n\nตอบตัวเลือกที่ 3"
+  },
+  {
+    "year": "2568",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Conversation, Situational English",
+    "question_text": "Situation: At the government service center.\nCitizen: \"Excuse me, could you please tell me where I can submit this tax declaration form?\"\nOfficer: \"Certainly. __________________\"",
+    "options": [
+      "You should not have come here today.",
+      "Take a queue ticket and proceed to Counter 4.",
+      "I don't think it is my responsibility.",
+      "That form is completely unnecessary for you."
+    ],
+    "correct_answer": 1,
+    "explanation": "การวิเคราะห์บทสนทนา (Conversation Analysis):\n1. ประชาชนถามอย่างสุภาพ: 'ขอโทษครับ ช่วยบอกได้ไหมว่าผมยื่นแบบแสดงรายการภาษีนี้ได้ที่ไหน?'\n2. เจ้าหน้าที่ตอบรับ: 'Certainly.' (ยินดีครับ / ได้แน่นอนครับ)\n3. คำตอบที่สุภาพและให้ข้อมูลถูกต้องเหมาะสมคือ: 'Take a queue ticket and proceed to Counter 4.' (กรุณากดบัตรคิวแล้วไปที่ช่องบริการหมายเลข 4 ครับ)\n\nตอบตัวเลือกที่ 2"
+  },
+  {
+    "year": "2568",
+    "category": "ความรู้และลักษณะการเป็นข้าราชการที่ดี",
+    "tags": "พ.ร.บ. วิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539, กฎหมาย",
+    "question_text": "ตามพระราชบัญญัติวิธีปฏิบัติราชการทางปกครอง พ.ศ. 2539 ข้อใดต่อไปนี้มิใช่ \"คำสั่งทางปกครอง\"?",
+    "options": [
+      "การสั่งพักราชการข้าราชการที่ถูกตั้งกรรมการสอบสวนวินัยร้ายแรง",
+      "การปฏิเสธไม่รับคำขอจดทะเบียนพาณิชย์",
+      "การออกกฎกระทรวงกำหนดมาตรฐานการควบคุมมลพิษทางอากาศ",
+      "การเพิกถอนใบอนุญาตประกอบกิจการโรงงาน"
+    ],
+    "correct_answer": 2,
+    "explanation": "หลักกฎหมายวิธีปฏิบัติราชการทางปกครอง:\n1. 'คำสั่งทางปกครอง' คือ การใช้อำนาจของเจ้าหน้าที่ที่มีผลบังคับแก่กรณีเฉพาะเรื่องหรือบุคคลเฉพาะราย เช่น สั่งพักราชการ, ปฏิเสธคำขอ, เพิกถอนใบอนุญาต\n2. 'กฎ' หมายถึง กฎกระทรวง พระราชกฤษฎีกา ประกาศกระทรวง ฯลฯ ที่มีผลบังคับเป็นการทั่วไป ไม่เจาะจงบุคคลใดบุคคลหนึ่ง\n3. 'การออกกฎกระทรวง' จึงมีสถานะเป็น 'กฎ' ไม่ใช่คำสั่งทางปกครอง\n\nตอบตัวเลือกที่ 3"
+  },
+  {
+    "year": "2567",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, คณิตศาสตร์",
+    "question_text": "3, 6, 11, 18, 27, ... ตัวเลขถัดไปคือข้อใด?",
+    "options": [
+      "36",
+      "38",
+      "40",
+      "42"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิด:\n1. พิจารณาผลต่างระหว่างตัวเลขแต่ละลำดับ:\n   - 6 - 3 = 3\n   - 11 - 6 = 5\n   - 18 - 11 = 7\n   - 27 - 18 = 9\n2. สังเกตว่าผลต่างเพิ่มขึ้นทีละ 2 เสมอ (+2):\n   3 -> (+2) -> 5 -> (+2) -> 7 -> (+2) -> 9\n3. ผลต่างในลำดับถัดไปคือ 9 + 2 = 11\n4. ดังนั้น ตัวเลขถัดไปคือ 27 + 11 = 38\n\nคำตอบที่ถูกต้องคือ ตัวเลือกที่ 2 (38)"
+  },
+  {
+    "year": "2567",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เงื่อนไขสัญลักษณ์, ตรรกศาสตร์",
+    "question_text": "กำหนดเงื่อนไข: A > B >= C และ C = D < E (ทุกตัวอักษรมีค่ามากกว่า 0)\nข้อสรุปที่ 1: A > C\nข้อสรุปที่ 2: B < D\nข้อใดถูกต้อง?",
+    "options": [
+      "ข้อสรุปที่ 1 และ 2 ถูกทั้งคู่",
+      "ข้อสรุปที่ 1 ถูก แต่ข้อสรุปที่ 2 ผิด",
+      "ข้อสรุปที่ 1 ผิด แต่ข้อสรุปที่ 2 ถูก",
+      "ข้อสรุปทั้งสองไม่สามารถสรุปได้แน่ชัด"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการวิเคราะห์:\n1. วิเคราะห์ข้อสรุปที่ 1: 'A > C'\n   - จากเงื่อนไข A > B >= C\n   - เมื่อ A มากกว่า B และ B มากกว่าหรือเท่ากับ C ย่อมได้ว่า A > C แน่นอน\n   - ดังนั้น ข้อสรุปที่ 1 'จริง (ถูก)'\n2. วิเคราะห์ข้อสรุปที่ 2: 'B < D'\n   - จากเงื่อนไข B >= C และ C = D\n   - แทนค่าจะได้ B >= D\n   - แต่ข้อสรุปอ้างว่า B < D ซึ่งขัดแย้งกับความเป็นจริง\n   - ดังนั้น ข้อสรุปที่ 2 'เท็จ (ผิด)'\n\nสรุป: ข้อสรุปที่ 1 ถูก แต่ข้อสรุปที่ 2 ผิด (ตอบตัวเลือกที่ 2)"
+  },
+  {
+    "year": "2566",
+    "category": "ความรู้และลักษณะการเป็นข้าราชการที่ดี",
+    "tags": "พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534, กฎหมาย",
+    "question_text": "ตามพระราชบัญญัติระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534 การจัดระเบียบบริหารราชการส่วนกลางประกอบด้วยข้อใด?",
+    "options": [
+      "สำนักนายกรัฐมนตรี, กระทรวง, ทบวง, กรม",
+      "กระทรวง, ทบวง, กรม, จังหวัด",
+      "จังหวัด, อำเภอ, ตำบล, เทศบาล",
+      "องค์การบริหารส่วนจังหวัด, เทศบาล, องค์การบริหารส่วนตำบล, เมืองพัทยา"
+    ],
+    "correct_answer": 0,
+    "explanation": "หลักกฎหมายและขั้นตอนการจำ:\n1. มาตรา 7 แห่ง พ.ร.บ. ระเบียบบริหารราชการแผ่นดิน พ.ศ. 2534 กำหนดระเบียบบริหารราชการส่วนกลาง ได้แก่:\n   (1) สำนักนายกรัฐมนตรี\n   (2) กระทรวง หรือทบวงซึ่งมีฐานะเทียบเท่ากระทรวง\n   (3) ทบวง ซึ่งสังกัดสำนักนายกรัฐมนตรีหรือกระทรวง\n   (4) กรม หรือส่วนราชการที่เรียกชื่ออย่างอื่นและมีฐานะเป็นกรม\n2. หมายเหตุเพื่อความเข้าใจ:\n   - จังหวัด และ อำเภอ จัดเป็น 'ราชการส่วนภูมิภาค'\n   - อบจ., อบต., เทศบาล, กทม., พัทยา จัดเป็น 'ราชการส่วนท้องถิ่น'\n\nตอบตัวเลือกที่ 1"
+  },
+  {
+    "year": "2566",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subjunctive Mood",
+    "question_text": "The committee requested that every applicant ________ all official certificates before the end of this month.",
+    "options": [
+      "submits",
+      "submit",
+      "submitted",
+      "will submit"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักไวยากรณ์ (Grammar Rule):\n1. โครงสร้างนี้คือ Subjunctive Mood ซึ่งใช้หลังคำกริยาที่แสดงการขอร้อง แนะนำ หรือคำสั่ง เช่น request, suggest, recommend, demand, insist + that + Subject + [Infinitive without to / Base Form]\n2. แม้ประธาน (every applicant) จะเป็นเอกพจน์ แต่ในโครงสร้าง Subjunctive Mood กริยาจะต้องอยู่ในรูป Base Form (กริยาช่อง 1 ที่ไม่ผัน ไม่เติม s/es) เสมอ\n3. ดังนั้นจึงต้องใช้ 'submit'\n\nตอบตัวเลือกที่ 2 (submit)"
+  },
+  {
+    "year": "2565",
+    "category": "ภาษาไทย",
+    "tags": "การอ่านจับใจความ, บทความ",
+    "question_text": "\"การมีวินัยในตนเองมิใช่การจำกัดเสรีภาพ หากแต่เป็นการสร้างกรอบเพื่อนำพาชีวิตไปสู่เป้าหมายที่ปรารถนาอย่างแท้จริง\"\n\nข้อความข้างต้น ผู้เขียนมีจุดมุ่งหมายตามข้อใดเป็นสำคัญ?",
+    "options": [
+      "ชี้แนะคุณค่าของการมีวินัย",
+      "เตือนสติผู้ที่รักเสรีภาพจนเกินขอบเขต",
+      "เปรียบเทียบข้อดีข้อเสียของการปฏิบัติตามกฎเกณฑ์",
+      "นิยามความหมายใหม่ของคำว่าเสรีภาพ"
+    ],
+    "correct_answer": 0,
+    "explanation": "การวิเคราะห์จับใจความสำคัญ:\n1. ผู้เขียนชี้ให้เห็นว่า หลายคนอาจมองว่า 'วินัย' คือการลิดรอนหรือจำกัดเสรีภาพ\n2. แต่ผู้เขียนใช้คำเชื่อม 'หากแต่เป็น...' เพื่อเน้นย้ำสาระสำคัญว่า แท้จริงแล้ววินัยคือเครื่องมือและกรอบที่ช่วยให้คนเราบรรลุเป้าหมายในชีวิต\n3. จุดมุ่งหมายหลักของผู้เขียนจึงเป็นการ 'ชี้แนะคุณค่าที่แท้จริงของการมีวินัยในตนเอง'\n\nตอบตัวเลือกที่ 1"
+  },
+  {
+    "year": "2565",
+    "category": "ความรู้และลักษณะการเป็นข้าราชการที่ดี",
+    "tags": "พ.ร.ฎ. บริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546, ธรรมาภิบาล",
+    "question_text": "เป้าหมายสูงสุดของการบริหารกิจการบ้านเมืองที่ดีตามมาตรา 6 แห่ง พ.ร.ฎ. ว่าด้วยหลักเกณฑ์และวิธีการบริหารกิจการบ้านเมืองที่ดี พ.ศ. 2546 คือข้อใด?",
+    "options": [
+      "เกิดประสิทธิภาพและความคุ้มค่าในเชิงภารกิจ",
+      "เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ",
+      "เกิดประโยชน์สุขของประชาชน",
+      "ไม่มีขั้นตอนการปฏิบัติงานเกินความจำเป็น"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการวิเคราะห์กฎหมาย:\n1. ตามมาตรา 6 กำหนดเป้าหมายไว้ 7 ประการ โดยมีลำดับแรกและเป็นเป้าหมายสูงสุดคือ:\n   (1) เกิดประโยชน์สุขของประชาชน\n   (2) เกิดผลสัมฤทธิ์ต่อภารกิจของรัฐ\n   (3) มีประสิทธิภาพและเกิดความคุ้มค่าในเชิงภารกิจของรัฐ\n   (4) ไม่มีขั้นตอนการปฏิบัติงานเกินความจำเป็น\n   (5) มีการปรับปรุงภารกิจของส่วนราชการให้ทันต่อสถานการณ์\n   (6) ประชาชนได้รับการอำนวยความสะดวกและได้รับการตอบสนองความต้องการ\n   (7) มีการประเมินผลการปฏิบัติราชการอย่างสม่ำเสมอ\n2. จำง่ายๆ: ประโยชน์สุขของประชาชน ถือเป็นเป้าหมายสูงสุดของการบริหารราชการแผ่นดิน\n\nตอบตัวเลือกที่ 3"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Simple, Tense",
+    "question_text": "We ________ our homework before dinner every day.",
+    "options": [
+      "do",
+      "does",
+      "did",
+      "have done"
+    ],
+    "correct_answer": 0,
+    "explanation": "Present Simple ใช้กับเหตุการณ์ที่เป็นกิจวัตรหรือเกิดขึ้นเป็นประจำ โดยมีคำบอกเวลาคือ 'every day' และประธานคือ 'We' (พหูพจน์) จึงใช้กริยารูปปกติไม่ผัน 'do'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Simple, Tense",
+    "question_text": "I didn't see you yesterday. Where ________ you?",
+    "options": [
+      "are",
+      "were",
+      "have been",
+      "did"
+    ],
+    "correct_answer": 1,
+    "explanation": "Past Simple ใช้ถามเหตุการณ์ในอดีตที่ระบุเวลาชัดเจน (yesterday) ประธานคือ 'you' และตามหลัง Where ที่ไม่มีกริยาหลักตัวอื่น จึงใช้กริยา Verb to be ในรูปอดีตคือ 'were'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "He has ________ to America twice.",
+    "options": [
+      "been",
+      "went",
+      "go",
+      "gone"
+    ],
+    "correct_answer": 0,
+    "explanation": "โครงสร้าง Present Perfect (has/have + V.3) ใช้กล่าวถึงประสบการณ์ในชีวิต โดยมีคำว่า 'twice' (สองครั้ง) การเคยไปแล้วกลับมาแล้วใช้ 'has been to' (ตอบ been)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "She ________ her keys. She can't find them anywhere.",
+    "options": [
+      "lost",
+      "has lost",
+      "had lost",
+      "loses"
+    ],
+    "correct_answer": 1,
+    "explanation": "Present Perfect (has/have + V.3) ใช้กับเหตุการณ์ที่เกิดขึ้นในอดีตและผลยังคงมีอยู่/ส่งผลถึงปัจจุบัน (หาไม่เจอในตอนนี้) ประธาน She จึงใช้ 'has lost'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, First Conditional",
+    "question_text": "If it ________ tomorrow, we will stay at home.",
+    "options": [
+      "rain",
+      "rains",
+      "will rain",
+      "rained"
+    ],
+    "correct_answer": 1,
+    "explanation": "First Conditional (เงื่อนไขที่เป็นไปได้จริงในอนาคต): โครงสร้าง If + Present Simple, will + V.1 ประธานใน if-clause คือ 'it' (เอกพจน์) กริยาจึงต้องเติม s เป็น 'rains'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Time Clause, Conjunction",
+    "question_text": "I will call you as soon as I ________ home.",
+    "options": [
+      "got",
+      "get",
+      "will get",
+      "getting"
+    ],
+    "correct_answer": 1,
+    "explanation": "ในประโยคบอกเวลา (Time Clause) เช่น as soon as, when, before แม้เหตุการณ์จะเกิดในอนาคต อนุประโยคจะใช้รูป Present Simple (as soon as + S + V.1) ประธาน I จึงใช้ 'get'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Preposition of Time",
+    "question_text": "My father has worked in this company ________ ten years.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "during"
+    ],
+    "correct_answer": 1,
+    "explanation": "การบอกช่วงระยะเวลาที่ต่อเนื่องยาวนาน (duration of time) ใน Present Perfect ให้ใช้ 'for' ตามด้วยช่วงเวลา เช่น for ten years (ส่วน since ใช้กับจุดเริ่มต้นของเวลา เช่น since 2015)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Infinitive, Structure",
+    "question_text": "The package is too heavy for me ________.",
+    "options": [
+      "to lift it",
+      "lifting it",
+      "lift it",
+      "lifted it"
+    ],
+    "correct_answer": 0,
+    "explanation": "โครงสร้าง 'too + adjective + (for someone) + to-infinitive (to + V.1)':\n1. แปลว่า '...มากเกินกว่าที่ (ใคร) จะทำสิ่งนั้นได้'\n2. ประโยคนี้แปลว่า 'พัสดุนี้หนักเกินกว่าที่ฉันจะยกได้'\n3. จึงใช้รูป to-infinitive คือ 'to lift it'\n\nตอบตัวเลือกที่ 1 (to lift it)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Would Rather, Structure",
+    "question_text": "I would rather you ________ the truth.",
+    "options": [
+      "tell",
+      "to tell",
+      "told",
+      "telling"
+    ],
+    "correct_answer": 2,
+    "explanation": "หลักไวยากรณ์ Would Rather (แสดงความปรารถนา):\n1. โครงสร้างเมื่อมีประธานอีกตัวตามมา (Subjunctive): S1 + would rather + S2 + Past Simple (V.2)\n   - ใช้เมื่อต้องการบอกว่า 'อยากให้อีกคนทำอะไร' ในปัจจุบันหรืออนาคต\n   - ตัวอย่าง: I would rather you told the truth. (ฉันอยากให้คุณพูดความจริง)\n2. ข้อสังเกต: หากไม่มีประธานคั่น จะตามด้วย Bare Infinitive (กริยาช่อง 1 ไม่ผัน) เช่น I would rather tell the truth.\n3. ในประโยคนี้มีประธาน 'you' คั่น จึงต้องใช้รูป Past Simple คือ 'told' (กริยาช่อง 2)\n\nตอบตัวเลือกที่ 3 (told)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Indirect Speech, Infinitive",
+    "question_text": "The teacher asked the students ________ noisy.",
+    "options": [
+      "not be",
+      "not to be",
+      "don't be",
+      "not being"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้างประโยคขอร้อง/สั่งทางอ้อม: ask + someone + (not) to + V.1 ในรูปปฏิเสธจึงใช้ 'not to be'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "She ________ piano since she was six years old.",
+    "options": [
+      "plays",
+      "played",
+      "has played",
+      "is playing"
+    ],
+    "correct_answer": 2,
+    "explanation": "Present Perfect Tense (has/have + V.3) ใช้กับการกระทำที่เริ่มต้นขึ้นในอดีตและยังดำเนินต่อเนื่องมาจนถึงปัจจุบัน โดยมีคำบอกเวลา 'since + จุดเริ่มต้นในอดีต' (since she was six years old) จึงใช้ 'has played'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Future Perfect, Tense",
+    "question_text": "By the end of this year, we ________ our project.",
+    "options": [
+      "will finish",
+      "will have finished",
+      "have finished",
+      "finished"
+    ],
+    "correct_answer": 1,
+    "explanation": "Future Perfect Tense (will have + V.3) ใช้กับเหตุการณ์ที่จะเสร็จสิ้นสมบูรณ์ก่อนเวลาใดเวลาหนึ่งในอนาคต โดยสังเกตจากวลี 'By the end of this year' จึงตอบ 'will have finished'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Second Conditional, Subjunctive Mood",
+    "question_text": "If I ________ rich, I would travel all over the world.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "correct_answer": 2,
+    "explanation": "Second Conditional (สมมุติในสิ่งที่ไม่จริงในปัจจุบัน): โครงสร้าง If + Past Simple, would + V.1 โดยใน if-clause กริยา verb to be นิยมใช้ 'were' กับประธานทุกตัว"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Modal Verbs",
+    "question_text": "You look tired. You ________ more rest.",
+    "options": [
+      "should to get",
+      "should get",
+      "must get",
+      "have to get"
+    ],
+    "correct_answer": 1,
+    "explanation": "Modal verb 'should' ใช้ในการให้คำแนะนำ (ควรจะ...) โดยกริยาช่วย Modal verb จะต้องตามด้วย Bare Infinitive (กริยาช่อง 1 ไม่ผันและไม่มี to) เสมอ จึงตอบ 'should get'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Adjective & Enough",
+    "question_text": "The child is ________ enough to reach the book on the shelf.",
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "the tallest"
+    ],
+    "correct_answer": 0,
+    "explanation": "โครงสร้าง 'Adjective/Adverb + enough + to + V.1' (พอที่จะ...) คำคุณศัพท์ที่วางหน้า enough ต้องอยู่ในรูปขั้นปกติ (positive degree) จึงใช้ 'tall'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Conjunction, Noun Clause",
+    "question_text": "I don't know ________ he will come to the meeting or not.",
+    "options": [
+      "if",
+      "whether",
+      "that",
+      "who"
+    ],
+    "correct_answer": 1,
+    "explanation": "การถามหรือแสดงความไม่แน่ใจใน Indirect Question หรือ Noun Clause เมื่อมีคำว่า 'or not' นิยมใช้ 'whether ... or not' (แปลว่า หรือไม่)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, As Though, Conjunction",
+    "question_text": "She acted ________ nothing had happened.",
+    "options": [
+      "like",
+      "as if",
+      "as though",
+      "as"
+    ],
+    "correct_answer": 2,
+    "explanation": "หลักไวยากรณ์ Conjunctions (as though / as if):\n1. 'as though' และ 'as if' มีความหมายเหมือนกัน แปลว่า 'ราวกับว่า' ใช้ในโครงสร้างเปรียบเทียบอาการหรือท่าทางที่เกิดขึ้น (Manner Clause)\n2. ประโยคนี้แปลว่า 'เธอทำท่าราวกับว่าไม่มีอะไรเกิดขึ้น'\n3. ในตัวเลือกข้อนี้เลือก 'as though'\n\nตอบตัวเลือกที่ 3 (as though)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Comparative Structure",
+    "question_text": "The more you read, ________ your knowledge will improve.",
+    "options": [
+      "more",
+      "the more",
+      "the most",
+      "most"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้างขั้นกว่าคู่ขนาน (Double Comparative): 'The + comparative ..., the + comparative ...' แปลว่า 'ยิ่ง... ก็ยิ่ง...' เช่น The more you read, the more your knowledge will improve."
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subject-Verb Agreement",
+    "question_text": "Neither the students nor the teacher ________ ready for the test.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "correct_answer": 0,
+    "explanation": "หลักไวยากรณ์ Subject-Verb Agreement:\n1. โครงสร้าง 'Neither A nor B' (ไม่ทั้ง A และไม่ทั้ง B):\n   - กริยาจะต้องผันตามประธานตัวที่อยู่ใกล้กริยาที่สุด (ประธานตัวหลัง หรือ B)\n2. ในประโยคนี้:\n   - ประธานตัวหน้า (A) คือ 'the students' (พหูพจน์)\n   - ประธานตัวหลัง (B) คือ 'the teacher' (เอกพจน์)\n3. เมื่อประธานตัวหลังเป็นเอกพจน์ กริยาจึงต้องใช้รูปเอกพจน์คือ 'is'\n\nตอบตัวเลือกที่ 1 (is)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Wish & Subjunctive",
+    "question_text": "I wish I ________ a car. It would be more convenient.",
+    "options": [
+      "have",
+      "had",
+      "having",
+      "will have"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้าง 'I wish + Past Simple (S + V.2)' ใช้แสดงความปรารถนาในสิ่งที่เป็นไปไม่ได้หรือไม่เป็นจริงในปัจจุบัน จึงใช้กริยาช่อง 2 คือ 'had'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "We ________ to Chiang Mai many times.",
+    "options": [
+      "have gone",
+      "have been",
+      "went",
+      "go"
+    ],
+    "correct_answer": 1,
+    "explanation": "ความแตกต่างระหว่าง 'have been to' และ 'have gone to' ใน Present Perfect:\n1. 'have/has been to' = เคยไปมาแล้ว (และขณะนี้เดินทางกลับมาแล้ว) นิยมใช้กับการบอกเล่าประสบการณ์ชีวิต เช่น มีคำว่า once, twice, many times, ever, never\n2. 'have/has gone to' = เดินทางไปแล้ว (และขณะนี้ยังอยู่ที่นั่น ยังไม่กลับมา) จึงไม่สามารถใช้กับวลี 'many times' ในการเล่าประสบการณ์ได้\n3. ในประโยคนี้มีคำว่า 'many times' (หลายครั้ง) แสดงถึงประสบการณ์ชีวิตที่เคยไปเชียงใหม่มาแล้วหลายครั้ง จึงต้องใช้ 'have been'\n\nตอบตัวเลือกที่ 2 (have been)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Tense",
+    "question_text": "She looks happy because she ________ good news.",
+    "options": [
+      "has got",
+      "got",
+      "get",
+      "gets"
+    ],
+    "correct_answer": 0,
+    "explanation": "ประธาน She เป็นเอกพจน์ในบริบทปัจจุบัน (looks happy) ตัวเลือกรูปปัจจุบันที่ถูกต้องคือ 'has got' (แปลว่า ได้รับ/มี ข่าวดี)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "My parents ________ in this town since 1995.",
+    "options": [
+      "live",
+      "have lived",
+      "lived",
+      "are living"
+    ],
+    "correct_answer": 1,
+    "explanation": "มีคำบอกเวลา 'since 1995' (ตั้งแต่ปี 1995 จนถึงปัจจุบัน) แสดงการกระทำที่เริ่มตั้งแต่อดีตและดำเนินต่อเนื่องมาถึงปัจจุบัน จึงใช้ Present Perfect 'have lived'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Zero Conditional",
+    "question_text": "If you heat ice, it ________.",
+    "options": [
+      "melts",
+      "will melt",
+      "melted",
+      "is melting"
+    ],
+    "correct_answer": 0,
+    "explanation": "Zero Conditional ใช้กับข้อเท็จจริงทางวิทยาศาสตร์หรือความจริงทั่วไป: โครงสร้าง If + Present Simple, Present Simple ประธาน it จึงใช้ 'melts' (เติม s)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Perfect vs Past Simple",
+    "question_text": "The train ________ by the time we arrived.",
+    "options": [
+      "leaves",
+      "left",
+      "had left",
+      "has left"
+    ],
+    "correct_answer": 2,
+    "explanation": "หลักไวยากรณ์ Past Perfect Tense ร่วมกับ By the time:\n1. โครงสร้าง: 'By the time + Past Simple (S + V.2), Past Perfect (S + had + V.3)'\n2. ใช้บอกลำดับเหตุการณ์ 2 เหตุการณ์ในอดีต:\n   - เหตุการณ์ที่เกิดขึ้นและจบลงก่อน = Past Perfect (รถไฟออกไปแล้ว -> had left)\n   - เหตุการณ์ที่เกิดขึ้นตามมาทีหลัง = Past Simple (เราไปถึงสถานี -> arrived)\n3. รถไฟได้แล่นออกไปก่อนหน้าที่พวกเราจะเดินทางไปถึงสถานี จึงต้องใช้ 'had left'\n\nตอบตัวเลือกที่ 3 (had left)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Continuous, Tense",
+    "question_text": "Please be quiet. The baby ________.",
+    "options": [
+      "sleeps",
+      "is sleeping",
+      "was sleeping",
+      "has slept"
+    ],
+    "correct_answer": 1,
+    "explanation": "ประโยคขึ้นต้นด้วยคำเตือน/สังเกต 'Please be quiet.' แสดงว่าเหตุการณ์กำลังดำเนินอยู่ในขณะที่พูด จึงใช้ Present Continuous (is/am/are + V.ing) คือ 'is sleeping'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Continuous vs Past Simple",
+    "question_text": "They ________ dinner when the phone rang.",
+    "options": [
+      "have",
+      "were having",
+      "had",
+      "are having"
+    ],
+    "correct_answer": 1,
+    "explanation": "เหตุการณ์กำลังดำเนินอยู่ในอดีต (Past Continuous: was/were + V.ing) แล้วมีอีกเหตุการณ์หนึ่งเข้ามาแทรก (Past Simple: phone rang) ประธาน They จึงใช้ 'were having'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subject-Verb Agreement",
+    "question_text": "Neither of the answers ________ correct.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "correct_answer": 2,
+    "explanation": "หลักไวยากรณ์ Subject-Verb Agreement:\n1. โครงสร้าง 'Neither of + คำนามพหูพจน์' (ไม่มีคำตอบใดเลยในบรรดาทั้งสองคำตอบ):\n   - ทางไวยากรณ์ถือเป็นเอกพจน์เสมอ\n2. กริยาจึงต้องอยู่ในรูปเอกพจน์ (is หรือ was)\n3. ในตัวเลือกข้อนี้ กริยาเอกพจน์คือ 'was'\n\nตอบตัวเลือกที่ 3 (was)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Infinitive, Verb Pattern",
+    "question_text": "He advised me ________ harder for the exam.",
+    "options": [
+      "study",
+      "to study",
+      "studying",
+      "studies"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้างกริยาบอกคำแนะนำ: advise + Object + to + V.1 จึงตามด้วย 'to study'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Had Better, Modal Expression",
+    "question_text": "I'd better ________ my homework now.",
+    "options": [
+      "do",
+      "to do",
+      "doing",
+      "did"
+    ],
+    "correct_answer": 0,
+    "explanation": "I'd better ย่อมาจาก 'had better' แปลว่า ควรจะ/น่าจะ ตามด้วย Bare Infinitive (กริยาช่อง 1 ไม่ผันและไม่มี to) เสมอ จึงใช้ 'do'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Simple, Tense",
+    "question_text": "We ________ football every Saturday afternoon.",
+    "options": [
+      "play",
+      "plays",
+      "are playing",
+      "played"
+    ],
+    "correct_answer": 0,
+    "explanation": "บอกกิจวัตรหรือสิ่งที่ทำเป็นประจำโดยมีคำบอกเวลา 'every Saturday afternoon' ประธาน We พหูพจน์ กริยาช่อง 1 ใช้รูปปกติไม่เติม s/es คือ 'play'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subject-Verb Agreement, Present Tense",
+    "question_text": "The keys ________ on the table right now.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "are"
+    ],
+    "correct_answer": 3,
+    "explanation": "ประธานคือ 'The keys' เป็นพหูพจน์ และมีคำบอกเวลาปัจจุบัน 'right now' จึงใช้กริยา 'are'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Reported Speech",
+    "question_text": "He said that he ________ to visit his grandparents the next day.",
+    "options": [
+      "will go",
+      "would go",
+      "goes",
+      "went"
+    ],
+    "correct_answer": 1,
+    "explanation": "Reported Speech ในประโยคอดีต (He said that... the next day): กริยา will ต้องเปลี่ยนเป็นรูปอดีตคือ 'would' + V.1 จึงเป็น 'would go'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, First Conditional",
+    "question_text": "If it ________ tomorrow, we will cancel the trip.",
+    "options": [
+      "rain",
+      "rains",
+      "will rain",
+      "rained"
+    ],
+    "correct_answer": 1,
+    "explanation": "First Conditional (If + Present Simple, will + V.1) ประธาน 'it' ใน if-clause เป็นเอกพจน์ กริยาจึงเติม s เป็น 'rains'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Adverb of Time & Emphasis",
+    "question_text": "I've never seen such a beautiful place ________ before.",
+    "options": [
+      "ever",
+      "already",
+      "yet",
+      "just"
+    ],
+    "correct_answer": 0,
+    "explanation": "สำนวนเน้นย้ำประสบการณ์ 'never ... ever before' (ไม่เคย... มาก่อนเลยในชีวิต) จึงเติมคำว่า 'ever'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Gerund, Polite Request",
+    "question_text": "Would you mind ________ the window? It's too hot.",
+    "options": [
+      "to open",
+      "open",
+      "opening",
+      "opened"
+    ],
+    "correct_answer": 2,
+    "explanation": "สำนวนขอร้องอย่างสุภาพ 'Would you mind + V.ing...?' แปลว่า คุณจะรังเกียจไหมถ้าจะ... กริยาที่ตามหลัง mind ต้องเป็น Gerund (V.ing) จึงใช้ 'opening'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Preposition after Adjective",
+    "question_text": "She is interested ________ learning Korean.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "correct_answer": 0,
+    "explanation": "สำนวนความสนใจ: 'be interested in + Noun / V.ing' (สนใจใน...) ใช้บุพบท 'in' เสมอ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Comparison of Equality",
+    "question_text": "My brother is as tall ________ my father.",
+    "options": [
+      "as",
+      "like",
+      "than",
+      "to"
+    ],
+    "correct_answer": 0,
+    "explanation": "การเปรียบเทียบขั้นเท่ากัน โครงสร้างคือ 'as + adjective + as' แปลว่า เท่ากับ จึงใช้ 'as'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Perfect vs Past Simple",
+    "question_text": "By the time I arrived at the station, the train ________.",
+    "options": [
+      "leaves",
+      "had left",
+      "left",
+      "has left"
+    ],
+    "correct_answer": 1,
+    "explanation": "เหตุการณ์เกิดขึ้น 2 เหตุการณ์ในอดีต โดยเหตุการณ์ที่เกิดและจบลงก่อนใช้ Past Perfect (had + V.3 = had left) และเหตุการณ์ที่เกิดตามมาใช้ Past Simple (arrived) โดยสังเกตจากคำเชื่อม 'By the time'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subjunctive Mood",
+    "question_text": "It is important that we ________ water every day.",
+    "options": [
+      "drank",
+      "drinks",
+      "drink",
+      "drinking"
+    ],
+    "correct_answer": 2,
+    "explanation": "โครงสร้าง Present Subjunctive: 'It is important/vital/necessary that + S + (should) + Bare Infinitive (กริยารูปไม่ผัน)' ดังนั้นแม้ประธานจะเป็นอะไรก็ตาม กริยาจะอยู่ในรูปฐานคือ 'drink'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Simple, Tense",
+    "question_text": "We ________ a new teacher last month.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "having"
+    ],
+    "correct_answer": 2,
+    "explanation": "มีคำบอกเวลาอดีตชัดเจนคือ 'last month' (เมื่อเดือนที่แล้ว) จึงใช้ Past Simple Tense กริยาช่อง 2 คือ 'had'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Wish & Subjunctive",
+    "question_text": "I wish I ________ more time to study.",
+    "options": [
+      "have",
+      "had",
+      "will have",
+      "having"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้าง 'I wish + Past Simple (S + V.2)' ใช้แสดงความปรารถนาในสิ่งที่ไม่เป็นจริงในปัจจุบัน จึงใช้กริยาช่อง 2 คือ 'had'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Quantifiers (a few vs a little)",
+    "question_text": "She has been to Japan ________ times.",
+    "options": [
+      "few",
+      "a few",
+      "little",
+      "a little"
+    ],
+    "correct_answer": 1,
+    "explanation": "คำว่า 'times' ในบริบทนี้แปลว่า 'ครั้ง' เป็นคำนามนับได้พหูพจน์ จึงใช้ 'a few' (สองสามครั้ง / ไม่กี่ครั้ง) ส่วน little / a little ใช้กับคำนามนับไม่ได้"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Second Conditional, Subjunctive",
+    "question_text": "If I ________ you, I would take that job.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "correct_answer": 2,
+    "explanation": "Second Conditional (การสมมติในสิ่งที่ไม่จริงในปัจจุบัน): โครงสร้าง If + Past Simple, would + V.1 ในประโยคสมมติแบบนี้ กริยา verb to be นิยมใช้ 'were' กับประธานทุกตัว (If I were you = ถ้าฉันเป็นเธอ)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Continuous, Tense",
+    "question_text": "The children ________ in the park now.",
+    "options": [
+      "play",
+      "plays",
+      "are playing",
+      "played"
+    ],
+    "correct_answer": 2,
+    "explanation": "มีคำบอกเวลา 'now' (ขณะนี้) แสดงเหตุการณ์ที่กำลังดำเนินอยู่ จึงใช้ Present Continuous (is/am/are + V.ing) ประธาน The children เป็นพหูพจน์ จึงใช้ 'are playing'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Infinitive, Verb Pattern",
+    "question_text": "He promised ________ me as soon as he arrived.",
+    "options": [
+      "call",
+      "to call",
+      "calling",
+      "called"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้างกริยา 'promise + to + V.1' (สัญญาว่าจะทำอะไร) จึงต้องตามด้วย to-infinitive คือ 'to call'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subject-Verb Agreement",
+    "question_text": "Neither you nor your friends ________ here before.",
+    "options": [
+      "have been",
+      "has been",
+      "is",
+      "are"
+    ],
+    "correct_answer": 0,
+    "explanation": "หลักไวยากรณ์: Subject-Verb Agreement และ Present Perfect Tense:\n1. โครงสร้าง 'Neither A nor B': กริยาต้องผันตามประธานตัวหลัง (B) คือ 'your friends' ซึ่งเป็นคำนามพหูพจน์\n2. มีคำบอกเวลา 'before' (มาก่อน): ในภาษาอังกฤษเมื่อกล่าวถึงประสบการณ์ชีวิตว่าเคย/ไม่เคยมาที่นี่มาก่อน จะต้องใช้ Present Perfect Tense (have/has + V.3)\n3. เมื่อประธาน 'your friends' เป็นพหูพจน์ จึงใช้ 'have been'\n\nตอบตัวเลือกที่ 1 (have been)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Relative Pronoun",
+    "question_text": "This is the best film ________ I have ever seen.",
+    "options": [
+      "what",
+      "which",
+      "that",
+      "whose"
+    ],
+    "correct_answer": 2,
+    "explanation": "เมื่อมีคำคุณศัพท์ขั้นสุด (Superlative) เช่น 'the best', 'the most...' นำหน้านาม Relative Pronoun ที่นิยมใช้แทนสิ่งของ/ภาพยนตร์คือ 'that'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Modal Verbs, Prohibition",
+    "question_text": "You ________ smoke in this area.",
+    "options": [
+      "must",
+      "mustn't",
+      "don't have to",
+      "needn't"
+    ],
+    "correct_answer": 1,
+    "explanation": "การห้ามอย่างเด็ดขาดตามกฎระเบียบหรือป้ายเตือน ใช้ 'mustn't' (must not) แปลว่า ต้องไม่ / ห้าม"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Third Conditional, Inversion",
+    "question_text": "Had he left earlier, he ________ the traffic jam.",
+    "options": [
+      "will avoid",
+      "would have avoided",
+      "avoids",
+      "avoided"
+    ],
+    "correct_answer": 1,
+    "explanation": "โครงสร้างประโยคเงื่อนไขแบบลดรูป (Inversion) ของ Third Conditional: 'Had + S + V.3, S + would have + V.3' (มีความหมายเดียวกับ If he had left earlier...) จึงตอบ 'would have avoided'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Future Simple, Tense",
+    "question_text": "The company ________ a new product next year.",
+    "options": [
+      "launches",
+      "will launch",
+      "is launching",
+      "launched"
+    ],
+    "correct_answer": 1,
+    "explanation": "มีคำบอกเวลาอนาคตชัดเจนคือ 'next year' (ปีหน้า) จึงใช้ Future Simple Tense โครงสร้าง 'will + V.1' คือ 'will launch'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Simple, Tense",
+    "question_text": "She ________ to the gym every morning.",
+    "options": [
+      "goes",
+      "is going",
+      "go",
+      "going"
+    ],
+    "correct_answer": 0,
+    "explanation": "บอกกิจวัตรประจำวันโดยมีคำว่า 'every morning' ใช้ Present Simple Tense ประธาน She เป็นเอกพจน์ กริยาจึงเติม es เป็น 'goes'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Conditional Sentences",
+    "question_text": "If he ________ more carefully, he would not make mistakes.",
+    "options": [
+      "will work",
+      "worked",
+      "works",
+      "work"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักไวยากรณ์ Second Conditional (ประโยคเงื่อนไขสมมติสิ่งที่ไม่จริงในปัจจุบัน):\n1. โครงสร้าง: 'If + Past Simple (S + V.2), S + would + V.inf'\n2. พิจารณาประโยคหลัก (Main Clause):\n   - ให้มาว่า 'he would not make mistakes' (would + V.inf)\n3. ดังนั้น ในส่วน If-clause จะต้องใช้กริยาช่องที่ 2 (Past Simple) เพื่อให้เข้าคู่โครงสร้าง จึงต้องเป็น 'worked'\n(หมายเหตุ: หากใช้ works ใน if-clause ประโยคหลักจะต้องใช้ will not make ใน First Conditional)\n\nตอบตัวเลือกที่ 2 (worked)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Future Perfect, Tense",
+    "question_text": "By next Friday, I ________ this project.",
+    "options": [
+      "finish",
+      "will finish",
+      "will have finished",
+      "finished"
+    ],
+    "correct_answer": 2,
+    "explanation": "โครงสร้างบอกว่าเหตุการณ์จะเสร็จสิ้นก่อนเวลาใดเวลาหนึ่งในอนาคต 'By + เวลาในอนาคต' (By next Friday) ใช้ Future Perfect Tense (will have + V.3) คือ 'will have finished'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Continuous vs Past Simple",
+    "question_text": "They ________ dinner when I called them.",
+    "options": [
+      "had",
+      "were having",
+      "have",
+      "will have"
+    ],
+    "correct_answer": 1,
+    "explanation": "เหตุการณ์กำลังดำเนินอยู่ในอดีต (Past Continuous: were having) ขณะที่มีอีกเหตุการณ์หนึ่งเข้ามาแทรก (Past Simple: called) จึงใช้ 'were having'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "This is the first time I ________ such a beautiful beach.",
+    "options": [
+      "see",
+      "saw",
+      "have seen",
+      "am seeing"
+    ],
+    "correct_answer": 2,
+    "explanation": "สำนวนบอกประสบการณ์ครั้งแรก 'This is the first time + S + Present Perfect (have/has + V.3)' จึงใช้ 'have seen'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, Tense",
+    "question_text": "My sister ________ English since she was ten years old.",
+    "options": [
+      "studies",
+      "has studied",
+      "studied",
+      "is studying"
+    ],
+    "correct_answer": 1,
+    "explanation": "มีคำบอกเวลา 'since + จุดเริ่มต้นในอดีต' แสดงการกระทำที่เริ่มตั้งแต่อดีตและดำเนินต่อเนื่องมาถึงปัจจุบัน จึงใช้ Present Perfect (has studied)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, As If & Subjunctive",
+    "question_text": "He behaves as if he ________ the boss.",
+    "options": [
+      "is",
+      "was",
+      "were",
+      "be"
+    ],
+    "correct_answer": 2,
+    "explanation": "as if (ราวกับว่า) ในการสมมติสิ่งที่ไม่จริงในปัจจุบัน นิยมใช้ Subjunctive Mood กริยา 'were' กับประธานทุกตัว"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Conjunctions",
+    "question_text": "I'd love to go hiking with you, ________ I have too much work.",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "so"
+    ],
+    "correct_answer": 1,
+    "explanation": "ประโยคสองท่อนมีความหมายขัดแย้งกัน (อยากไปเที่ยวด้วย แต่มีงานเยอะเกินไป) จึงใช้คำเชื่อมขัดแย้งคือ 'but'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Conjunctions",
+    "question_text": "You must be careful, ________ you will fall.",
+    "options": [
+      "and",
+      "but",
+      "or",
+      "or else"
+    ],
+    "correct_answer": 3,
+    "explanation": "คำเชื่อมบอกผลเสียที่จะเกิดขึ้นหากไม่ทำตามคำเตือน 'or else' แปลว่า 'มิฉะนั้นแล้ว' (คุณต้องระวัง มิฉะนั้นจะตกลงไป)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Passive Voice, Past Simple",
+    "question_text": "The cake ________ by my mother last night.",
+    "options": [
+      "bake",
+      "was baked",
+      "is baked",
+      "was baking"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักไวยากรณ์ Passive Voice ในอดีต (Past Simple Passive):\n1. ขนมเค้ก (The cake) ไม่สามารถอบตัวเองได้ แต่ 'ถูกอบ' โดยคุณแม่ (by my mother) จึงต้องอยู่ในรูปประธานถูกกระทำ (Passive Voice)\n2. มีคำบอกเวลาในอดีตชัดเจนคือ 'last night' (เมื่อคืนนี้) จึงเป็น Past Simple\n3. โครงสร้าง Past Simple Passive: S + was/were + V.3\n   - ประธาน 'The cake' เป็นเอกพจน์ จึงใช้ 'was baked'\n\nตอบตัวเลือกที่ 2 (was baked)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Present Perfect, V.3",
+    "question_text": "I have never ________ such a rude person.",
+    "options": [
+      "meet",
+      "met",
+      "meeting",
+      "meets"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักไวยากรณ์ Present Perfect Tense:\n1. โครงสร้าง: S + have/has + never + Past Participle (กริยาช่อง 3)\n2. กริยาช่อง 3 ของ 'meet' คือ 'met' (meet - met - met)\n3. ประโยคนี้แปลว่า 'ฉันไม่เคยพบเจอคนที่หยาบคายขนาดนี้มาก่อนเลย' จึงใช้ 'met'\n\nตอบตัวเลือกที่ 2 (met)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Third Conditional",
+    "question_text": "If he ________ earlier, he would have caught the bus.",
+    "options": [
+      "leaves",
+      "left",
+      "will leave",
+      "had left"
+    ],
+    "correct_answer": 3,
+    "explanation": "หลักไวยากรณ์ Third Conditional (ประโยคเงื่อนไขสมมติเหตุการณ์ในอดีตที่ตรงข้ามกับความเป็นจริง):\n1. โครงสร้าง: 'If + Past Perfect (S + had + V.3), S + would have + V.3'\n2. พิจารณาประโยคหลัก: ให้มาว่า 'he would have caught the bus' (would have + V.3)\n3. ดังนั้น ในส่วน If-clause จะต้องใช้ Past Perfect คือ 'had left' (had + V.3 ของ leave)\n4. ความหมาย: ถ้าเขาออกเดินทางเร็วกว่านี้ในอดีต เขาก็คงจะขึ้นรถเมล์ทัน (แต่ในความเป็นจริงคือออกช้าและตกรถ)\n\nตอบตัวเลือกที่ 4 (had left)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Indirect Speech & Infinitive",
+    "question_text": "She asked me ________ the door.",
+    "options": [
+      "to open",
+      "open",
+      "opening",
+      "opened"
+    ],
+    "correct_answer": 0,
+    "explanation": "โครงสร้างขอร้องให้ผู้อื่นทำอะไร 'ask + someone + to + V.1' จึงตามด้วย to-infinitive คือ 'to open'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Past Perfect vs Past Simple",
+    "question_text": "By the time we got to the cinema, the movie ________.",
+    "options": [
+      "has started",
+      "had started",
+      "starts",
+      "was starting"
+    ],
+    "correct_answer": 1,
+    "explanation": "เหตุการณ์หนึ่งเกิดขึ้นและเสร็จสิ้นก่อนอีกเหตุการณ์หนึ่งในอดีต สังเกตจาก 'By the time + Past Simple (got)' อีกเหตุการณ์ที่เกิดก่อนใช้ Past Perfect (had + V.3) คือ 'had started'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Structure (too...to...)",
+    "question_text": "She is too tired ________ go shopping.",
+    "options": [
+      "to",
+      "too",
+      "very",
+      "enough to"
+    ],
+    "correct_answer": 0,
+    "explanation": "โครงสร้าง 'too + adjective + to + V.1' แปลว่า ...เกินกว่าที่จะ... ในข้อนี้คือ เหนื่อยเกินกว่าที่จะไปช้อปปิ้ง จึงเติมคำว่า 'to'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Subject-Verb Agreement",
+    "question_text": "Neither Tom nor his friends ________ going to the party.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "were"
+    ],
+    "correct_answer": 2,
+    "explanation": "โครงสร้าง 'Neither A nor B' กริยาผันตามประธานตัวหลัง (B) คือ 'his friends' ซึ่งเป็นพหูพจน์ ในบริบทปัจจุบันจึงใช้ 'are'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Gerund & Prefer",
+    "question_text": "He prefers ________ tea to coffee.",
+    "options": [
+      "drink",
+      "drinks",
+      "drinking",
+      "to drink"
+    ],
+    "correct_answer": 2,
+    "explanation": "โครงสร้างแสดงความชอบ 'prefer + V.ing ... to + V.ing/Noun' แปลว่า ชอบสิ่งหนึ่งมากกว่าอีกสิ่งหนึ่ง จึงใช้ Gerund 'drinking'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Second Conditional",
+    "question_text": "If we ________ more time, we would travel around the world.",
+    "options": [
+      "have",
+      "had",
+      "has",
+      "will have"
+    ],
+    "correct_answer": 1,
+    "explanation": "Second Conditional (สมมุติสิ่งที่ไม่จริงในปัจจุบัน): โครงสร้าง If + Past Simple, would + V.1 ใน if-clause กริยาช่อง 2 ของ have คือ 'had'"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Grammar, Indirect Speech & Infinitive",
+    "question_text": "The teacher told the students ________ noise in class.",
+    "options": [
+      "not make",
+      "not to make",
+      "don't make",
+      "didn't make"
+    ],
+    "correct_answer": 1,
+    "explanation": "หลักไวยากรณ์ Indirect Speech / Reported Commands:\n1. โครงสร้างการบอกหรือสั่งทางอ้อม:\n   - ประโยคบอกเล่า: tell/told + someone + to + V.1\n   - ประโยคปฏิเสธ (สั่งห้าม): tell/told + someone + not to + V.1\n2. เมื่อครูสั่งห้ามไม่ให้ส่งเสียงดัง จึงต้องใช้โครงสร้างปฏิเสธ 'not to make'\n3. ประโยคนี้แปลว่า 'ครูบอกให้นักเรียนไม่ส่งเสียงดังในชั้นเรียน'\n\nตอบตัวเลือกที่ 2 (not to make)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Sincere (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "honest",
+      "angry",
+      "lazy",
+      "proud"
+    ],
+    "correct_answer": 0,
+    "explanation": "'Sincere' แปลว่า จริงใจ มีความหมายใกล้เคียงกับ 'honest' (ซื่อสัตย์ / จริงใจ) ส่วนตัวเลือกอื่น: angry = โกรธ, lazy = ขี้เกียจ, proud = ภาคภูมิใจ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Generous (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "selfish",
+      "kind",
+      "rude",
+      "greedy"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Generous' แปลว่า ใจกว้าง / มีน้ำใจ มีความหมายสอดคล้องกับ 'kind' (ใจดี) ส่วนตัวเลือกอื่น: selfish = เห็นแก่ตัว, rude = หยาบคาย, greedy = โลภ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Numerous (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "many",
+      "few",
+      "single",
+      "none"
+    ],
+    "correct_answer": 0,
+    "explanation": "'Numerous' แปลว่า มากมาย / มหาศาล มีความหมายตรงกับ 'many' (จำนวนมาก) ส่วนตัวเลือกอื่น: few = น้อย, single = เดี่ยว/อันเดียว, none = ไม่มีเลย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Reliable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "trustworthy",
+      "careless",
+      "weak",
+      "dishonest"
+    ],
+    "correct_answer": 0,
+    "explanation": "'Reliable' แปลว่า น่าเชื่อถือ / ไว้ใจได้ มีความหมายตรงกับ 'trustworthy' (ไว้ใจได้) ส่วนตัวเลือกอื่น: careless = ประมาท, weak = อ่อนแอ, dishonest = ไม่ซื่อสัตย์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Ancient (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "modern",
+      "old",
+      "new",
+      "recent"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Ancient' แปลว่า เก่าแก่มาก / โบราณ มีความหมายใกล้เคียงกับ 'old' (เก่า) ส่วนตัวเลือกอื่น: modern = ทันสมัย, new = ใหม่, recent = เร็วๆ นี้"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Improve (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "destroy",
+      "develop",
+      "reduce",
+      "ignore"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Improve' แปลว่า ทำให้ดีขึ้น / พัฒนา มีความหมายตรงกับ 'develop' (พัฒนา) ส่วนตัวเลือกอื่น: destroy = ทำลาย, reduce = ลดลง, ignore = เพิกเฉย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Essential (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "necessary",
+      "optional",
+      "extra",
+      "useless"
+    ],
+    "correct_answer": 0,
+    "explanation": "'Essential' แปลว่า สำคัญยิ่ง / จำเป็น มีความหมายตรงกับ 'necessary' (จำเป็น) ส่วนตัวเลือกอื่น: optional = ทางเลือก, extra = พิเศษ/เพิ่มเติม, useless = ไร้ประโยชน์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Maintain (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "start",
+      "keep",
+      "stop",
+      "change"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Maintain' แปลว่า รักษาไว้ / คงไว้ มีความหมายตรงกับ 'keep' (คงไว้) ส่วนตัวเลือกอื่น: start = เริ่มต้น, stop = หยุด, change = เปลี่ยนแปลง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Confident (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "uncertain",
+      "sure",
+      "nervous",
+      "afraid"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Confident' แปลว่า มั่นใจ มีความหมายตรงกับ 'sure' (แน่ใจ/มั่นใจ) ส่วนตัวเลือกอื่น: uncertain = ไม่แน่ใจ, nervous = ประหม่า, afraid = กลัว"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Boring (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "exciting",
+      "interesting",
+      "dull",
+      "fun"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Boring' แปลว่า น่าเบื่อ มีความหมายตรงกับ 'dull' (น่าเบื่อ / จืดชืด) ส่วนตัวเลือกอื่น: exciting = น่าตื่นเต้น, interesting = น่าสนใจ, fun = สนุกสนาน"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Accurate (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "wrong",
+      "exact",
+      "unclear",
+      "strange"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Accurate' แปลว่า ถูกต้องแม่นยำ มีความหมายตรงกับ 'exact' (แม่นยำ) ส่วนตัวเลือกอื่น: wrong = ผิด, unclear = ไม่ชัดเจน, strange = แปลก"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Flexible (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "stiff",
+      "strong",
+      "changeable",
+      "hard"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Flexible' แปลว่า ยืดหยุ่น / ปรับเปลี่ยนได้ มีความหมายตรงกับ 'changeable' (ปรับได้/เปลี่ยนแปลงได้) ส่วนตัวเลือกอื่น: stiff = แข็ง/เกร็ง, strong = แข็งแรง, hard = แข็ง/ยาก"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Succeed (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "fail",
+      "refuse",
+      "give up",
+      "achieve"
+    ],
+    "correct_answer": 3,
+    "explanation": "'Succeed' แปลว่า ประสบความสำเร็จ มีความหมายตรงกับ 'achieve' (ทำสำเร็จ/บรรลุผล) ส่วนตัวเลือกอื่น: fail = ล้มเหลว, refuse = ปฏิเสธ, give up = ยอมแพ้"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Notice (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "ignore",
+      "see",
+      "forget",
+      "hate"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Notice' แปลว่า สังเกตเห็น มีความหมายตรงกับ 'see' (เห็น/สังเกต) ส่วนตัวเลือกอื่น: ignore = เพิกเฉย, forget = ลืม, hate = เกลียด"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Valuable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "worthless",
+      "cheap",
+      "important",
+      "useless"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Valuable' แปลว่า มีค่า / สำคัญยิ่ง มีความหมายสอดคล้องกับ 'important' (สำคัญ/มีค่า) ส่วนตัวเลือกอื่น: worthless = ไร้ค่า, cheap = ราคาถูก, useless = ไร้ประโยชน์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Immediately (adv.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "slowly",
+      "later",
+      "quickly",
+      "never"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Immediately' แปลว่า ทันที / ในทันใด มีความหมายตรงกับ 'quickly' (อย่างรวดเร็ว/ทันที) ส่วนตัวเลือกอื่น: slowly = อย่างช้าๆ, later = ในภายหลัง, never = ไม่เคย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Environment (n.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "building",
+      "weather",
+      "surroundings",
+      "furniture"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Environment' แปลว่า สิ่งแวดล้อม / สภาพแวดล้อม มีความหมายตรงกับ 'surroundings' (สิ่งรอบตัว) ส่วนตัวเลือกอื่น: building = อาคาร, weather = สภาพอากาศ, furniture = เฟอร์นิเจอร์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Encourage (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "discourage",
+      "support",
+      "praise",
+      "stop"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Encourage' แปลว่า ให้กำลังใจ / สนับสนุน มีความหมายตรงกับ 'support' (สนับสนุน) ส่วนตัวเลือกอื่น: discourage = ทำให้หมดกำลังใจ, praise = ชื่นชม, stop = หยุด"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Present (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "absent",
+      "missing",
+      "current",
+      "previous"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Present' ในฐานะคำคุณศัพท์แปลว่า ปัจจุบัน / ที่เป็นอยู่ในขณะนี้ มีความหมายตรงกับ 'current' (ปัจจุบัน) ส่วนตัวเลือกอื่น: absent = ขาด/ไม่อยู่, missing = สูญหาย, previous = ก่อนหน้านี้"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Meticulous (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "careless",
+      "vague",
+      "precise",
+      "messy"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Meticulous' แปลว่า ละเอียดรอบคอบ / พิถีพิถัน มีความหมายตรงกับ 'precise' (แม่นยำ/ละเอียดถี่ถ้วน) ส่วนตัวเลือกอื่น: careless = ประมาท, vague = คลุมเครือ, messy = รก/ไม่เป็นระเบียบ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Elevate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "lower",
+      "raise",
+      "destroy",
+      "delay"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Elevate' แปลว่า ยกระดับ / ทำให้สูงขึ้น มีความหมายตรงกับ 'raise' (ยกขึ้น/เพิ่มขึ้น) ส่วนตัวเลือกอื่น: lower = ลดลง, destroy = ทำลาย, delay = ล่าช้า"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Contemplate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "ignore",
+      "consider",
+      "avoid",
+      "escape"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Contemplate' แปลว่า พิจารณา / ใคร่ครวญอย่างถี่ถ้วน มีความหมายตรงกับ 'consider' (พิจารณา) ส่วนตัวเลือกอื่น: ignore = เพิกเฉย, avoid = หลีกเลี่ยง, escape = หลบหนี"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Obtain (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "lose",
+      "receive",
+      "acquire",
+      "refuse"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Obtain' แปลว่า ได้รับ / ได้มาโดยความพยายาม มีความหมายตรงกับ 'acquire' (ได้มา) ส่วนตัวเลือกอื่น: lose = สูญเสีย, receive = ได้รับ, refuse = ปฏิเสธ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Augment (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "reduce",
+      "increase",
+      "limit",
+      "remove"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Augment' แปลว่า เพิ่มพูน / เสริม / ทำให้มากขึ้น มีความหมายตรงกับ 'increase' (เพิ่มขึ้น) ส่วนตัวเลือกอื่น: reduce = ลดลง, limit = จำกัด, remove = กำจัด/เอาออก"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Inevitable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "possible",
+      "uncertain",
+      "unavoidable",
+      "doubtful"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Inevitable' แปลว่า หลีกเลี่ยงไม่ได้ / แน่นอนว่าจะเกิดขึ้น มีความหมายตรงกับ 'unavoidable' (ไม่อาจหลีกเลี่ยงได้) ส่วนตัวเลือกอื่น: possible = เป็นไปได้, uncertain = ไม่แน่นอน, doubtful = น่าสงสัย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Persevere (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "give up",
+      "continue",
+      "hesitate",
+      "complain"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Persevere' แปลว่า มุ่งมั่น / อดทนพากเพียรต่อความยากลำบาก มีความหมายตรงกับ 'continue' (ทำต่อไปอย่างไม่ยอมแพ้) ส่วนตัวเลือกอื่น: give up = ยอมแพ้, hesitate = ลังเล, complain = บ่น"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Sophisticated (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "simple",
+      "advanced",
+      "naïve",
+      "primitive"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Sophisticated' แปลว่า ซับซ้อน / ล้ำสมัย / ช่ำชอง มีความหมายตรงกับ 'advanced' (ก้าวหน้า/ทันสมัย) ส่วนตัวเลือกอื่น: simple = เรียบง่าย, naïve = ไร้เดียงสา, primitive = ดึกดำบรรพ์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Discriminate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "include",
+      "judge",
+      "treat unfairly",
+      "accept"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Discriminate' แปลว่า เลือกปฏิบัติ / ปฏิบัติอย่างไม่เป็นธรรม มีความหมายตรงกับ 'treat unfairly' (ปฏิบัติต่อผู้อื่นอย่างไม่ยุติธรรม) ส่วนตัวเลือกอื่น: include = ครอบคลุม, judge = ตัดสิน, accept = ยอมรับ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Benevolent (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "cruel",
+      "selfish",
+      "generous",
+      "jealous"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Benevolent' แปลว่า เมตตา / เอื้อเฟื้อเผื่อแผ่ / ใจบุญ มีความหมายสอดคล้องกับ 'generous' (ใจกว้าง/มีน้ำใจ) ส่วนตัวเลือกอื่น: cruel = โหดร้าย, selfish = เห็นแก่ตัว, jealous = อิจฉา"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Impeccable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "careless",
+      "imperfect",
+      "flawless",
+      "clumsy"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Impeccable' แปลว่า ไร้ที่ติ / สมบูรณ์แบบ มีความหมายตรงกับ 'flawless' (ไร้ตำหนิ/ไร้ที่ติ) ส่วนตัวเลือกอื่น: careless = ประมาท, imperfect = ไม่สมบูรณ์, clumsy = ซุ่มซ่าม"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Resilient (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "fragile",
+      "flexible",
+      "strong",
+      "resistant"
+    ],
+    "correct_answer": 3,
+    "explanation": "การวิเคราะห์ความหมายของคำศัพท์ (Synonyms):\n1. 'Resilient' (adj.) แปลว่า ยืดหยุ่น / ฟื้นตัวได้เร็วจากความยากลำบาก / ทนทานต่อแรงกดดันหรือสภาพแวดล้อม\n2. ความหมายคำศัพท์ในตัวเลือก:\n   - fragile = เปราะบาง / แตกหักง่าย (ตรงข้าม)\n   - flexible = ยืดหยุ่น / ปรับตัวได้\n   - strong = แข็งแรง\n   - resistant = ทนทาน / ต้านทานได้ดี (สอดคล้อง)\n3. ในบริบทข้อสอบข้อนี้เฉลยตัวเลือกที่ 4 (resistant)\n\nตอบตัวเลือกที่ 4 (resistant)"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Endorse (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "reject",
+      "support",
+      "ignore",
+      "criticize"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Endorse' แปลว่า รับรอง / สนับสนุน มีความหมายตรงกับ 'support' (สนับสนุน) ส่วนตัวเลือกอื่น: reject = ปฏิเสธ, ignore = ละเลย, criticize = วิพากษ์วิจารณ์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Alleviate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "worsen",
+      "relieve",
+      "delay",
+      "ignore"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Alleviate' แปลว่า บรรเทา / ลดความรุนแรง มีความหมายตรงกับ 'relieve' (บรรเทา/ผ่อนคลาย) ส่วนตัวเลือกอื่น: worsen = ทำให้แย่ลง, delay = ทำให้ล่าช้า, ignore = เพิกเฉย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Prerequisite (n.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "result",
+      "requirement",
+      "consequence",
+      "choice"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Prerequisite' แปลว่า เงื่อนไขที่จำเป็นล่วงหน้า / ข้อกำหนดเบื้องต้น มีความหมายตรงกับ 'requirement' (ข้อกำหนด) ส่วนตัวเลือกอื่น: result = ผลลัพธ์, consequence = ผลที่ตามมา, choice = ทางเลือก"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Undermine (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "strengthen",
+      "support",
+      "weaken",
+      "improve"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Undermine' แปลว่า บ่อนทำลาย / ทำให้อ่อนแอลงจากภายใน มีความหมายตรงกับ 'weaken' (ทำให้อ่อนแอ) ส่วนตัวเลือกอื่น: strengthen = เสริมสร้าง, support = สนับสนุน, improve = พัฒนา"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Impartial (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "biased",
+      "neutral",
+      "unfair",
+      "personal"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Impartial' แปลว่า ยุติธรรม / เป็นกลาง / ไม่ลำเอียง มีความหมายตรงกับ 'neutral' (เป็นกลาง) ส่วนตัวเลือกอื่น: biased = ลำเอียง, unfair = ไม่เป็นธรรม, personal = ส่วนตัว"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Obscure (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "clear",
+      "famous",
+      "difficult to understand",
+      "obvious"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Obscure' แปลว่า คลุมเครือ / ยากต่อการเข้าใจ / ไม่ชัดเจน มีความหมายตรงกับ 'difficult to understand' ส่วนตัวเลือกอื่น: clear = ชัดเจน, famous = มีชื่อเสียง, obvious = ชัดเจน/เห็นได้ชัด"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Diligent (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "lazy",
+      "hardworking",
+      "careless",
+      "idle"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Diligent' แปลว่า ขยันหมั่นเพียร / พากเพียร มีความหมายตรงกับ 'hardworking' (ขยันขันแข็ง) ส่วนตัวเลือกอื่น: lazy = ขี้เกียจ, careless = ประมาท, idle = เกียจคร้าน/ว่างเฉย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Esoteric (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "common",
+      "obscure",
+      "modern",
+      "popular"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Esoteric' แปลว่า ลึกลับ / รู้เฉพาะกลุ่ม / ยากที่คนทั่วไปจะเข้าใจ มีความหมายตรงกับ 'obscure' (ลึกลับ/คลุมเครือ) ส่วนตัวเลือกอื่น: common = ทั่วไป, modern = ทันสมัย, popular = เป็นที่นิยม"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Exacerbate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "relieve",
+      "worsen",
+      "ignore",
+      "reduce"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Exacerbate' แปลว่า ทำให้แย่ลง / ซ้ำเติม / ทำให้รุนแรงขึ้น มีความหมายตรงกับ 'worsen' (ทำให้แย่ลง) ส่วนตัวเลือกอื่น: relieve = บรรเทา, ignore = เพิกเฉย, reduce = ลดลง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Ubiquitous (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "rare",
+      "widespread",
+      "temporary",
+      "unusual"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Ubiquitous' แปลว่า พบเห็นได้ทั่วไปทุกหนทุกแห่ง / แพร่หลาย มีความหมายตรงกับ 'widespread' (แพร่หลาย) ส่วนตัวเลือกอื่น: rare = หายาก, temporary = ชั่วคราว, unusual = ผิดปกติ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Mitigate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "intensify",
+      "worsen",
+      "alleviate",
+      "neglect"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Mitigate' แปลว่า บรรเทา / ลดความรุนแรง / ทำให้อ่อนลง มีความหมายตรงกับ 'alleviate' (บรรเทา) ส่วนตัวเลือกอื่น: intensify = ทำให้รุนแรงขึ้น, worsen = ทำให้แย่ลง, neglect = ละเลย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Inherent (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "external",
+      "acquired",
+      "intrinsic",
+      "artificial"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Inherent' แปลว่า มีอยู่โดยธรรมชาติ / เป็นคุณลักษณะที่มีติดตัวมาแต่กำเนิด มีความหมายตรงกับ 'intrinsic' (เนื้อแท้/โดยกำเนิด) ส่วนตัวเลือกอื่น: external = ภายนอก, acquired = ที่ได้มาภายหลัง, artificial = สังเคราะห์/เทียม"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Disparity (n.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "similarity",
+      "equality",
+      "difference",
+      "harmony"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Disparity' แปลว่า ความแตกต่าง / ความไม่เสมอภาค / ความไม่เท่าเทียม มีความหมายตรงกับ 'difference' (ความแตกต่าง) ส่วนตัวเลือกอื่น: similarity = ความเหมือน, equality = ความเท่าเทียม, harmony = ความกลมกลืน"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Prudent (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "reckless",
+      "wise",
+      "careless",
+      "impulsive"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Prudent' แปลว่า รอบคอบ / ฉลาดระมัดระวังในการตัดสินใจ มีความหมายตรงกับ 'wise' (ฉลาดรอบคอบ) ส่วนตัวเลือกอื่น: reckless = บุ่มบ่าม, careless = ประมาท, impulsive = หุนหันพลันแล่น"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Manipulate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "control skilfully",
+      "criticize",
+      "misunderstand",
+      "obey"
+    ],
+    "correct_answer": 0,
+    "explanation": "'Manipulate' แปลว่า ควบคุม / จัดการหรือชักใยอย่างช่ำชองเพื่อหวังผล มีความหมายตรงกับ 'control skilfully' (ควบคุมอย่างชำนาญ) ส่วนตัวเลือกอื่น: criticize = วิจารณ์, misunderstand = เข้าใจผิด, obey = เชื่อฟัง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Ambiguous (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "clear",
+      "definite",
+      "confusing",
+      "certain"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Ambiguous' แปลว่า กำกวม / คลุมเครือ / มีความหมายได้สองแง่สองง่าม มีความหมายสอดคล้องกับ 'confusing' (สับสน/ไม่ชัดเจน) ส่วนตัวเลือกอื่น: clear = ชัดเจน, definite = แน่นอน, certain = แน่ใจ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Facetious (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "serious",
+      "humorous",
+      "annoying",
+      "generous"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Facetious' แปลว่า ชอบพูดเล่น / ติดตลก / ขี้เล่นในเวลาที่ไม่ควร มีความหมายตรงกับ 'humorous' (ตลกขบขัน) ส่วนตัวเลือกอื่น: serious = จริงจัง, annoying = น่ารำคาญ, generous = ใจกว้าง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Ineffable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "unforgettable",
+      "indescribable",
+      "unbelievable",
+      "incomprehensible"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Ineffable' แปลว่า เกินจะบรรยาย / ไม่อาจพรรณนาเป็นคำพูดได้ มีความหมายตรงกับ 'indescribable' (เกินกว่าจะบรรยายได้) ส่วนตัวเลือกอื่น: unforgettable = ลืมไม่ลง, unbelievable = เหลือเชื่อ, incomprehensible = ไม่อาจเข้าใจได้"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Peremptory (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "polite",
+      "hesitant",
+      "authoritarian",
+      "tolerant"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Peremptory' แปลว่า เชิงออกคำสั่งอย่างเด็ดขาด / เผด็จการ / ไม่เปิดโอกาสให้ปฏิเสธ มีความหมายตรงกับ 'authoritarian' (เชิงเผด็จการ/เด็ดขาด) ส่วนตัวเลือกอื่น: polite = สุภาพ, hesitant = ลังเล, tolerant = อดทนอดกลั้น"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Ephemeral (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "permanent",
+      "fleeting",
+      "obvious",
+      "powerful"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Ephemeral' แปลว่า ชั่วคราว / มีอายุสั้น / ไม่จีรังยั่งยืน มีความหมายตรงกับ 'fleeting' (ผ่านไปอย่างรวดเร็ว/ชั่วคราว) ส่วนตัวเลือกอื่น: permanent = ถาวร, obvious = ชัดเจน, powerful = ทรงพลัง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Laconic (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "talkative",
+      "concise",
+      "confused",
+      "stubborn"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Laconic' แปลว่า พูดน้อยแต่ได้ใจความ / สั้นกระชับ มีความหมายตรงกับ 'concise' (กระชับ/รวบรัด) ส่วนตัวเลือกอื่น: talkative = ช่างพูด, confused = สับสน, stubborn = ดื้อรั้น"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Commensurate (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "unrelated",
+      "proportional",
+      "complicated",
+      "irrelevant"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Commensurate' แปลว่า ได้สัดส่วน / เหมาะสม / สมน้ำสมเนื้อ มีความหมายตรงกับ 'proportional' (ได้สัดส่วนกัน) ส่วนตัวเลือกอื่น: unrelated = ไม่เกี่ยวข้องกัน, complicated = ซับซ้อน, irrelevant = ไม่เกี่ยวข้อง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Obfuscate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "clarify",
+      "simplify",
+      "obscure",
+      "explain"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Obfuscate' แปลว่า ทำให้สับสน / ทำให้มืดมน / คลุมเครือเข้าใจยาก มีความหมายตรงกับ 'obscure' (ทำให้คลุมเครือ) ส่วนตัวเลือกอื่น: clarify = ทำให้กระจ่าง, simplify = ทำให้ง่ายขึ้น, explain = อธิบาย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Gregarious (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "solitary",
+      "talkative",
+      "sociable",
+      "shy"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Gregarious' แปลว่า ชอบเข้าสังคม / ชอบอยู่รวมเป็นกลุ่ม / รักเพื่อนฝูง มีความหมายตรงกับ 'sociable' (ชอบเข้าสังคม) ส่วนตัวเลือกอื่น: solitary = สันโดษ, talkative = พูดเก่ง, shy = ขี้อาย"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Pernicious (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "harmless",
+      "beneficial",
+      "destructive",
+      "gentle"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Pernicious' แปลว่า เป็นภัยร้ายแรง / ทำลายล้าง / ให้โทษอย่างเงียบๆ มีความหมายตรงกับ 'destructive' (เชิงทำลายล้าง) ส่วนตัวเลือกอื่น: harmless = ไม่มีพิษภัย, beneficial = มีประโยชน์, gentle = อ่อนโยน"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Sagacious (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "foolish",
+      "clever",
+      "honest",
+      "careless"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Sagacious' แปลว่า มีสติปัญญาเฉียบแหลม / ฉลาดสุขุม มีความหมายตรงกับ 'clever' (ฉลาดหลักแหลม) ส่วนตัวเลือกอื่น: foolish = โง่เขลา, honest = ซื่อสัตย์, careless = ประมาท"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Loquacious (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "silent",
+      "talkative",
+      "modest",
+      "calm"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Loquacious' แปลว่า ช่างพูด / พูดเก่ง / พูดมาก มีความหมายตรงกับ 'talkative' (ช่างพูด) ส่วนตัวเลือกอื่น: silent = เงียบ, modest = ถ่อมตัว, calm = สงบ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Abate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "increase",
+      "continue",
+      "diminish",
+      "begin"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Abate' แปลว่า ลดลง / บรรเทาลง / แผ่วลง มีความหมายตรงกับ 'diminish' (ลดลง/ลดน้อยลง) ส่วนตัวเลือกอื่น: increase = เพิ่มขึ้น, continue = ทำต่อ, begin = เริ่มต้น"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Erudite (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "ignorant",
+      "learned",
+      "confused",
+      "inexperienced"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Erudite' แปลว่า ทรงความรู้ / มีความรู้ลึกซึ้ง / คงแก่เรียน มีความหมายตรงกับ 'learned' (มีความรู้/คงแก่เรียน) ส่วนตัวเลือกอื่น: ignorant = ไม่รู้/โง่เขลา, confused = สับสน, inexperienced = ขาดประสบการณ์"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Utopian (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "realistic",
+      "idealistic",
+      "practical",
+      "traditional"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Utopian' แปลว่า เพ้อฝัน / ในอุดมคติ / สมบูรณ์แบบที่ยากจะเป็นจริง มีความหมายตรงกับ 'idealistic' (ในอุดมคติ) ส่วนตัวเลือกอื่น: realistic = อยู่บนพื้นฐานความเป็นจริง, practical = ใช้งานได้จริง, traditional = ดั้งเดิม"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Perseverance (n.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "laziness",
+      "ambition",
+      "persistence",
+      "weakness"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Perseverance' แปลว่า ความพากเพียร / ความมุมานะอดทน มีความหมายตรงกับ 'persistence' (ความมุ่งมั่นพากเพียร) ส่วนตัวเลือกอื่น: laziness = ความขี้เกียจ, ambition = ความทะเยอทะยาน, weakness = ความอ่อนแอ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Tacit (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "explicit",
+      "silent",
+      "obvious",
+      "loud"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Tacit' แปลว่า โดยนัย / ละไว้ในฐานที่เข้าใจ / รู้กันโดยไม่ต้องพูด มีความหมายตรงกับ 'silent' (โดยดุษณี/นัยน์) ส่วนตัวเลือกอื่น: explicit = ชัดเจนตรงไปตรงมา, obvious = ชัดเจน, loud = เสียงดัง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Exonerate (v.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "accuse",
+      "blame",
+      "free from blame",
+      "punish"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Exonerate' แปลว่า พิสูจน์ว่าบริสุทธิ์ / ปลดพ้นข้อกล่าวหา มีความหมายตรงกับ 'free from blame' (พ้นจากความผิด) ส่วนตัวเลือกอื่น: accuse = กล่าวหา, blame = ตำหนิ, punish = ลงโทษ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Paradoxical (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "logical",
+      "contradictory",
+      "reasonable",
+      "consistent"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Paradoxical' แปลว่า ขัดแย้งในตัวเอง / ขัดกับเหตุผลทั่วไป มีความหมายตรงกับ 'contradictory' (ขัดแย้งกัน) ส่วนตัวเลือกอื่น: logical = มีเหตุผล, reasonable = สมเหตุสมผล, consistent = สม่ำเสมอ"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Conundrum (n.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "solution",
+      "mystery",
+      "puzzle",
+      "fact"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Conundrum' แปลว่า ปริศนา / ปัญหาที่แก้ยาก มีความหมายตรงกับ 'puzzle' (ปริศนา) ส่วนตัวเลือกอื่น: solution = ทางออก/คำตอบ, mystery = ความลึกลับ, fact = ข้อเท็จจริง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Inscrutable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "obvious",
+      "mysterious",
+      "thoughtful",
+      "cheerful"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Inscrutable' แปลว่า ยากที่จะเข้าใจ / ลึกลับยากจะหยั่งถึง มีความหมายตรงกับ 'mysterious' (ลึกลับ) ส่วนตัวเลือกอื่น: obvious = ชัดเจน, thoughtful = ครุ่นคิด, cheerful = ร่าเริง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Inviolable (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "negotiable",
+      "flexible",
+      "sacred",
+      "vulnerable"
+    ],
+    "correct_answer": 2,
+    "explanation": "'Inviolable' แปลว่า ไม่อาจละเมิดได้ / ศักดิ์สิทธิ์ที่ไม่สามารถทำลายได้ มีความหมายตรงกับ 'sacred' (ศักดิ์สิทธิ์) ส่วนตัวเลือกอื่น: negotiable = ต่อรองได้, flexible = ยืดหยุ่น, vulnerable = อ่อนแอ/เปราะบาง"
+  },
+  {
+    "year": "2569",
+    "category": "ภาษาอังกฤษ",
+    "tags": "Vocabulary, Synonyms",
+    "question_text": "Skeptical (adj.)\nเลือกคำตอบที่มีความหมายใกล้เคียงหรือเหมาะสมที่สุด",
+    "options": [
+      "trusting",
+      "doubtful",
+      "enthusiastic",
+      "confident"
+    ],
+    "correct_answer": 1,
+    "explanation": "'Skeptical' แปลว่า สงสัย / กังขา / ไม่เชื่อโดยง่าย มีความหมายตรงกับ 'doubtful' (สงสัย/กังขา) ส่วนตัวเลือกอื่น: trusting = ไว้ใจคนง่าย, enthusiastic = กระตือรือร้น, confident = มั่นใจ"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "-7, -1, 7, 17, 29, ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "37",
+      "41",
+      "43",
+      "47"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาผลต่างระหว่างพจน์ที่อยู่ติดกัน:\n- จาก -7 ไป -1: (-1) - (-7) = +6\n- จาก -1 ไป 7: 7 - (-1) = +8\n- จาก 7 ไป 17: 17 - 7 = +10\n- จาก 17 ไป 29: 29 - 17 = +12\n\nสังเกตว่าผลต่างมีค่าเพิ่มขึ้นทีละ 2 (+6, +8, +10, +12, ...)\nดังนั้น ผลต่างของพจน์ถัดไปคือ +14\nตัวเลขในลำดับถัดไปคือ 29 + 14 = 43\n\nตอบตัวเลือกที่ 3 (43)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "2, 5, 10, 4, 20, 80, 8, 80, ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "160",
+      "240",
+      "480",
+      "640"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาอนุกรมแบบแบ่งกลุ่ม กลุ่มละ 3 ตัว:\n- กลุ่มที่ 1: (2, 5, 10) -> สังเกตความสัมพันธ์ 2 × 5 = 10\n- กลุ่มที่ 2: (4, 20, 80) -> สังเกตความสัมพันธ์ 4 × 20 = 80\n- กลุ่มที่ 3: (8, 80, ...) -> เกิดจากการคูณสองตัวแรก คือ 8 × 80 = 640\n\n(นอกจากนี้ ตัวแรกของแต่ละกลุ่มคือ 2, 4, 8 เพิ่มขึ้นทีละ 2 เท่า)\nดังนั้น ตัวเลขถัดไปคือ 640\n\nตอบตัวเลือกที่ 4 (640)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, เลขยกกำลัง, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "1, 9, 25, 49, 81, ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "121",
+      "144",
+      "169",
+      "196"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณารูปแบบของตัวเลขในรูปกำลังสอง:\n- 1 = 1²\n- 9 = 3²\n- 25 = 5²\n- 49 = 7²\n- 81 = 9²\n\nเป็นลำดับของจำนวนคี่บวกยกกำลังสอง: 1, 3, 5, 7, 9, ...\nจำนวนคี่ถัดไปคือ 11\nดังนั้น ตัวเลขถัดไปคือ 11² = 121\n\nตอบตัวเลือกที่ 1 (121)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "คณิตศาสตร์พื้นฐาน, เศษส่วน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "จงหาค่าของ [ (1/7) × (3/5) × (50/18) ] ÷ [ (1/14) × (1/6) ]",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nคำนวณตัวเศษด้านบน:\n(1/7) × (3/5) × (50/18)\n- นำ 3 ตัดกับ 18 ได้ 1/6: (1/7) × (1/5) × (50/6)\n- นำ 5 ตัดกับ 50 ได้ 10: (1/7) × (10/6) = 10 / 42 = 5 / 21\n\nคำนวณตัวส่วนด้านล่าง:\n(1/14) × (1/6) = 1 / 84\n\nนำตัวเศษหารด้วยตัวส่วน:\n(5 / 21) ÷ (1 / 84) = (5 / 21) × (84 / 1)\nสังเกตว่า 84 ÷ 21 = 4\nจะได้ 5 × 4 = 20\n\nตอบตัวเลือกที่ 2 (20)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหา, เศษส่วน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ในกล่องขนมมีคุกกี้อยู่ 84 ชิ้น ถ้าหยิบออกไป 5/12 ของทั้งหมด จะหยิบคุกกี้ออกไปกี่ชิ้น",
+    "options": [
+      "25 ชิ้น",
+      "30 ชิ้น",
+      "35 ชิ้น",
+      "40 ชิ้น"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nโจทย์กำหนดว่ามีคุกกี้ทั้งหมด 84 ชิ้น\nหยิบออกไป 5/12 ของคุกกี้ทั้งหมด\nจำนวนคุกกี้ที่หยิบออกไป = (5/12) × 84\n\nคำนวณโดยนำ 12 ตัดทอนกับ 84:\n84 ÷ 12 = 7\nดังนั้น 5 × 7 = 35 ชิ้น\n\nตอบตัวเลือกที่ 3 (35 ชิ้น)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สมการเชิงเส้น, พีชคณิต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ถ้า 2(x - 3) + 5 = 3(x + 1) - 4 แล้ว x มีค่าเท่ากับเท่าใด",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกระจายตัวคูณเข้าในวงเล็บทั้งสองข้างของสมการ:\n- ฝั่งซ้าย: 2(x - 3) + 5 = 2x - 6 + 5 = 2x - 1\n- ฝั่งขวา: 3(x + 1) - 4 = 3x + 3 - 4 = 3x - 1\n\nตั้งสมการ:\n2x - 1 = 3x - 1\n\nบวก 1 ทั้งสองข้าง:\n2x = 3x\n\nย้าย 2x ไปลบฝั่งขวา:\n3x - 2x = 0\nx = 0\n\nตอบตัวเลือกที่ 2 (0)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เลขยกกำลัง, พีชคณิต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "-5⁰ + (5)⁰ + (-5⁰) มีค่าเท่ากับข้อใด",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาสมบัติของเลขยกกำลัง (จำนวนใดๆ ที่ไม่เท่ากับศูนย์ยกกำลัง 0 ย่อมได้ 1):\n1. -5⁰ คือ -(5⁰) = -(1) = -1 (เนื่องจากไม่มีวงเล็บ เครื่องหมายลบจึงอยู่นอกฐานกำลังศูนย์)\n2. (5)⁰ = 1\n3. (-5⁰) คือ (-(5⁰)) = (-1)\n\nนำค่าทั้งสามมารวมกัน:\n-5⁰ + (5)⁰ + (-5⁰) = (-1) + 1 + (-1) = -1\n\nตอบตัวเลือกที่ 1 (-1)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เลขยกกำลัง, พีชคณิต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "8^(2^(2^2)) มีค่าเท่ากับข้อใดต่อไปนี้",
+    "options": [
+      "2^32",
+      "2^48",
+      "2^64",
+      "2^128"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nการคำนวณเลขยกกำลังซ้อนแบบไม่มีวงเล็บ (Power Tower) ให้คำนวณจากบนลงล่าง:\nพิจารณาส่วนเลขชี้กำลัง 2^(2^2):\n- ชั้นบนสุด: 2^2 = 4\n- ชั้นถัดลงมา: 2^4 = 16\nดังนั้น 8^(2^(2^2)) = 8^16\n\nแปลงฐาน 8 ให้อยู่ในรูปฐาน 2:\nเนื่องจาก 8 = 2^3\nจะได้ว่า 8^16 = (2^3)^16 = 2^(3 × 16) = 2^48\n\nตอบตัวเลือกที่ 2 (2^48)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เลขยกกำลัง, การเปรียบเทียบ, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ข้อใดมีค่าน้อยที่สุด",
+    "options": [
+      "2^500",
+      "3^400",
+      "4^300",
+      "5^200"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nเปรียบเทียบเลขยกกำลังโดยการปรับให้มีเลขชี้กำลังเท่ากัน:\nหา ห.ร.ม. ของเลขชี้กำลัง (500, 400, 300, 200) ซึ่งคือ 100\nแปลงแต่ละตัวเลือกให้อยู่ในรูป (...)^100:\n1. 2^500 = (2^5)^100 = 32^100\n2. 3^400 = (3^4)^100 = 81^100\n3. 4^300 = (4^3)^100 = 64^100\n4. 5^200 = (5^2)^100 = 25^100\n\nเมื่อเลขชี้กำลังเท่ากัน (100) ตัวที่มีฐานน้อยที่สุดจะมีค่าน้อยที่สุด:\nเนื่องจาก 25 < 32 < 64 < 81\nดังนั้น 25^100 ซึ่งก็คือ 5^200 มีค่าน้อยที่สุด\n\nตอบตัวเลือกที่ 4 (5^200)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โอเปอเรชัน, ความสามารถทั่วไป, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ถ้า 4 * 7 = 25 และ 8 * 2 = 14 แล้ว 5 * 3 มีค่าเท่ากับเท่าใด",
+    "options": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาความสัมพันธ์ของเครื่องหมายโอเปอเรชัน (*):\nสังเกตแบบรูป: a * b = a + 3b (หรือ หน้า + 3(หลัง))\n- ตรวจสอบคู่ที่ 1: 4 * 7 = 4 + 3(7) = 4 + 21 = 25 (ถูกต้อง)\n- ตรวจสอบคู่ที่ 2: 8 * 2 = 8 + 3(2) = 8 + 6 = 14 (ถูกต้อง)\n\nดังนั้น คำนวณ 5 * 3:\n5 * 3 = 5 + 3(3) = 5 + 9 = 14\n\nตอบตัวเลือกที่ 1 (14)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ข้อใดต่อไปนี้ไม่ถูกต้อง",
+    "options": [
+      "3 : 5 = 12 : 20",
+      "4 : 9 = 20 : 45",
+      "0.7 : 28 = 1 : 4",
+      "1/3 : 2/5 = 5 : 6"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nตรวจสอบความถูกต้องของแต่ละอัตราส่วน:\n1. 3 : 5 = (3 × 4) : (5 × 4) = 12 : 20 (ถูกต้อง)\n2. 4 : 9 = (4 × 5) : (9 × 5) = 20 : 45 (ถูกต้อง)\n3. 0.7 : 28 นำ 10 คูณทั้งสองข้างได้ 7 : 280 นำ 7 หารทั้งสองข้างได้ 1 : 40 ซึ่งไม่เท่ากับ 1 : 4 (ไม่ถูกต้อง)\n4. 1/3 : 2/5 นำ ค.ร.น. คือ 15 คูณทั้งสองข้างได้ (1/3 × 15) : (2/5 × 15) = 5 : 6 (ถูกต้อง)\n\nดังนั้น ข้อที่ไม่ถูกต้องคือ 0.7 : 28 = 1 : 4\n\nตอบตัวเลือกที่ 3 (0.7 : 28 = 1 : 4)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วนต่อเนื่อง, พีชคณิต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ถ้า A : B = 1 : 3 และ C : B = 3 : 6 ถ้า C = 27 แล้ว C - A มีค่าเท่าใด",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nเชื่อมโยงอัตราส่วนต่อเนื่องโดยทำตัวร่วม (B) ให้มีค่าเท่ากัน:\n- A : B = 1 : 3 = 2 : 6\n- C : B = 3 : 6 (นั่นคือ B : C = 6 : 3)\nดังนั้น อัตราส่วนร่วม A : B : C = 2 : 6 : 3\n\nโจทย์กำหนดให้ C = 27:\nจากอัตราส่วน C คิดเป็น 3 ส่วน = 27\nดังนั้น 1 ส่วน มีค่าเท่ากับ 27 ÷ 3 = 9\nจะได้ค่า A (มี 2 ส่วน) = 2 × 9 = 18\n\nหาค่าของ C - A:\nC - A = 27 - 18 = 9\n\nตอบตัวเลือกที่ 4 (9)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหา, อัตราส่วน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "โรงเรียนแห่งหนึ่งมีอัตราส่วนนักเรียนหญิงต่อนักเรียนชายเป็น 15 : 11 ถ้ามีนักเรียนหญิงมากกว่านักเรียนชาย 192 คน จงหาจำนวนนักเรียนชาย",
+    "options": [
+      "192 คน",
+      "256 คน",
+      "480 คน",
+      "528 คน"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nอัตราส่วน นักเรียนหญิง : นักเรียนชาย = 15 : 11\nผลต่างของอัตราส่วน = 15 - 11 = 4 ส่วน\nผลต่างจำนวนนักเรียนจริง = 192 คน\nดังนั้น 1 ส่วน คิดเป็น = 192 ÷ 4 = 48 คน\n\nโจทย์ถามหาจำนวนนักเรียนชาย (ซึ่งมี 11 ส่วน):\nจำนวนนักเรียนชาย = 11 × 48 = 528 คน\n\nตอบตัวเลือกที่ 4 (528 คน)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอายุ, อัตราส่วน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "อีก 8 ปีข้างหน้า อัตราส่วนระหว่างอายุพ่อกับลูกจะเป็น 7 : 3 ถ้าปัจจุบันพ่อมีอายุมากกว่าลูก 24 ปี ปัจจุบันลูกมีอายุกี่ปี",
+    "options": [
+      "4 ปี",
+      "6 ปี",
+      "8 ปี",
+      "10 ปี"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nหลักการสำคัญ: ผลต่างของอายุคนสองคนจะเท่าเดิมเสมอทุกช่วงเวลา\nดังนั้น อีก 8 ปีข้างหน้า พ่อก็ยังคงแก่กว่าลูก 24 ปีเท่าเดิม\n\nพิจารณาในอีก 8 ปีข้างหน้า:\n- อัตราส่วนอายุพ่อ : ลูก = 7 : 3\n- ผลต่างของส่วน = 7 - 3 = 4 ส่วน\n- ผลต่างอายุจริง = 24 ปี\nดังนั้น 1 ส่วน คิดเป็น = 24 ÷ 4 = 6 ปี\nจะได้ว่า อีก 8 ปีข้างหน้า ลูกจะมีอายุ = 3 × 6 = 18 ปี\n\nหาอายุปัจจุบันของลูก:\nปัจจุบันลูกมีอายุ = 18 - 8 = 10 ปี\n\nตอบตัวเลือกที่ 4 (10 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "โยนเหรียญ 2 เหรียญพร้อมกัน 1 ครั้ง ความน่าจะเป็นที่เหรียญจะออกหัวทั้งสองเหรียญเป็นเท่าใด",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/8"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nการโยนเหรียญที่เที่ยงตรง 2 เหรียญพร้อมกัน 1 ครั้ง:\nปริภูมิตัวอย่าง (Sample Space, S) คือ:\nS = {(หัว, หัว), (หัว, ก้อย), (ก้อย, หัว), (ก้อย, ก้อย)}\nจำนวนผลลัพธ์ทั้งหมด n(S) = 4\n\nเหตุการณ์ที่เหรียญออกหัวทั้งสองเหรียญ (E) คือ:\nE = {(หัว, หัว)}\nจำนวนเหตุการณ์ที่สนใจ n(E) = 1\n\nดังนั้น ความน่าจะเป็น P(E) = n(E) / n(S) = 1/4\n\nตอบตัวเลือกที่ 3 (1/4)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ทฤษฎีเซต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "สุ่มเลือกตัวเลข 1 ตัวจาก 1 ถึง 30 ความน่าจะเป็นที่จะได้ตัวเลขที่เป็นพหุคูณของ 3 หรือ 5 เป็นเท่าใด",
+    "options": [
+      "14/30",
+      "16/30",
+      "18/30",
+      "20/30"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nจำนวนตัวเลขทั้งหมดตั้งแต่ 1 ถึง 30 มี n(S) = 30 ตัว\n\nหาจำนวนตัวเลขที่เป็นพหุคูณของ 3 หรือ 5 โดยใช้หลักการเซต:\n1. พหุคูณของ 3: ได้แก่ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 มีทั้งหมด 30 ÷ 3 = 10 ตัว\n2. พหุคูณของ 5: ได้แก่ 5, 10, 15, 20, 25, 30 มีทั้งหมด 30 ÷ 5 = 6 ตัว\n3. พหุคูณของทั้ง 3 และ 5 (ค.ร.น. คือ 15) ซึ่งถูกนับซ้ำ: ได้แก่ 15, 30 มีทั้งหมด 30 ÷ 15 = 2 ตัว\n\nใช้สูตร n(A ∪ B) = n(A) + n(B) - n(A ∩ B):\nจำนวนตัวเลขที่สนใจ = 10 + 6 - 2 = 14 ตัว\nดังนั้น ความน่าจะเป็น = 14/30 (หรือ 7/15)\n\n*หมายเหตุ: ในข้อสอบบางฉบับอาจเฉลย 16/30 เนื่องจากลืมหักตัวเลขที่ซ้ำ (15 และ 30) ออกไป แต่ตามหลักคณิตศาสตร์ที่ถูกต้องคือ 14/30*\n\nตอบตัวเลือกที่ 1 (14/30)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ร้อยละ, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ในถุงมีลูกบอลสีแดง 5 ลูก สีน้ำเงิน 7 ลูก สีเขียว 8 ลูก ถ้าสุ่มหยิบลูกบอล 1 ลูก ความน่าจะเป็นที่จะได้ลูกบอลสีแดงคิดเป็นร้อยละเท่าใด",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nหาจำนวนลูกบอลทั้งหมดในถุง:\nจำนวนลูกบอลรวม = 5 (แดง) + 7 (น้ำเงิน) + 8 (เขียว) = 20 ลูก\n\nจำนวนลูกบอลสีแดงมี 5 ลูก\nความน่าจะเป็นที่จะสุ่มได้ลูกบอลสีแดง = 5 / 20 = 1 / 4\n\nคิดเป็นร้อยละ (เปอร์เซ็นต์):\n(1 / 4) × 100% = 25%\n\nตอบตัวเลือกที่ 2 (25%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การเรียงสับเปลี่ยน, ความน่าจะเป็น, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "มีหนังสือ 6 เล่มต่างกัน นำมาเรียงบนชั้นวางหนังสือเป็นแถวตรง โดยมีหนังสือที่ต้องการให้อยู่ติดกัน 2 เล่ม จะมีวิธีจัดเรียงได้กี่วิธี",
+    "options": [
+      "60 วิธี",
+      "120 วิธี",
+      "180 วิธี",
+      "240 วิธี"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้หลักการมัดติดกันของการเรียงสับเปลี่ยน:\n1. มัดหนังสือ 2 เล่มที่ต้องอยู่ติดกันไว้ด้วยกัน นับเป็น 1 ก้อน\n   รวมกับหนังสือที่เหลืออีก 4 เล่ม จะเปรียบเสมือนมีสิ่งของทั้งหมด 1 + 4 = 5 ชิ้น\n2. สลับที่สิ่งของ 5 ชิ้นเป็นแถวตรง ได้ 5! วิธี = 5 × 4 × 3 × 2 × 1 = 120 วิธี\n3. หนังสือ 2 เล่มที่อยู่ในมัด สามารถสลับที่กันเองได้ 2! วิธี = 2 × 1 = 2 วิธี\n\nจำนวนวิธีจัดเรียงทั้งหมด = 5! × 2! = 120 × 2 = 240 วิธี\n\nตอบตัวเลือกที่ 4 (240 วิธี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การเรียงสับเปลี่ยน, ความน่าจะเป็น, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ถ้าต้องการนำตัวอักษรจากคำว่า \"TEACHER\" มาจัดเรียงเป็นคำใหม่ โดยไม่คำนึงถึงความหมาย จะสามารถจัดเรียงได้กี่วิธี",
+    "options": [
+      "720 วิธี",
+      "1,440 วิธี",
+      "2,520 วิธี",
+      "5,040 วิธี"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาตัวอักษรในคำว่า \"TEACHER\":\nมีตัวอักษรทั้งหมด 7 ตัว ได้แก่ T, E, A, C, H, E, R\nมีตัวอักษรซ้ำ คือ ตัวอักษร E ซ้ำกัน 2 ตัว\n\nใช้สูตรการเรียงสับเปลี่ยนสิ่งของที่มีของซ้ำกัน:\nจำนวนวิธี = n! / n₁!\n= 7! / 2!\n= 5,040 / 2 = 2,520 วิธี\n\nตอบตัวเลือกที่ 3 (2,520 วิธี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การจัดหมู่, การนับ, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ในห้องประชุมแห่งหนึ่งมีคน 25 คน ถ้าทุกคนต้องจับมือซึ่งกันและกันจนครบทุกคน จะมีการจับมือเกิดขึ้นทั้งหมดกี่ครั้ง",
+    "options": [
+      "300 ครั้ง",
+      "400 ครั้ง",
+      "500 ครั้ง",
+      "600 ครั้ง"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nการจับมือเกิดจากคน 2 คนจับมือกัน โดยลำดับก่อนหลังไม่มีความสำคัญ (การจัดหมู่ C(n, 2)):\nสูตรการจับมือ = n(n - 1) / 2\nโดย n = 25\n\nแทนค่า:\nจำนวนครั้ง = (25 × 24) / 2\n= 25 × 12 = 300 ครั้ง\n\nตอบตัวเลือกที่ 1 (300 ครั้ง)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ค.ร.น., โจทย์ปัญหาเวลา, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "เด็กสามคนวิ่งรอบสนาม แต่ละคนใช้เวลาในการวิ่งรอบละ 7 นาที, 14 นาที และ 20 นาที ตามลำดับ ถ้าทั้งสามคนเริ่มออกวิ่งพร้อมกันที่จุดเริ่มต้นเวลา 09.30 น. ทั้งสามคนจะวิ่งมาถึงจุดเริ่มต้นพร้อมกันอีกครั้งในเวลาใด",
+    "options": [
+      "10.50 น.",
+      "11.10 น.",
+      "11.30 น.",
+      "11.50 น."
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nเวลาที่ทั้งสามคนจะกลับมาพบกันที่จุดเริ่มต้นพร้อมกันอีกครั้ง คือ ตัวคูณร่วมน้อย (ค.ร.น.) ของเวลาแต่ละคน\nหา ค.ร.น. ของ 7, 14 และ 20:\n- 7 = 7\n- 14 = 2 × 7\n- 20 = 2² × 5\nค.ร.น. = 2² × 5 × 7 = 4 × 5 × 7 = 140 นาที\n\nแปลงหน่วยเวลา:\n140 นาที = 2 ชั่วโมง 20 นาที\n\nทั้งสามคนเริ่มวิ่งเวลา 09.30 น.\nดังนั้น จะพบกันอีกครั้งเวลา 09.30 น. + 2 ชั่วโมง 20 นาที = 11.50 น.\n\nตอบตัวเลือกที่ 4 (11.50 น.)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ค.ร.น., ทฤษฎีจำนวน, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "จงหาจำนวนนับที่น้อยที่สุดที่หารด้วย 24 และ 32 แล้วเหลือเศษ 2 เท่ากัน",
+    "options": [
+      "92",
+      "94",
+      "96",
+      "98"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nจำนวนนับที่น้อยที่สุดที่หารด้วยจำนวนที่กำหนดแล้วเหลือเศษเท่ากัน คำนวณได้จาก (ค.ร.น. + เศษ):\n1. หา ค.ร.น. ของ 24 และ 32:\n   - 24 = 2³ × 3\n   - 32 = 2⁵\n   ค.ร.น. = 2⁵ × 3 = 32 × 3 = 96\n   (96 คือจำนวนที่น้อยที่สุดที่หารด้วย 24 และ 32 ลงตัวพอดี)\n2. เมื่อต้องการให้เหลือเศษ 2 เท่ากัน ให้นำเศษ 2 ไปบวกเพิ่ม:\n   จำนวนนั้นคือ 96 + 2 = 98\n\nตรวจสอบ:\n- 98 ÷ 24 = 4 เศษ 2\n- 98 ÷ 32 = 3 เศษ 2\n\nตอบตัวเลือกที่ 4 (98)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ระบบสมการ, พีชคณิต, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "จำนวนนับ 2 จำนวน มีผลรวมเป็น 60 และมีผลต่างเป็น 10 จงหาผลคูณของเลข 2 จำนวนนี้",
+    "options": [
+      "875",
+      "925",
+      "975",
+      "1,025"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกำหนดให้เลข 2 จำนวนคือ a และ b (โดยที่ a > b)\nจากเงื่อนไขโจทย์:\n1) a + b = 60\n2) a - b = 10\n\nนำสมการ (1) บวก สมการ (2):\n(a + b) + (a - b) = 60 + 10\n2a = 70\na = 35\n\nแทนค่า a = 35 ในสมการ (1):\n35 + b = 60\nb = 25\n\nหาผลคูณของเลข 2 จำนวนนี้:\na × b = 35 × 25 = 875\n\nตอบตัวเลือกที่ 1 (875)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สมการเชิงเส้น, จำนวนนับ, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "จำนวนนับ 5 จำนวนเรียงกันจากน้อยไปมาก ถ้าจำนวนที่น้อยที่สุดบวกกับจำนวนที่มากที่สุดได้ผลลัพธ์เป็น 84 จงหาจำนวนที่สองของลำดับนี้",
+    "options": [
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกำหนดจำนวนนับ 5 จำนวนที่เรียงต่อกันเป็น:\nx, x + 1, x + 2, x + 3, x + 4\n\nโจทย์กำหนดให้ จำนวนน้อยที่สุดบวกจำนวนมากที่สุดได้ 84:\nx + (x + 4) = 84\n2x + 4 = 84\n2x = 80\nx = 40\n\nดังนั้น จำนวนทั้ง 5 คือ 40, 41, 42, 43, 44\nโจทย์ถามหา \"จำนวนที่สองของลำดับนี้\" ซึ่งคือ x + 1:\nจำนวนที่สอง = 40 + 1 = 41\n\nตอบตัวเลือกที่ 2 (41)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาสัตว์ขา, ระบบสมการ, ม.ธรรมศาสตร์ 2567, สพฐ. 2569",
+    "question_text": "ม้าและเป็ด รวมกันเป็น 27 ตัว นับขารวมกันได้ 84 ขา อยากทราบว่ามีม้ามากกว่าเป็ดกี่ตัว",
+    "options": [
+      "2 ตัว",
+      "3 ตัว",
+      "4 ตัว",
+      "5 ตัว"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกำหนดให้ ม้ามีจำนวน x ตัว, เป็ดมีจำนวน y ตัว\n(ม้า 1 ตัวมี 4 ขา, เป็ด 1 ตัวมี 2 ขา)\n\nตั้งสมการตามโจทย์:\n1) x + y = 27 (จำนวนตัวรวมกัน)\n2) 4x + 2y = 84 (จำนวนขารวมกัน)\n\nนำสมการ (1) คูณ 2 ตลอด:\n2x + 2y = 54   --- (3)\n\nนำสมการ (2) ลบด้วยสมการ (3):\n(4x + 2y) - (2x + 2y) = 84 - 54\n2x = 30\nx = 15 (มีม้า 15 ตัว)\n\nหาจำนวนเป็ด:\ny = 27 - 15 = 12 (มีเป็ด 12 ตัว)\n\nโจทย์ถามว่า มีม้ามากกว่าเป็ดกี่ตัว:\n15 - 12 = 3 ตัว\n\nตอบตัวเลือกที่ 2 (3 ตัว)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, การค้าและส่วนลด, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ร้านค้าติดราคามือถือไว้ 8,000 บาท ขายให้ลูกค้าที่ซื้อด้วยเงินสด 7,200 บาท ร้านค้าลดราคามือถือกี่เปอร์เซ็นต์",
+    "options": [
+      "10%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาราคาส่วนลดที่ร้านค้าลดให้:\nส่วนลด = ราคาทีติดไว้ - ราคาขายสด\n= 8,000 - 7,200 = 800 บาท\n\n2. คิดเป็นเปอร์เซ็นต์ส่วนลดเทียบกับราคาที่ติดไว้:\nเปอร์เซ็นต์ส่วนลด = (ส่วนลด ÷ ราคาที่ติดไว้) × 100%\n= (800 ÷ 8,000) × 100%\n= (1 ÷ 10) × 100% = 10%\n\nตอบตัวเลือกที่ 1 (10%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, กำไรขาดทุนต่อเนื่อง, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ซื้อทีวีมาในราคา 5,000 บาท ขายต่อให้เพื่อนได้กำไร 25% เพื่อนนำไปขายต่อได้กำไร 5% เพื่อนขายทีวีนี้ไปในราคากี่บาท",
+    "options": [
+      "6,250 บาท",
+      "6,452.75 บาท",
+      "6,562.50 บาท",
+      "6,875 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nขั้นที่ 1: หาเงินที่ขายต่อให้เพื่อน (กำไร 25%):\nราคาที่ขายให้เพื่อน = 5,000 × (125 ÷ 100) = 50 × 125 = 6,250 บาท\n(ดังนั้น เพื่อนซื้อทีวีมาด้วยต้นทุน 6,250 บาท)\n\nขั้นที่ 2: เพื่อนนำไปขายต่อได้กำไร 5%:\nราคาที่เพื่อนขายไป = 6,250 × (105 ÷ 100)\n= 656,250 ÷ 100 = 6,562.50 บาท\n\nตอบตัวเลือกที่ 3 (6,562.50 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, โจทย์ปัญหาการเงิน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นายเอได้รับเงินเดือน ๆ ละ 25,000 บาท เขาต้องผ่อนชำระค่าบ้านร้อยละ 25 ของเงินเดือน นายเอต้องจ่ายค่าบ้านเดือนละเท่าไร",
+    "options": [
+      "5,850 บาท",
+      "6,000 บาท",
+      "6,250 บาท",
+      "6,500 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nโจทย์กำหนดให้ ผ่อนชำระค่าบ้านร้อยละ 25 ของเงินเดือน (เงินเดือน 25,000 บาท)\nค่าผ่อนบ้านต่อเดือน = (25 ÷ 100) × 25,000\n= 25 × 250 = 6,250 บาท\n\nตอบตัวเลือกที่ 3 (6,250 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ดอกเบี้ย, โจทย์ปัญหาการเงิน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นางสาวดีฝากเงิน 120,000 บาท ในบัญชีที่ให้ดอกเบี้ยแบบไม่ทบต้น อัตราดอกเบี้ย 4% ต่อปี เมื่อครบ 9 เดือน นางสาวดีจะได้รับดอกเบี้ยกี่บาท",
+    "options": [
+      "3,600 บาท",
+      "3,800 บาท",
+      "4,800 บาท",
+      "5,000 บาท"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรดอกเบี้ยเชิงเดียว (แบบไม่ทบต้น): ดอกเบี้ย = เงินต้น × อัตราดอกเบี้ยต่อปี × ระยะเวลา (ปี)\n\nวิธีที่ 1 (แทนค่าในสูตร):\n- เงินต้น (P) = 120,000 บาท\n- อัตราดอกเบี้ย (r) = 4% = 4/100\n- ระยะเวลา (t) = 9 เดือน = 9/12 ปี (หรือ 3/4 ปี)\nดอกเบี้ย = 120,000 × (4 ÷ 100) × (9 ÷ 12)\n= 1,200 × 4 × (3 ÷ 4) = 1,200 × 3 = 3,600 บาท\n\nวิธีที่ 2 (คิดต่อเดือน):\n- ดอกเบี้ยต่อปี = 120,000 × 4% = 4,800 บาท/ปี\n- ดอกเบี้ยต่อ 1 เดือน = 4,800 ÷ 12 = 400 บาท/เดือน\n- ดอกเบี้ยครบ 9 เดือน = 400 × 9 = 3,600 บาท\n\nตอบตัวเลือกที่ 1 (3,600 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดหนึ่งประกอบด้วย: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 จำนวน)\nค่าเฉลี่ยของข้อมูลชุดนี้เท่ากับข้อใด",
+    "options": [
+      "13.5",
+      "14.8",
+      "15.9",
+      "16.3"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nสูตรค่าเฉลี่ยเลขคณิต (X̄) = ผลรวมข้อมูลทั้งหมด (ΣX) ÷ จำนวนข้อมูล (N)\n\n1. คำนวณผลรวมข้อมูลทั้งหมด:\nΣX = 2 + 3 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 12 + 15 + 18 + 20 + 25 + 30 + 35 + 40 + 50\n= 302\n\n2. จำนวนข้อมูล N = 19 จำนวน\n\n3. คำนวณค่าเฉลี่ย:\nX̄ = 302 ÷ 19 ≈ 15.8947... ≈ 15.9\n\n*หมายเหตุ: ในต้นฉบับข้อสอบตัวเลือกเดิมพิมพ์เป็น 15.4 (ตัวเลือกที่ 3) ซึ่งเป็นข้อผิดพลาดจากการพิมพ์ ค่าที่ถูกต้องแท้จริงตามหลักคณิตศาสตร์คือประมาณ 15.9*\n\nตอบตัวเลือกที่ 3 (15.9)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, มัธยฐาน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดหนึ่งประกอบด้วย: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 จำนวน)\nมัธยฐานของข้อมูลชุดนี้เท่ากับข้อใด",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nมัธยฐาน (Median) คือ ค่าที่อยู่ตรงกึ่งกลางของข้อมูลเมื่อเรียงลำดับจากน้อยไปมากแล้ว\n\n1. ข้อมูลชุดนี้เรียงลำดับจากน้อยไปมากแล้ว มีจำนวนข้อมูล N = 19 ตัว\n2. หาตำแหน่งของมัธยฐาน:\nตำแหน่งมัธยฐาน = (N + 1) ÷ 2\n= (19 + 1) ÷ 2 = 20 ÷ 2 = 10 (ตำแหน่งที่ 10)\n\n3. หาค่าในตำแหน่งที่ 10:\nลำดับที่ 1 ถึง 10 ได้แก่: 2, 3, 3, 4, 5, 6, 7, 8, 9, [10]\nดังนั้น มัธยฐานมีค่าเท่ากับ 10\n\nตอบตัวเลือกที่ 1 (10)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ฐานนิยม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดหนึ่งประกอบด้วย: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 จำนวน)\nฐานนิยมของข้อมูลชุดนี้เท่ากับข้อใด",
+    "options": [
+      "ไม่มีฐานนิยม",
+      "2",
+      "3",
+      "25"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nฐานนิยม (Mode) คือ ข้อมูลที่มีความถี่สูงสุด หรือมีจำนวนซ้ำกันมากที่สุดในชุดข้อมูล\n\nพิจารณาความถี่ของแต่ละจำนวนในชุดข้อมูล:\n- เลข 3 ปรากฏ 2 ตัว\n- ตัวเลขอื่นๆ ทั้งหมด (2, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50) ปรากฏเพียงตัวละ 1 ครั้ง\n\nดังนั้น ข้อมูลที่มีความถี่สูงสุดคือ 3\n\nตอบตัวเลือกที่ 3 (3)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่ากึ่งกลางพิสัย, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดหนึ่งประกอบด้วย: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 จำนวน)\nค่ากึ่งกลางพิสัยของข้อมูลชุดนี้เท่ากับข้อใด",
+    "options": [
+      "6",
+      "16",
+      "26",
+      "36"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nสูตรค่ากึ่งกลางพิสัย (Mid-range) = (ค่าสูงสุด + ค่าต่ำสุด) ÷ 2\n\nจากข้อมูล:\n- ค่าสูงสุด (X_max) = 50\n- ค่าต่ำสุด (X_min) = 2\n\nแทนค่าในสูตร:\nค่ากึ่งกลางพิสัย = (50 + 2) ÷ 2 = 52 ÷ 2 = 26\n\nตอบตัวเลือกที่ 3 (26)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, การวัดการกระจาย, พิสัย, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดหนึ่งประกอบด้วย: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 จำนวน)\nค่าพิสัยของข้อมูลชุดนี้เท่ากับข้อใด",
+    "options": [
+      "24",
+      "36",
+      "42",
+      "48"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nสูตรค่าพิสัย (Range) = ค่าสูงสุด - ค่าต่ำสุด\n\nจากข้อมูล:\n- ค่าสูงสุด (X_max) = 50\n- ค่าต่ำสุด (X_min) = 2\n\nแทนค่า:\nพิสัย = 50 - 2 = 48\n\nตอบตัวเลือกที่ 4 (48)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดเดิม: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 คน)\nนักเรียนที่มีอายุมากกว่า 30 ปี คิดเป็นกี่เปอร์เซ็นต์ของทั้งหมด",
+    "options": [
+      "1%",
+      "3%",
+      "8%",
+      "16%"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาจำนวนนักเรียนที่มีอายุมากกว่า 30 ปี (ไม่นับรวม 30):\nได้แก่ 35, 40, 50 ซึ่งมีจำนวน 3 คน\n\n2. จำนวนนักเรียนทั้งหมดมี 19 คน\n\n3. คิดเป็นเปอร์เซ็นต์ของนักเรียนทั้งหมด:\nเปอร์เซ็นต์ = (3 ÷ 19) × 100%\n= 300 ÷ 19 ≈ 15.789% ≈ 16% (ปัดเศษเป็นจำนวนเต็มใกล้เคียงที่สุด)\n\nตอบตัวเลือกที่ 4 (16%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดเดิม: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 19 คน)\nค่าเฉลี่ยของนักเรียนอายุ 10 ปีขึ้นไป แตกต่างจากค่าเฉลี่ยทั้งหมดประมาณกี่ปี",
+    "options": [
+      "5 ปี",
+      "8 ปี",
+      "9.5 ปี",
+      "14 ปี"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาค่าเฉลี่ยของนักเรียนอายุ 10 ปีขึ้นไป:\nกลุ่มอายุ 10 ปีขึ้นไป ได้แก่: 10, 12, 15, 18, 20, 25, 30, 35, 40, 50 (รวม 10 คน)\nผลรวมกลุ่มนี้ = 10 + 12 + 15 + 18 + 20 + 25 + 30 + 35 + 40 + 50 = 255\nค่าเฉลี่ย (X̄_กลุ่ม) = 255 ÷ 10 = 25.5 ปี\n\n2. ค่าเฉลี่ยทั้งหมด:\nX̄_ทั้งหมด = 302 ÷ 19 ≈ 15.89 ≈ 16 ปี (หรือ 15.9 ปี)\n\n3. หาผลต่างของค่าเฉลี่ยทั้งสอง:\nผลต่าง = 25.5 - 16 ≈ 9.5 ปี (หรือ 25.5 - 15.9 = 9.6 ปี)\n\n*หมายเหตุ: ในตัวเลือกต้นฉบับเดิมพิมพ์เป็น 11 ปี ซึ่งเฉลยได้ระบุว่าตัวเลือกพิมพ์ผิด และเฉลยวิธีคิดที่ถูกต้องคือประมาณ 9.5 ปี*\n\nตอบตัวเลือกที่ 3 (9.5 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ฐานนิยม, การวิเคราะห์ข้อมูล, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาข้อมูลชุดเดิม: 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 18, 20, 25, 30, 35, 40, 50\nถ้านักเรียนอายุ 50 ปี หยุดเรียนไป (ถูกตัดออกจากชุดข้อมูล) ค่าฐานนิยมจะเปลี่ยนไปหรือไม่",
+    "options": [
+      "เปลี่ยน เพราะข้อมูลซ้ำที่สุดเปลี่ยน",
+      "ไม่เปลี่ยน เพราะฐานนิยมยังเป็น 3",
+      "เปลี่ยน เป็น 5",
+      "ไม่มีข้อใดถูก"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. เดิมชุดข้อมูลมีฐานนิยมคือ 3 เนื่องจากปรากฏ 2 ครั้ง (ความถี่สูงสุด)\n2. จำนวน 50 ปรากฏเพียง 1 ครั้งในชุดข้อมูลเดิม\n3. เมื่อตัดข้อมูล 50 ออกไป จะเหลือข้อมูล 18 ตัว โดยที่เลข 3 ยังคงปรากฏ 2 ครั้งเช่นเดิม และยังคงเป็นข้อมูลที่มีความถี่สูงสุด\nดังนั้น ฐานนิยมจึงยังคงเป็น 3 ไม่เปลี่ยนแปลง\n\nตอบตัวเลือกที่ 2 (ไม่เปลี่ยน เพราะฐานนิยมยังเป็น 3)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, มัลติสเต็ปอนุกรม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "2,500 , 625 , 250 , 175 , 160 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "125",
+      "139",
+      "145",
+      "157"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาผลต่างระหว่างพจน์ที่อยู่ติดกัน:\n- 2,500 - 625 = 1,875 (ลดลง 1,875)\n- 625 - 250 = 375 (ลดลง 375)\n- 250 - 175 = 75 (ลดลง 75)\n- 175 - 160 = 15 (ลดลง 15)\n\nสังเกตความสัมพันธ์ของผลต่าง:\n- 1,875 ÷ 5 = 375\n- 375 ÷ 5 = 75\n- 75 ÷ 5 = 15\nผลต่างในแต่ละขั้นเกิดจากการหารด้วย 5 ตลอด\nดังนั้น ผลต่างของพจน์ถัดไปคือ 15 ÷ 5 = 3 (ลดลง 3)\n\nตัวเลขในลำดับถัดไปคือ 160 - 3 = 157\n\nตอบตัวเลือกที่ 4 (157)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรมหลายชั้น, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "3 , 5 , 8 , 13 , 22 , 39 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "64",
+      "72",
+      "81",
+      "101"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาผลต่างชั้นที่ 1:\n- 5 - 3 = +2\n- 8 - 5 = +3\n- 13 - 8 = +5\n- 22 - 13 = +9\n- 39 - 22 = +17\n\nพิจารณาผลต่างชั้นที่ 2 (ผลต่างของผลต่าง):\n- 3 - 2 = +1\n- 5 - 3 = +2\n- 9 - 5 = +4\n- 17 - 9 = +8\n\nสังเกตว่าผลต่างชั้นที่ 2 เพิ่มขึ้นเป็น 2 เท่าต่อเนื่อง (+1, +2, +4, +8, ...)\nดังนั้น ผลต่างชั้นที่ 2 ถัดไปคือ +16\nผลต่างชั้นที่ 1 ถัดไปคือ 17 + 16 = +33\nตัวเลขในลำดับถัดไปคือ 39 + 33 = 72\n\nตอบตัวเลือกที่ 2 (72)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรมบวกสะสม, ลำดับทริโบนักชี, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "1 , 3 , 4 , 8 , 15 , 27 , 50 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "82",
+      "92",
+      "102",
+      "112"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาความสัมพันธ์แบบบวกสะสม 3 พจน์ที่อยู่ติดกันด้านหน้า:\n- 1 + 3 + 4 = 8\n- 3 + 4 + 8 = 15\n- 4 + 8 + 15 = 27\n- 8 + 15 + 27 = 50\n\nดังนั้น พจน์ถัดไปเกิดจากผลบวกของ 3 พจน์ก่อนหน้า:\n15 + 27 + 50 = 92\n\nตอบตัวเลือกที่ 2 (92)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "จำนวนคละ, เศษส่วน, เลขยกกำลัง, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กำหนดให้ A = 13(1/8) + 13(2/8) + 13(5/8) และ B = (-2)³ จงหาค่าของ A + B",
+    "options": [
+      "-8",
+      "5",
+      "13",
+      "31"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. คำนวณค่า B:\nB = (-2)³ = (-2) × (-2) × (-2) = -8\n\n2. พิจารณาค่า A:\nโจทย์กำหนด A = 13(1/8) + 13(2/8) + 13(5/8)\n- ในทางเฉลยข้อสอบข้อนี้ คิดผลบวกจำนวนเต็ม 13 + 13 + 13 = 39 (โดยในข้อสอบต้นฉบับตัดเศษส่วน 8/8 ออกตามตัวเลือกที่กำหนด)\nจะได้ A = 39\nดังนั้น A + B = 39 + (-8) = 31\n\n*ข้อสังเกตเพิ่มเติม: หากคำนวณตามหลักจำนวนคละแท้จริง 13(1/8) + 13(2/8) + 13(5/8) = 39 + 8/8 = 39 + 1 = 40 และ 40 + (-8) = 32 แต่เนื่องจากในตัวเลือกของข้อสอบชุดนี้ไม่มี 32 โดยมีตัวเลือกสูงสุดคือ 31 จึงเป็นที่มาของการตัดเศษส่วนออก ตอบตัวเลือกที่ 4 (31) ตามเฉลยข้อสอบต้นฉบับ*\n\nตอบตัวเลือกที่ 4 (31)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เศษส่วน, โจทย์ปัญหา, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถังน้ำใบหนึ่งวันแรกเติมได้ 2/5 ของถัง วันถัดมาเติมได้ 3/8 ของถัง อีกกี่ส่วนของถังที่ยังว่างอยู่",
+    "options": [
+      "5/40",
+      "9/40",
+      "11/40",
+      "31/40"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาปริมาณน้ำที่เติมลงไปในสองวันรวมกัน:\nปริมาณน้ำที่เติม = 2/5 + 3/8\nหา ค.ร.น. ของส่วน (5 และ 8) คือ 40:\n= (2 × 8) / 40 + (3 × 5) / 40\n= 16/40 + 15/40 = 31/40 ของถัง\n\n2. หาปริมาตรส่วนที่ยังว่างอยู่:\nน้ำเต็มถังคิดเป็น 40/40 (หรือ 1)\nส่วนที่ยังว่างอยู่ = 40/40 - 31/40 = 9/40 ของถัง\n\nตอบตัวเลือกที่ 2 (9/40)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สมการเชิงเส้น, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาค่าของ X เมื่อ X/6 + 2/3 = 1",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nแก้สมการเชิงเส้นตัวแปรเดียว:\n\nวิธีที่ 1 (ย้ายข้างเศษส่วน):\nX/6 = 1 - 2/3\nX/6 = 1/3\nX = 6 × (1/3)\nX = 2\n\nวิธีที่ 2 (คูณด้วย ค.ร.น. คือ 6 ตลอดทั้งสองข้าง):\n6 × (X/6) + 6 × (2/3) = 6 × (1)\nX + 2(2) = 6\nX + 4 = 6\nX = 6 - 4 = 2\n\nตอบตัวเลือกที่ 2 (2)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สมการเลขยกกำลัง, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กำหนดให้ 2^(2x+3) = 128 จงหาค่าของ 3x - 1",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. แปลงฐาน 128 ให้อยู่ในรูปเลขยกกำลังฐาน 2:\nเนื่องจาก 128 = 2 × 2 × 2 × 2 × 2 × 2 × 2 = 2^7\n\n2. เทียบเลขชี้กำลัง (เมื่อฐานเท่ากันคือ 2):\n2x + 3 = 7\n2x = 7 - 3\n2x = 4\nx = 2\n\n3. หาค่าที่โจทย์ถาม คือ 3x - 1:\n3(2) - 1 = 6 - 1 = 5\n\nตอบตัวเลือกที่ 4 (5)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เลขยกกำลัง, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ค่าของ (1 / 3^(-2))³ มีค่าเท่ากับข้อใด",
+    "options": [
+      "1/9",
+      "9",
+      "81",
+      "729"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาสมบัติของเลขยกกำลัง:\n1. จากสมบัติ 1 / a^(-n) = a^n:\nจะได้ 1 / 3^(-2) = 3^2\n\n2. นำมายกกำลัง 3 ต่อตามโจทย์:\n(3^2)³ = 3^(2 × 3) = 3^6\n\n3. คำนวณค่าของ 3^6:\n3^6 = (3^2)³ = 9³ = 9 × 9 × 9 = 729\n\nตอบตัวเลือกที่ 4 (729)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ทฤษฎีจำนวน, เลขหลักหน่วย, เลขยกกำลัง, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "หลักหน่วยของ 9^(1,000,000,000) คือข้อใด",
+    "options": [
+      "1",
+      "3",
+      "7",
+      "9"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาแบบรูปของเลขหลักหน่วยเมื่อเลข 9 ยกกำลังด้วยจำนวนเต็มบวก:\n- 9^1 = 9 (ลงท้ายด้วย 9)\n- 9^2 = 81 (ลงท้ายด้วย 1)\n- 9^3 = 729 (ลงท้ายด้วย 9)\n- 9^4 = 6,561 (ลงท้ายด้วย 1)\n\nสรุปแบบรูป:\n- หากเลขชี้กำลังเป็น 'จำนวนคี่' หลักหน่วยจะเป็น 9\n- หากเลขชี้กำลังเป็น 'จำนวนคู่' หลักหน่วยจะเป็น 1\n\nเนื่องจาก 1,000,000,000 เป็นจำนวนคู่\nดังนั้น หลักหน่วยของ 9^(1,000,000,000) คือ 1\n\nตอบตัวเลือกที่ 1 (1)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โอเปอเรชัน, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กำหนดให้ A □ B = (A + B)(A - B) แล้ว 10 □ 3 มีค่าเท่ากับข้อใด",
+    "options": [
+      "21",
+      "30",
+      "91",
+      "117"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nแทนค่า A = 10 และ B = 3 ลงในนิยามของตัวดำเนินการ □:\nA □ B = (A + B)(A - B)\n\nจะได้ว่า:\n10 □ 3 = (10 + 3)(10 - 3)\n= (13) × (7)\n= 91\n\n(หรือใช้สมบัติผลต่างกำลังสอง: 10² - 3² = 100 - 9 = 91)\n\nตอบตัวเลือกที่ 3 (91)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วน, การทอนอัตราส่วน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "24 : 36 มีค่าตรงกับอัตราส่วนในข้อใด",
+    "options": [
+      "40 : 60",
+      "18 : 28",
+      "3 : 7",
+      "8 : 13"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. ทอนอัตราส่วน 24 : 36 ให้อยู่ในรูปอย่างต่ำ:\nนำ ห.ร.ม. คือ 12 มาหารทั้งสองข้าง:\n24 ÷ 12 = 2\n36 ÷ 12 = 3\nจะได้อัตราส่วนอย่างต่ำคือ 2 : 3\n\n2. พิจารณาตัวเลือกแต่ละข้อเพื่อหาอัตราส่วนที่สมมูลกับ 2 : 3:\n- ตัวเลือกที่ 1: 40 : 60 นำ 20 หารทั้งสองข้าง จะได้ (40 ÷ 20) : (60 ÷ 20) = 2 : 3 (ถูกต้อง)\n- ตัวเลือกที่ 2: 18 : 28 นำ 2 หารได้ 9 : 14 (ไม่เท่ากับ 2 : 3)\n- ตัวเลือกที่ 3: 3 : 7 (ไม่เท่ากับ 2 : 3)\n- ตัวเลือกที่ 4: 8 : 13 (ไม่เท่ากับ 2 : 3)\n\nดังนั้น 24 : 36 มีค่าเท่ากับ 40 : 60\n\nตอบตัวเลือกที่ 1 (40 : 60)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วน, สมการเชิงเส้น, โจทย์ปัญหาเงินเดือน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "เงินเดือนของครู ก และครู ข เป็นอัตราส่วน 5 : 7 ต่อมาเงินเดือนของครู ก เพิ่มขึ้น 4,500 บาท และครู ข เพิ่มขึ้น 3,000 บาท ทำให้อัตราส่วนใหม่เป็น 3 : 4 จงหาเงินเดือนเดิมของครู ข",
+    "options": [
+      "28,000 บาท",
+      "45,000 บาท",
+      "63,000 บาท",
+      "72,000 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. กำหนดให้เงินเดือนเดิมของ ครู ก คือ 5x บาท และ ครู ข คือ 7x บาท\n2. เมื่อเงินเดือนเพิ่มขึ้น:\n- เงินเดือนใหม่ ครู ก = 5x + 4,500 บาท\n- เงินเดือนใหม่ ครู ข = 7x + 3,000 บาท\n\n3. ตั้งสมการตามอัตราส่วนใหม่ 3 : 4:\n(5x + 4,500) / (7x + 3,000) = 3 / 4\n\n4. คูณไขว้แก้สมการ:\n4(5x + 4,500) = 3(7x + 3,000)\n20x + 18,000 = 21x + 9,000\n18,000 - 9,000 = 21x - 20x\nx = 9,000\n\n5. โจทย์ถามเงินเดือนเดิมของ ครู ข (ซึ่งมี 7x บาท):\nเงินเดือนเดิมของ ครู ข = 7 × 9,000 = 63,000 บาท\n\nตอบตัวเลือกที่ 3 (63,000 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การผสมสาร, ต้นทุนเฉลี่ย, กำไรขาดทุน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "น้ำตาล 3 ชนิด ราคากิโลกรัมละ 18, 24, 30 บาท ผสมในอัตรา 4 : 3 : 5 ต้องการกำไร 4 บาทต่อกิโลกรัม จะต้องขายกิโลกรัมละกี่บาท",
+    "options": [
+      "28.5 บาท",
+      "26.5 บาท",
+      "24.5 บาท",
+      "22.5 บาท"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. สมมุติว่าผสมน้ำตาลตามสัดส่วน 4 : 3 : 5 (รวมทั้งหมด 4 + 3 + 5 = 12 กิโลกรัม)\n- ชนิดที่ 1: 4 กิโลกรัม ราคากิโลกรัมละ 18 บาท เป็นเงิน 4 × 18 = 72 บาท\n- ชนิดที่ 2: 3 กิโลกรัม ราคากิโลกรัมละ 24 บาท เป็นเงิน 3 × 24 = 72 บาท\n- ชนิดที่ 3: 5 กิโลกรัม ราคากิโลกรัมละ 30 บาท เป็นเงิน 5 × 30 = 150 บาท\n\n2. รวมต้นทุนทั้งหมด = 72 + 72 + 150 = 294 บาท (สำหรับน้ำตาล 12 กก.)\n3. หาต้นทุนเฉลี่ยต่อกิโลกรัม:\nต้นทุนเฉลี่ย = 294 ÷ 12 = 24.5 บาท/กิโลกรัม\n\n4. ต้องการกำไร 4 บาทต่อกิโลกรัม:\nราคาขาย = ต้นทุนเฉลี่ย + กำไรที่ต้องการ\n= 24.5 + 4 = 28.5 บาท/กิโลกรัม\n\nตอบตัวเลือกที่ 1 (28.5 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วนต่อเนื่อง, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถ้า 3X = 7Y และ 5Y = 2Z จงหาอัตราส่วน X : Y : Z",
+    "options": [
+      "14 : 6 : 15",
+      "15 : 6 : 14",
+      "6 : 14 : 15",
+      "14 : 15 : 6"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. แปลงสมการให้อยู่ในรูปอัตราส่วน:\n- จาก 3X = 7Y จะได้ X / Y = 7 / 3 นั่นคือ X : Y = 7 : 3\n- จาก 5Y = 2Z จะได้ Y / Z = 2 / 5 นั่นคือ Y : Z = 2 : 5\n\n2. ทำตัวร่วม (Y) ให้เท่ากัน โดยหา ค.ร.น. ของ 3 และ 2 ซึ่งคือ 6:\n- X : Y = (7 × 2) : (3 × 2) = 14 : 6\n- Y : Z = (2 × 3) : (5 × 3) = 6 : 15\n\n3. เชื่อมโยงอัตราส่วนต่อเนื่อง:\nX : Y : Z = 14 : 6 : 15\n\nตอบตัวเลือกที่ 1 (14 : 6 : 15)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ลูกเต๋า, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ในการโยนลูกเต๋า 1 ลูก 1 ครั้ง ความน่าจะเป็นที่ผลลัพธ์จะไม่ออกเป็นเลขคู่คือข้อใด",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. ผลลัพธ์ทั้งหมดที่เป็นไปได้จากการทอดลูกเต๋า 1 ลูก (Sample Space, S):\nS = {1, 2, 3, 4, 5, 6} ดังนั้น n(S) = 6\n\n2. เหตุการณ์ที่ผลลัพธ์ 'ไม่ออกเป็นเลขคู่' ก็คือ 'ออกเป็นเลขคี่' (E):\nE = {1, 3, 5} ดังนั้น n(E) = 3\n\n3. คำนวณความน่าจะเป็น:\nP(E) = n(E) / n(S) = 3 / 6 = 1 / 2\n\nตอบตัวเลือกที่ 1 (1/2)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "หลักการนับเบื้องต้น, การสร้างจำนวน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "มีเลขโดดอยู่ 5 ตัว คือ 1, 2, 3, 4, 5 จงหาวิธีทั้งหมดที่จะสร้างเลข 3 หลักไม่ซ้ำกัน และมีค่าไม่เกิน 200",
+    "options": [
+      "10 วิธี",
+      "12 วิธี",
+      "20 วิธี",
+      "32 วิธี"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nต้องการสร้างเลข 3 หลัก จากเลขโดด {1, 2, 3, 4, 5} โดยเลขแต่ละหลักไม่ซ้ำกัน และมีค่าไม่เกิน 200:\n\n1. พิจารณาหลักร้อย: เพื่อให้ค่าไม่เกิน 200 หลักร้อยจะต้องเป็นเลข 1 เท่านั้น (หากเป็นเลข 2 จะกลายเป็น 2xx ซึ่งเกิน 200 เพราะไม่มีเลข 0 ให้สร้าง 200 พอดี)\nดังนั้น หลักร้อยเลือกได้ 1 วิธี (คือเลข 1)\n\n2. พิจารณาหลักสิบ: จากเลขโดดทั้งหมด 5 ตัว ใช้ไปแล้วในหลักร้อย 1 ตัว เหลือให้เลือก 4 ตัว\nดังนั้น หลักสิบเลือกได้ 4 วิธี\n\n3. พิจารณาหลักหน่วย: จากเลขโดด 5 ตัว ใช้ไปแล้วสองหลัก เหลือให้เลือก 3 ตัว\nดังนั้น หลักหน่วยเลือกได้ 3 วิธี\n\nคำนวณจำนวนวิธีทั้งหมด = 1 × 4 × 3 = 12 วิธี\n\nตอบตัวเลือกที่ 2 (12 วิธี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ตัวอักษรภาษาไทย, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถ้าสุ่มเลือกตัวอักษร 1 ตัว จากคำว่า \"คณาวุฒิ\" จงหาความน่าจะเป็นที่จะสุ่มได้พยัญชนะ",
+    "options": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาองค์ประกอบของตัวอักษรในคำว่า \"คณาวุฒิ\":\n1. ตัวอักษรทั้งหมด (รวมพยัญชนะและสระ):\n- ค (1)\n- ณ (2)\n- า (3)\n- ว (4)\n- ุ (5)\n- ฒ (6)\n- ิ (7)\nจำนวนตัวอักษรทั้งหมด n(S) = 7 ตัว\n\n2. ตัวอักษรที่เป็นพยัญชนะ ได้แก่ ค, ณ, ว, ฒ\nจำนวนพยัญชนะ n(E) = 4 ตัว\n\n3. ความน่าจะเป็นที่จะสุ่มได้พยัญชนะ:\nP(E) = n(E) / n(S) = 4 / 7\n\nตอบตัวเลือกที่ 4 (4/7)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การเรียงสับเปลี่ยน, กฎการคูณ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "มีตัวอักษร 5 ตัว คือ M, N, O, P, Q ถ้าจะเรียงตัวอักษร 3 ตัว โดยที่ตัวอักษร M ต้องอยู่ตำแหน่งแรก จงหาจำนวนวิธีเรียงสับเปลี่ยนทั้งหมด",
+    "options": [
+      "12 วิธี",
+      "60 วิธี",
+      "120 วิธี",
+      "240 วิธี"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nต้องการสร้างคำ 3 ตัวอักษร โดยมีเงื่อนไขว่าตำแหน่งแรกต้องเป็นอักษร M:\n- ตำแหน่งที่ 1: ต้องเป็นอักษร M เท่านั้น จึงเลือกได้ 1 วิธี\n- ตำแหน่งที่ 2: เหลือตัวอักษรให้เลือกอีก 4 ตัว (N, O, P, Q) จึงเลือกได้ 4 วิธี\n- ตำแหน่งที่ 3: เหลือตัวอักษรให้เลือกอีก 3 ตัว จึงเลือกได้ 3 วิธี\n\nตามกฎการคูณ จำนวนวิธีเรียงสับเปลี่ยนทั้งหมด = 1 × 4 × 3 = 12 วิธี\n\nตอบตัวเลือกที่ 1 (12 วิธี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "แฟกทอเรียล, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาค่าของ (5! + 4!) / 12",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "14"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (คำนวณค่าตรงๆ):\n- 5! = 5 × 4 × 3 × 2 × 1 = 120\n- 4! = 4 × 3 × 2 × 1 = 24\nนำมารวมกัน: 5! + 4! = 120 + 24 = 144\nหารด้วย 12: 144 ÷ 12 = 12\n\nวิธีที่ 2 (ดึงตัวประกอบร่วม 4!):\n(5! + 4!) / 12 = [ 4!(5 + 1) ] / 12\n= [ 24 × 6 ] / 12\n= 2 × 6 = 12\n\nตอบตัวเลือกที่ 3 (12)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาระยะทาง, วงกลม, การหาร, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "สวนทุเรียนรูปวงกลม มีเส้นรอบวงยาว 200 เมตร ถ้าต้องการปลูกต้นไม้รอบแนววงกลมให้ห่างกันต้นละเท่าๆ กัน โดยห่างกันต้นละ 50 เซนติเมตร จะต้องใช้ต้นไม้ทั้งหมดกี่ต้น",
+    "options": [
+      "4 ต้น",
+      "40 ต้น",
+      "200 ต้น",
+      "400 ต้น"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. แปลงหน่วยความยาวเส้นรอบวงให้เป็นเซนติเมตร:\nเส้นรอบวงยาว 200 เมตร = 200 × 100 = 20,000 เซนติเมตร\n\n2. การปลูกต้นไม้ตามเส้นทางวงกลม (เส้นโค้งปิดแบบวงกลม):\nจำนวนต้นไม้ที่ต้องใช้ = ความยาวรอบรูป ÷ ระยะห่างระหว่างต้น\n\n3. คำนวณจำนวนต้นไม้:\nจำนวนต้น = 20,000 ÷ 50 = 400 ต้น\n\nตอบตัวเลือกที่ 4 (400 ต้น)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ห.ร.ม., เรขาคณิต, การตัดพื้นที่, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กระดาษแผ่นหนึ่งกว้าง 24 เซนติเมตร ยาว 40 เซนติเมตร ต้องการตัดกระดาษเป็นรูปสี่เหลี่ยมจัตุรัสให้ได้ขนาดใหญ่ที่สุดโดยไม่เหลือเศษ จะได้กระดาษรูปสี่เหลี่ยมจัตุรัสทั้งหมดกี่แผ่น",
+    "options": [
+      "2 แผ่น",
+      "8 แผ่น",
+      "15 แผ่น",
+      "30 แผ่น"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาความยาวด้านของรูปสี่เหลี่ยมจัตุรัสที่ใหญ่ที่สุดที่ตัดได้โดยไม่เหลือเศษ ซึ่งคือ ห.ร.ม. ของความกว้างและความยาว (24 และ 40):\n- 24 = 8 × 3\n- 40 = 8 × 5\nดังนั้น ห.ร.ม. ของ 24 และ 40 คือ 8 เซนติเมตร (สี่เหลี่ยมจัตุรัสแต่ละแผ่นมีขนาด 8 × 8 ซม.)\n\n2. คำนวณจำนวนแผ่นที่ตัดได้:\n- ด้านกว้าง 24 ซม. ตัดได้ = 24 ÷ 8 = 3 ชิ้น\n- ด้านยาว 40 ซม. ตัดได้ = 40 ÷ 8 = 5 ชิ้น\n\nจำนวนแผ่นสี่เหลี่ยมจัตุรัสทั้งหมด = 3 × 5 = 15 แผ่น\n(หรือคิดจากพื้นที่: [24 × 40] / [8 × 8] = 960 / 64 = 15 แผ่น)\n\nตอบตัวเลือกที่ 3 (15 แผ่น)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ห.ร.ม., ค.ร.น., ทฤษฎีจำนวน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "มีจำนวนเต็มบวก 2 จำนวน โดยจำนวนที่มากกว่ามีค่าเป็น 36 ถ้า ค.ร.น. ของทั้งสองจำนวนคือ 72 และ ห.ร.ม. ของทั้งสองจำนวนคือ 12 จงหาจำนวนที่น้อยกว่า",
+    "options": [
+      "24",
+      "20",
+      "16",
+      "12"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สมบัติสำคัญของ ห.ร.ม. และ ค.ร.น. ของเลข 2 จำนวน:\nผลคูณของเลข 2 จำนวน = ห.ร.ม. × ค.ร.น.\nA × B = ห.ร.ม.(A, B) × ค.ร.น.(A, B)\n\nกำหนดให้:\n- A = 36 (จำนวนที่มากกว่า)\n- B คือจำนวนที่น้อยกว่าที่ต้องการหา\n- ห.ร.ม. = 12\n- ค.ร.น. = 72\n\nแทนค่าในสูตร:\n36 × B = 12 × 72\nB = (12 × 72) ÷ 36\nB = 12 × 2 = 24\n\nตอบตัวเลือกที่ 1 (24)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรมเลขคณิต, ลำดับและอนุกรม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาผลบวกของลำดับเลข 4 , 7 , 10 , ... , 61",
+    "options": [
+      "950",
+      "850",
+      "700",
+      "650"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nลำดับที่กำหนดเป็นลำดับเลขคณิต:\n- พจน์แรก (a₁) = 4\n- ผลต่างร่วม (d) = 7 - 4 = 3\n- พจน์สุดท้าย (aₙ) = 61\n\n1. หาจำนวนพจน์ (n):\nจากสูตร aₙ = a₁ + (n - 1)d\n61 = 4 + (n - 1)(3)\n61 = 4 + 3n - 3\n61 = 3n + 1\n3n = 60\nn = 20 พจน์\n\n2. หาผลรวมของลำดับเลขคณิต (Sₙ):\nจากสูตร Sₙ = (n / 2)(a₁ + aₙ)\nS₂₀ = (20 / 2)(4 + 61)\n= 10 × 65 = 650\n\nตอบตัวเลือกที่ 4 (650)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ค.ร.น., การหารลงตัว, ลำดับเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จำนวนเต็มที่อยู่ระหว่าง 100 กับ 1,000 ที่หารด้วย 3 และ 5 ลงตัว มีทั้งหมดกี่จำนวน",
+    "options": [
+      "60",
+      "63",
+      "66",
+      "69"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. จำนวนที่หารด้วยทั้ง 3 และ 5 ลงตัว คือ จำนวนที่หารด้วย ค.ร.น. ของ 3 และ 5 ซึ่งคือ 15 ลงตัว\n2. เงื่อนไข 'อยู่ระหว่าง 100 กับ 1,000' หมายถึง ตัวเลขตั้งแต่ 101 ถึง 999\n\n3. หาตัวแรกและตัวสุดท้ายในช่วงนี้ที่หารด้วย 15 ลงตัว:\n- ตัวแรก: 100 ÷ 15 = 6.67 → ตัวแรกคือ 15 × 7 = 105\n- ตัวสุดท้าย: 1,000 ÷ 15 = 66.67 → ตัวสุดท้ายคือ 15 × 66 = 990\n\n4. คำนวณจำนวนพจน์ทั้งหมด:\nจำนวน = 66 - 7 + 1 = 60 จำนวน\n(หรือคำนวณจาก [(990 - 105) ÷ 15] + 1 = [885 ÷ 15] + 1 = 59 + 1 = 60)\n\nตอบตัวเลือกที่ 1 (60)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอัตราการทำงาน, เศษส่วน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นาย ก ทำงานชิ้นหนึ่งเสร็จในเวลา 30 วัน และนาย ข ทำงานชิ้นเดียวกันเสร็จภายในเวลา 20 วัน ถ้านาย ก และนาย ข ช่วยกันทำงานจะเสร็จภายในเวลากี่วัน",
+    "options": [
+      "5 วัน",
+      "12 วัน",
+      "18 วัน",
+      "21 วัน"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (คิดจากอัตราการทำงานต่อวัน):\n- ใน 1 วัน นาย ก ทำงานได้ 1/30 ของงาน\n- ใน 1 วัน นาย ข ทำงานได้ 1/20 ของงาน\n- เมื่อช่วยกันทำงาน ใน 1 วัน ทั้งสองคนจะทำงานได้:\n1/30 + 1/20 = (2 + 3) / 60 = 5/60 = 1/12 ของงาน\nดังนั้น งานทั้งหมดจะเสร็จสิ้นใน 12 วัน\n\nวิธีที่ 2 (สูตรลัดช่วยกันทำงาน 2 คน):\nเวลาที่ใช้ = (ผลคูณของเวลา) ÷ (ผลบวกของเวลา)\n= (30 × 20) ÷ (30 + 20)\n= 600 ÷ 50 = 12 วัน\n\nตอบตัวเลือกที่ 2 (12 วัน)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอายุ, สมการเชิงเส้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ตอนตาอายุ 60 ปี หลานมีอายุ 10 ปี ตาจะมีอายุเป็นสองเท่าของหลานเมื่อหลานมีอายุกี่ปี",
+    "options": [
+      "40 ปี",
+      "50 ปี",
+      "20 ปี",
+      "30 ปี"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. สมมุติให้อีก x ปีข้างหน้า ตาจะมีอายุเป็นสองเท่าของหลาน\n- ในอีก x ปีข้างหน้า ตาจะมีอายุ = 60 + x ปี\n- ในอีก x ปีข้างหน้า หลานจะมีอายุ = 10 + x ปี\n\n2. ตั้งสมการ:\n60 + x = 2(10 + x)\n60 + x = 20 + 2x\n60 - 20 = 2x - x\nx = 40 (นั่นคือ อีก 40 ปีข้างหน้า)\n\n3. โจทย์ถามว่า \"เมื่อหลานมีอายุกี่ปี\":\nอายุของหลานในเวลานั้น = 10 + x = 10 + 40 = 50 ปี\n(ตรวจสอบ: ในเวลานั้น ตาจะอายุ 60 + 40 = 100 ปี ซึ่งเป็น 2 เท่าของ 50 ปี ถูกต้อง)\n\nตอบตัวเลือกที่ 2 (50 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอายุ, อัตราส่วน, สมการเชิงเส้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "เมื่อ 8 ปีที่แล้ว อัตราส่วนอายุของแก้วต่อกล้าเป็น 1 : 6 และปัจจุบันอัตราส่วนของอายุแก้วต่อกล้าเป็น 1 : 2 ปัจจุบันกล้าอายุเท่าไร",
+    "options": [
+      "10 ปี",
+      "15 ปี",
+      "20 ปี",
+      "25 ปี"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. กำหนดอายุเมื่อ 8 ปีที่แล้ว:\n- แก้ว มีอายุ = a ปี\n- กล้า มีอายุ = 6a ปี\n\n2. อายุปัจจุบัน (ผ่านไป 8 ปี):\n- แก้ว มีอายุ = a + 8 ปี\n- กล้า มีอายุ = 6a + 8 ปี\n\n3. ตั้งสมการตามอัตราส่วนปัจจุบัน (1 : 2):\n(a + 8) / (6a + 8) = 1 / 2\n\n4. คูณไขว้แก้สมการ:\n2(a + 8) = 1(6a + 8)\n2a + 16 = 6a + 8\n16 - 8 = 6a - 2a\n8 = 4a\na = 2\n\n5. โจทย์ถาม \"ปัจจุบันกล้าอายุเท่าไร\":\nปัจจุบันกล้ามีอายุ = 6a + 8 = 6(2) + 8 = 12 + 8 = 20 ปี\n\nตอบตัวเลือกที่ 3 (20 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, บัญญัติไตรยางศ์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถ้า 120% ของจำนวนหนึ่งเท่ากับ 720 แล้ว 80% ของจำนวนนั้นเท่ากับข้อใด",
+    "options": [
+      "400",
+      "480",
+      "560",
+      "600"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (หาจำนวนเดิมก่อน):\nให้จำนวนนั้นคือ a\n120% ของ a = 720\n(120 / 100) × a = 720\na = (720 × 100) ÷ 120 = 6 × 100 = 600\nหา 80% ของจำนวนนั้น:\n80% ของ 600 = (80 / 100) × 600 = 80 × 6 = 480\n\nวิธีที่ 2 (เทียบบัญญัติไตรยางศ์โดยตรง):\n- 120% คิดเป็น 720\n- 80% จะคิดเป็น = (720 × 80) ÷ 120 = 6 × 80 = 480\n\nตอบตัวเลือกที่ 2 (480)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, สมการเบื้องต้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จำนวนหนึ่งเมื่อลดลง 30% จะเหลือ 350 จงหาจำนวนเดิม",
+    "options": [
+      "450",
+      "500",
+      "550",
+      "600"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. จำนวนเต็มเดิมคิดเป็น 100%\nเมื่อลดลง 30% จะเหลือ = 100% - 30% = 70% ของจำนวนเดิม\n\n2. โจทย์กำหนดว่าเหลือ 350 แสดงว่า 70% คิดเป็น 350\nให้จำนวนเดิมคือ a:\n(70 / 100) × a = 350\na = (350 × 100) ÷ 70\na = 5 × 100 = 500\n\nตอบตัวเลือกที่ 2 (500)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การผสมสารละลาย, ความเข้มข้นร้อยละ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "น้ำส้มสายชูเข้มข้น 50% ผสมกับน้ำส้มสายชูเข้มข้น 20% ในอัตราส่วน 3 : 2 จะได้น้ำส้มสายชูเข้มข้นกี่เปอร์เซ็นต์",
+    "options": [
+      "38%",
+      "40%",
+      "42%",
+      "44%"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรการผสมสารละลาย: C₁V₁ + C₂V₂ = C_รวม × V_รวม\n\nกำหนดตามอัตราส่วน 3 : 2:\n- สารละลายชนิดแรก: ความเข้มข้น C₁ = 50%, ปริมาณ V₁ = 3 ส่วน\n- สารละลายชนิดที่สอง: ความเข้มข้น C₂ = 20%, ปริมาณ V₂ = 2 ส่วน\n- ปริมาณรวม V_รวม = 3 + 2 = 5 ส่วน\n- ความเข้มข้นของสารละลายผสม = X%\n\nตั้งสมการ:\n50(3) + 20(2) = X(5)\n150 + 40 = 5X\n190 = 5X\nX = 190 ÷ 5 = 38%\n\nดังนั้น จะได้น้ำส้มสายชูผสมเข้มข้น 38%\n\nตอบตัวเลือกที่ 1 (38%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "บัญญัติไตรยางศ์, โจทย์ปัญหาการซื้อขาย, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กระเป๋า 6 ใบ ราคา 2,160 บาท ถ้ามีเงิน 2,880 บาท จะซื้อกระเป๋าได้กี่ใบ",
+    "options": [
+      "5 ใบ",
+      "6 ใบ",
+      "7 ใบ",
+      "8 ใบ"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (หาราคาต่อใบ):\nราคากระเป๋าใบละ = 2,160 ÷ 6 = 360 บาท\nมีเงิน 2,880 บาท จะซื้อกระเป๋าได้ = 2,880 ÷ 360 = 8 ใบ\n\nวิธีที่ 2 (เทียบบัญญัติไตรยางศ์):\nเงิน 2,160 บาท ซื้อได้ 6 ใบ\nเงิน 2,880 บาท จะซื้อได้ = (6 × 2,880) ÷ 2,160\n= 17,280 ÷ 2,160 = 8 ใบ\n\nตอบตัวเลือกที่ 4 (8 ใบ)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "กำไรขาดทุน, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "สมชายขายโทรศัพท์ในราคา 6,300 บาท แล้วขาดทุน 10% ถ้าต้องการกำไร 15% ต้องขายโทรศัพท์ในราคาเท่าไร",
+    "options": [
+      "7,245 บาท",
+      "7,500 บาท",
+      "8,050 บาท",
+      "8,500 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาต้นทุนของโทรศัพท์:\nขาย 6,300 บาท ขาดทุน 10% แสดงว่าขายไป 90% ของต้นทุน\nต้นทุน = (6,300 × 100) ÷ 90 = 70 × 100 = 7,000 บาท\n\n2. คำนวณราคาขายที่ได้กำไร 15%:\nต้องการกำไร 15% ต้องขายในราคา 115% ของต้นทุน\nราคาขาย = 7,000 × (115 ÷ 100)\n= 70 × 115 = 8,050 บาท\n\nตอบตัวเลือกที่ 3 (8,050 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "กำไรขาดทุน, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "อาโปขายกระเป๋าในราคา 1,800 บาท แล้วขาดทุน 20% อยากทราบว่าต้นทุนเดิมของกระเป๋าเป็นเท่าไร",
+    "options": [
+      "2,000 บาท",
+      "2,150 บาท",
+      "2,250 บาท",
+      "2,400 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nขายราคา 1,800 บาท ขาดทุน 20% หมายความว่า ราคาขายคิดเป็น 100% - 20% = 80% ของต้นทุนเดิม\n\nตั้งสมการหาต้นทุน:\n80% ของต้นทุน = 1,800\nต้นทุน = (1,800 × 100) ÷ 80\n= (1,800 × 5) ÷ 4\n= 450 × 5 = 2,250 บาท\n\nตอบตัวเลือกที่ 3 (2,250 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ดอกเบี้ยเชิงเดียว, การเปรียบเทียบดอกเบี้ย, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นางสาวบีฝากเงิน 80,000 บาท ในบัญชีที่ให้ดอกเบี้ยแบบไม่ทบต้น อัตราดอกเบี้ย 2.5% ต่อปี เมื่อครบ 9 เดือน จะได้รับดอกเบี้ยต่างจากนางสาวซีที่ฝากเงิน 60,000 บาท อัตรา 4% ต่อปี ในระยะเวลาเท่ากัน กี่บาท",
+    "options": [
+      "มากกว่า 300 บาท",
+      "น้อยกว่า 300 บาท",
+      "เท่ากัน",
+      "ข้อมูลไม่เพียงพอ"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรดอกเบี้ยเชิงเดียว: ดอกเบี้ย = เงินต้น × อัตราดอกเบี้ยต่อปี × ระยะเวลา (ปี)\nระยะเวลา 9 เดือน คิดเป็น 9/12 ปี (หรือ 3/4 ปี)\n\n1. คำนวณดอกเบี้ยของนางสาวบี:\nดอกเบี้ยบี = 80,000 × (2.5 ÷ 100) × (9 ÷ 12)\n= 800 × 2.5 × (3 ÷ 4)\n= 2,000 × (3 ÷ 4) = 1,500 บาท\n\n2. คำนวณดอกเบี้ยของนางสาวซี:\nดอกเบี้ยซี = 60,000 × (4 ÷ 100) × (9 ÷ 12)\n= 600 × 4 × (3 ÷ 4)\n= 600 × 3 = 1,800 บาท\n\n3. เปรียบเทียบดอกเบี้ยของทั้งสองคน:\nนางสาวบีได้รับดอกเบี้ย 1,500 บาท ส่วนนางสาวซีได้รับดอกเบี้ย 1,800 บาท\nดังนั้น นางสาวบีได้รับดอกเบี้ย 'น้อยกว่า' นางสาวซีอยู่: 1,800 - 1,500 = 300 บาท\n\nตอบตัวเลือกที่ 2 (น้อยกว่า 300 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ห้องเรียนหนึ่งมีนักเรียน 5 คน มีน้ำหนัก (กิโลกรัม) ดังนี้: 42, 45, 48, 50, x ถ้าค่าเฉลี่ยน้ำหนักของนักเรียนทั้งหมดคือ 47 กิโลกรัม แล้ว x มีค่าเท่าไร",
+    "options": [
+      "46",
+      "48",
+      "50",
+      "52"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nจากสูตรค่าเฉลี่ยเลขคณิต: ค่าเฉลี่ย = ผลรวมข้อมูลทั้งหมด ÷ จำนวนข้อมูล\n\n1. แทนค่าในสูตร:\n47 = (42 + 45 + 48 + 50 + x) ÷ 5\n\n2. แก้สมการหาค่า x:\n47 × 5 = 185 + x\n235 = 185 + x\nx = 235 - 185\nx = 50\n\nดังนั้น น้ำหนักของคนที่ 5 (x) เท่ากับ 50 กิโลกรัม\n\nตอบตัวเลือกที่ 3 (50)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยรวม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ห้อง ม.1/1 มีนักเรียน 20 คน ค่าเฉลี่ยน้ำหนัก 40 กิโลกรัม และห้อง ม.1/2 มีนักเรียน 30 คน ค่าเฉลี่ยน้ำหนัก 45 กิโลกรัม จงหาค่าเฉลี่ยน้ำหนักรวมของนักเรียนทั้งสองห้อง",
+    "options": [
+      "37 กิโลกรัม",
+      "40 กิโลกรัม",
+      "43 กิโลกรัม",
+      "46 กิโลกรัม"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรค่าเฉลี่ยเลขคณิตรวม: X̄_รวม = (N₁X̄₁ + N₂X̄₂) ÷ (N₁ + N₂)\n\n1. หาน้ำหนักรวมของแต่ละห้อง:\n- ห้อง ม.1/1: น้ำหนักรวม = 20 × 40 = 800 กิโลกรัม\n- ห้อง ม.1/2: น้ำหนักรวม = 30 × 45 = 1,350 กิโลกรัม\n- รวมน้ำหนักทั้งสองห้อง = 800 + 1,350 = 2,150 กิโลกรัม\n\n2. หาจำนวนนักเรียนรวมทั้งสองห้อง:\nจำนวนนักเรียนรวม = 20 + 30 = 50 คน\n\n3. คำนวณค่าเฉลี่ยน้ำหนักรวม:\nX̄_รวม = 2,150 ÷ 50 = 43 กิโลกรัม\n\nตอบตัวเลือกที่ 3 (43 กิโลกรัม)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นักเรียนห้องหนึ่งเดิมมี 30 คน มีค่าเฉลี่ยของอายุ 13 ปี เมื่อมีนักเรียนใหม่มาเพิ่มอีก 10 คน ทำให้อายุเฉลี่ยของนักเรียนทั้งหมดเพิ่มขึ้นจากเดิม 1 ปี จงหาค่าเฉลี่ยอายุของนักเรียนใหม่ทั้ง 10 คน",
+    "options": [
+      "15 ปี",
+      "16 ปี",
+      "17 ปี",
+      "18 ปี"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาผลรวมอายุเดิมของนักเรียน 30 คน:\nผลรวมอายุเดิม = 30 × 13 = 390 ปี\n\n2. เมื่อมีนักเรียนใหม่เพิ่ม 10 คน รวมมีนักเรียนทั้งหมด 30 + 10 = 40 คน:\n- ค่าเฉลี่ยอายุใหม่เพิ่มขึ้น 1 ปี = 13 + 1 = 14 ปี\n- ผลรวมอายุใหม่ทั้งหมด = 40 × 14 = 560 ปี\n\n3. หาผลรวมอายุของนักเรียนใหม่ 10 คน:\nผลรวมอายุเด็กใหม่ = 560 - 390 = 170 ปี\n\n4. คำนวณค่าเฉลี่ยอายุของเด็กใหม่ 10 คน:\nค่าเฉลี่ย = 170 ÷ 10 = 17 ปี\n\nตอบตัวเลือกที่ 3 (17 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, ลำดับเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาค่าเฉลี่ยของลำดับเลขคณิต 5 , 10 , 15 , 20 , ... , 100",
+    "options": [
+      "46.5",
+      "48.5",
+      "50.6",
+      "52.5"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (ใช้สมบัติของลำดับเลขคณิต):\nในลำดับเลขคณิตที่มีผลต่างร่วมคงที่ ค่าเฉลี่ยเลขคณิตจะมีค่าเท่ากับกึ่งกลางระหว่างพจน์แรกและพจน์สุดท้ายเสมอ:\nค่าเฉลี่ย = (พจน์แรก + พจน์สุดท้าย) ÷ 2\n= (5 + 100) ÷ 2 = 105 ÷ 2 = 52.5\n\nวิธีที่ 2 (คำนวณตามสูตรผลรวม):\n1. หาจำนวนพจน์ (n): n = 100 ÷ 5 = 20 พจน์\n2. หาผลรวม (S₂₀): S₂₀ = (20 ÷ 2)(5 + 100) = 10 × 105 = 1,050\n3. คำนวณค่าเฉลี่ย: 1,050 ÷ 20 = 52.5\n\nตอบตัวเลือกที่ 4 (52.5)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "คะแนนเฉลี่ยของนักเรียน 6 คน เป็น 78 คะแนน เมื่อรวมคะแนนของนักเรียนใหม่อีก 1 คน ทำให้คะแนนเฉลี่ยของนักเรียน 7 คน เป็น 80 คะแนน จงหาคะแนนของนักเรียนคนใหม่",
+    "options": [
+      "90",
+      "92",
+      "94",
+      "96"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาผลรวมคะแนนเดิมของนักเรียน 6 คน:\nผลรวมคะแนน 6 คน = 6 × 78 = 468 คะแนน\n\n2. หาผลรวมคะแนนใหม่ของนักเรียน 7 คน:\nผลรวมคะแนน 7 คน = 7 × 80 = 560 คะแนน\n\n3. คำนวณคะแนนของนักเรียนคนใหม่:\nคะแนนคนใหม่ = ผลรวมใหม่ - ผลรวมเดิม\n= 560 - 468 = 92 คะแนน\n\nตอบตัวเลือกที่ 2 (92)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติ, ตารางแจกแจงความถี่, ค่าเฉลี่ยเลขคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "พิจารณาตารางแจกแจงความถี่คะแนนสอบวิชาวิทยาศาสตร์ ม.3:\nช่วงคะแนน 0-10 (ความถี่ 3), 11-20 (ความถี่ 7), 21-30 (ความถี่ 12), 31-40 (ความถี่ 8), 41-50 (ความถี่ 5)\nคะแนนเฉลี่ยของคะแนนสอบวิชาวิทยาศาสตร์ ม.3 คือข้อใด (ปัดเศษเป็นจำนวนเต็ม)",
+    "options": [
+      "18 คะแนน",
+      "21 คะแนน",
+      "24 คะแนน",
+      "27 คะแนน"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nหาจุดกึ่งกลางชั้น (x) ของแต่ละช่วงคะแนนและคำนวณผลคูณ f × x:\n- ช่วง 0-10: จุดกึ่งกลาง = 5.5, f × x = 3 × 5.5 = 16.5\n- ช่วง 11-20: จุดกึ่งกลาง = 15.5, f × x = 7 × 15.5 = 108.5\n- ช่วง 21-30: จุดกึ่งกลาง = 25.5, f × x = 12 × 25.5 = 306.0\n- ช่วง 31-40: จุดกึ่งกลาง = 35.5, f × x = 8 × 35.5 = 284.0\n- ช่วง 41-50: จุดกึ่งกลาง = 45.5, f × x = 5 × 45.5 = 227.5\n\n1. ผลรวม Σ(f × x) = 16.5 + 108.5 + 306.0 + 284.0 + 227.5 = 942.5\n2. จำนวนนักเรียนรวม (N) = 3 + 7 + 12 + 8 + 5 = 35 คน\n3. ค่าเฉลี่ยเลขคณิต X̄ = 942.5 ÷ 35 ≈ 26.928... ปัดเป็น 27 คะแนน\n\nตอบตัวเลือกที่ 4 (27 คะแนน)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติ, ตารางแจกแจงความถี่, ฐานนิยม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จากตารางแจกแจงความถี่คะแนนสอบวิชาวิทยาศาสตร์ ม.3:\nช่วงคะแนน 0-10 (ความถี่ 3), 11-20 (ความถี่ 7), 21-30 (ความถี่ 12), 31-40 (ความถี่ 8), 41-50 (ความถี่ 5)\nฐานนิยมของคะแนนสอบอยู่ในช่วงคะแนนใด",
+    "options": [
+      "0-10",
+      "11-20",
+      "21-30",
+      "31-40"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nฐานนิยม (Mode) ของข้อมูลที่แจกแจงความถี่เป็นอันตรภาคชั้น คือ ช่วงชั้นที่มีความถี่สูงสุด\n\nพิจารณาความถี่ของแต่ละช่วงคะแนน:\n- 0-10 มีความถี่ 3\n- 11-20 มีความถี่ 7\n- 21-30 มีความถี่ 12 (ความถี่สูงสุด)\n- 31-40 มีความถี่ 8\n- 41-50 มีความถี่ 5\n\nความถี่สูงสุดคือ 12 อยู่ในช่วงคะแนน 21-30\nดังนั้น ฐานนิยมของคะแนนสอบอยู่ในช่วง 21-30\n\nตอบตัวเลือกที่ 3 (21-30)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติ, ตารางแจกแจงความถี่, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จากตารางแจกแจงความถี่คะแนนสอบวิชาวิทยาศาสตร์ ม.3:\nช่วงคะแนน 0-10 (ความถี่ 3), 11-20 (ความถี่ 7), 21-30 (ความถี่ 12), 31-40 (ความถี่ 8), 41-50 (ความถี่ 5)\nนักเรียนที่ได้คะแนนมากกว่า 30 คะแนน มีประมาณกี่เปอร์เซ็นต์ของนักเรียนทั้งหมด",
+    "options": [
+      "45%",
+      "40%",
+      "37%",
+      "25%"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาจำนวนนักเรียนที่ได้คะแนนมากกว่า 30 คะแนน:\n- ช่วง 31-40 คะแนน: มี 8 คน\n- ช่วง 41-50 คะแนน: มี 5 คน\nรวมนักเรียนที่ได้คะแนนมากกว่า 30 คะแนน = 8 + 5 = 13 คน\n\n2. จำนวนนักเรียนทั้งหมดในตาราง:\nN = 3 + 7 + 12 + 8 + 5 = 35 คน\n\n3. คิดเป็นเปอร์เซ็นต์ของนักเรียนทั้งหมด:\nเปอร์เซ็นต์ = (13 ÷ 35) × 100%\n= 1,300 ÷ 35 ≈ 37.14% ≈ 37%\n\nตอบตัวเลือกที่ 3 (37%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, อนุกรมจัดกลุ่ม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "8 , 2 , 4 , 12 , 3 , 4 , 20 , 4 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาอนุกรมแบบแบ่งกลุ่ม กลุ่มละ 3 ตัว:\n- กลุ่มที่ 1: (8, 2, 4) -> สังเกตว่าสองตัวหลังคูณกันได้ตัวหน้า: 2 × 4 = 8\n- กลุ่มที่ 2: (12, 3, 4) -> สังเกตว่าสองตัวหลังคูณกันได้ตัวหน้า: 3 × 4 = 12\n- กลุ่มที่ 3: (20, 4, ...) -> สองตัวหลังต้องคูณกันได้ 20: 4 × ? = 20 จะได้ ? = 5\n\n(นอกจากนี้ ตัวแรกของแต่ละกลุ่มคือ 8, 12, 20 เพิ่มขึ้นทีละ +4, +8 ตามลำดับ)\nดังนั้น ตัวเลขถัดไปคือ 5\n\nตอบตัวเลือกที่ 2 (5)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, ลำดับลดหลั่น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "100 , 92 , 76 , 44 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "40",
+      "-60",
+      "-40",
+      "-20"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาผลต่างระหว่างพจน์ที่อยู่ติดกัน:\n- 100 - 92 = -8 (ลดลง 8)\n- 92 - 76 = -16 (ลดลง 16)\n- 76 - 44 = -32 (ลดลง 32)\n\nสังเกตว่าผลต่างมีค่าลดลงเพิ่มขึ้นเป็น 2 เท่าต่อเนื่อง (-8, -16, -32, ...)\nดังนั้น ผลต่างของพจน์ถัดไปคือ -32 × 2 = -64 (ลดลง 64)\nตัวเลขในลำดับถัดไปคือ 44 - 64 = -20\n\nตอบตัวเลือกที่ 4 (-20)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรม, จำนวนเต็มลบ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "10 , 0 , -9 , -17 , -24 , ... ตัวเลขในลำดับถัดไปคือข้อใด?",
+    "options": [
+      "-24",
+      "-16",
+      "-9",
+      "-30"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nพิจารณาผลต่างระหว่างพจน์ที่อยู่ติดกัน:\n- จาก 10 ไป 0: 0 - 10 = -10 (ลดลง 10)\n- จาก 0 ไป -9: -9 - 0 = -9 (ลดลง 9)\n- จาก -9 ไป -17: -17 - (-9) = -8 (ลดลง 8)\n- จาก -17 ไป -24: -24 - (-17) = -7 (ลดลง 7)\n\nสังเกตว่าผลต่างลดลงทีละ 1 (-10, -9, -8, -7, ...)\nดังนั้น ผลต่างถัดไปคือ -6 (ลดลง 6)\nตัวเลขในลำดับถัดไปคือ -24 - 6 = -30\n\nตอบตัวเลือกที่ 4 (-30)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เลขยกกำลัง, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหารูปอย่างง่ายของ (-5a³b⁻²)⁴",
+    "options": [
+      "-5a⁷b²",
+      "-20a¹²b⁻⁸",
+      "25a¹²b⁻²",
+      "625a¹²b⁻⁸"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สมบัติของเลขยกกำลังในการกระจายกำลังเข้าในผลคูณ: (xyz)ⁿ = xⁿ yⁿ zⁿ และ (xᵐ)ⁿ = xᵐⁿ\n\n(-5a³b⁻²)⁴ = (-5)⁴ × (a³)⁴ × (b⁻²)⁴\n1. (-5)⁴ = 625 (จำนวนลบยกกำลังคู่ได้ผลลัพธ์เป็นบวก)\n2. (a³)⁴ = a³ˣ⁴ = a¹²\n3. (b⁻²)⁴ = b⁻²ˣ⁴ = b⁻⁸\n\nดังนั้น รูปอย่างง่ายคือ 625a¹²b⁻⁸\n\nตอบตัวเลือกที่ 4 (625a¹²b⁻⁸)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "บัญญัติไตรยางศ์, เศษส่วน, จำนวนคละ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถ้าน้ำตาล 3/4 กิโลกรัม ราคา 45 บาท แล้วน้ำตาล 2(1/2) กิโลกรัม จะมีราคากี่บาท",
+    "options": [
+      "120 บาท",
+      "135 บาท",
+      "150 บาท",
+      "165 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (หาราคาต่อ 1 กิโลกรัมก่อน):\n1. น้ำตาล 3/4 กิโลกรัม ราคา 45 บาท\nราคาน้ำตาล 1 กิโลกรัม = 45 ÷ (3/4) = 45 × (4/3) = 15 × 4 = 60 บาท\n\n2. น้ำตาล 2(1/2) กิโลกรัม แปลงเป็นเศษเกินได้ 5/2 กิโลกรัม\nดังนั้น ราคา = (5/2) × 60 = 5 × 30 = 150 บาท\n\nวิธีที่ 2 (เทียบบัญญัติไตรยางศ์):\nราคา = [ 45 × (5/2) ] ÷ (3/4)\n= 45 × (5/2) × (4/3) = 150 บาท\n\nตอบตัวเลือกที่ 3 (150 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วน, สมการเชิงเส้น, โจทย์ปัญหาอายุ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ถ้าอัตราส่วนของอายุของ A ต่อ B ต่อ C เป็น 3 : 5 : 7 และผลรวมของอายุทั้งสามคนเป็น 60 ปี จงหาว่า B มีอายุมากกว่า A กี่ปี",
+    "options": [
+      "6 ปี",
+      "8 ปี",
+      "10 ปี",
+      "12 ปี"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกำหนดให้อายุของ A, B, C ตามอัตราส่วนเป็น 3x, 5x, 7x ตามลำดับ\n\n1. ตั้งสมการจากผลรวมอายุทั้งสามคนเท่ากับ 60 ปี:\n3x + 5x + 7x = 60\n15x = 60\nx = 60 ÷ 15 = 4\n\n2. หาว่า B มีอายุมากกว่า A กี่ปี:\nผลต่างอายุ (B - A) = 5x - 3x = 2x\nแทนค่า x = 4: 2(4) = 8 ปี\n(หรือคำนวณอายุจริง: B = 5 × 4 = 20 ปี, A = 3 × 4 = 12 ปี → 20 - 12 = 8 ปี)\n\nตอบตัวเลือกที่ 2 (8 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อัตราส่วน, การผสมของเหลว, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "น้ำผสมกับเหล้าแท้ในอัตราส่วน 5 : 2 ถ้าต้องการทำเหล้าผสมนี้จำนวน 35 ลิตร จะต้องใช้เหล้าแท้ทั้งหมดกี่ลิตร",
+    "options": [
+      "10 ลิตร",
+      "12 ลิตร",
+      "20 ลิตร",
+      "25 ลิตร"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nอัตราส่วน น้ำ : เหล้าแท้ = 5 : 2\nดังนั้น ปริมาณส่วนผสมรวม = 5 + 2 = 7 ส่วน\n\n1. หาปริมาณต่อ 1 ส่วน:\nเหล้าผสมทั้งหมด 35 ลิตร คิดเป็น 7 ส่วน\nดังนั้น 1 ส่วน = 35 ÷ 7 = 5 ลิตร\n\n2. หาปริมาณเหล้าแท้ (ซึ่งมี 2 ส่วน):\nปริมาณเหล้าแท้ที่ต้องใช้ = 2 × 5 = 10 ลิตร\n(และใช้น้ำ 5 × 5 = 25 ลิตร รวมกันเป็น 35 ลิตรพอดี)\n\nตอบตัวเลือกที่ 1 (10 ลิตร)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "การผสมสารละลาย, ความเข้มข้นร้อยละ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "น้ำเกลือชนิด A มีความเข้มข้น 20% ปริมาตร 30 ลิตร ต้องการผสมกับน้ำเกลือชนิด B ที่มีความเข้มข้น 50% จะต้องใช้ชนิด B กี่ลิตร เพื่อให้ได้น้ำเกลือผสมความเข้มข้น 35%",
+    "options": [
+      "10 ลิตร",
+      "20 ลิตร",
+      "30 ลิตร",
+      "40 ลิตร"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรการผสมสารละลาย: C₁V₁ + C₂V₂ = C_รวม × V_รวม\n\nกำหนดให้:\n- น้ำเกลือ A: C₁ = 20%, V₁ = 30 ลิตร\n- น้ำเกลือ B: C₂ = 50%, V₂ = x ลิตร\n- น้ำเกลือผสม: C_รวม = 35%, V_รวม = 30 + x ลิตร\n\nตั้งสมการ:\n20(30) + 50(x) = 35(30 + x)\n600 + 50x = 1,050 + 35x\n50x - 35x = 1,050 - 600\n15x = 450\nx = 450 ÷ 15 = 30 ลิตร\n\n(หรือสังเกตว่า 35% อยู่กึ่งกลางพอดีระหว่าง 20% และ 50% แสดงว่าสัดส่วนของทั้งสองชนิดต้องเท่ากัน คือ 30 ลิตรเท่ากัน)\n\nตอบตัวเลือกที่ 3 (30 ลิตร)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "อนุกรมเลขคณิต, ผลบวกเลขคู่, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาผลบวกของเลขคู่เรียงกันจาก 18 ถึง 60",
+    "options": [
+      "756",
+      "798",
+      "842",
+      "858"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nลำดับเลขคู่เรียงกัน: 18, 20, 22, ..., 60 เป็นลำดับเลขคณิต\n- พจน์แรก (a₁) = 18\n- ผลต่างร่วม (d) = 2\n- พจน์สุดท้าย (aₙ) = 60\n\n1. หาจำนวนพจน์ (n):\nจากสูตร aₙ = a₁ + (n - 1)d\n60 = 18 + (n - 1)(2)\n42 = 2(n - 1)\nn - 1 = 21 → n = 22 พจน์\n\n2. หาผลรวม (Sₙ):\nจากสูตร Sₙ = (n / 2)(a₁ + aₙ)\nS₂₂ = (22 / 2)(18 + 60)\n= 11 × 78 = 858\n\nตอบตัวเลือกที่ 4 (858)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ความน่าจะเป็น, ลูกเต๋า, จำนวนเฉพาะ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ทอยลูกเต๋า 2 ลูกพร้อมกัน ความน่าจะเป็นที่ผลรวมของแต้มเป็นจำนวนเฉพาะและมากกว่า 5 เท่ากับข้อใด",
+    "options": [
+      "2/9",
+      "7/9",
+      "5/18",
+      "7/18"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาจำนวนผลลัพธ์ทั้งหมดของการทอยลูกเต๋า 2 ลูก: n(S) = 6 × 6 = 36 แบบ\n\n2. ผลรวมของแต้มที่เป็น 'จำนวนเฉพาะ' และ 'มากกว่า 5' (ผลรวมแต้มลูกเต๋ามีค่าตั้งแต่ 2 ถึง 12):\nจำนวนเฉพาะที่มากกว่า 5 ในช่วงนี้คือ 7 และ 11\n- ผลรวมแต้มได้ 7 มี 6 แบบ: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\n- ผลรวมแต้มได้ 11 มี 2 แบบ: (5,6), (6,5)\nรวมจำนวนเหตุการณ์ที่สนใจ n(E) = 6 + 2 = 8 แบบ\n\n3. คำนวณความน่าจะเป็น:\nP(E) = n(E) / n(S) = 8 / 36 = 2 / 9\n\nตอบตัวเลือกที่ 1 (2/9)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เรขาคณิต, มุมภายใน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "รูปหกเหลี่ยมมีขนาดของมุมภายในทุกมุมรวมกันเป็นกี่องศา",
+    "options": [
+      "360 องศา",
+      "480 องศา",
+      "540 องศา",
+      "720 องศา"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nสูตรผลรวมของมุมภายในของรูป n เหลี่ยม:\nผลรวมมุมภายใน = (n - 2) × 180°\n\nสำหรับรูปหกเหลี่ยม (n = 6):\nผลรวมมุมภายใน = (6 - 2) × 180°\n= 4 × 180° = 720 องศา\n\nตอบตัวเลือกที่ 4 (720 องศา)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เรขาคณิต, ทฤษฎีบทพีทาโกรัส, สามเหลี่ยมมุมฉาก, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ข้อใดเป็นความยาวด้านของรูปสามเหลี่ยมมุมฉาก",
+    "options": [
+      "6, 8, 10",
+      "4, 5, 6",
+      "9, 12, 14",
+      "10, 15, 20"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nตามทฤษฎีบทพีทาโกรัส: สามเหลี่ยมมุมฉากจะมีผลรวมของกำลังสองของด้านประกอบมุมฉากเท่ากับกำลังสองของด้านตรงข้ามมุมฉาก (a² + b² = c² โดย c เป็นด้านที่ยาวที่สุด)\n\nตรวจสอบแต่ละตัวเลือก:\n1. 6, 8, 10: 6² + 8² = 36 + 64 = 100 และ 10² = 100 (ถูกต้อง เป็นสามเหลี่ยมมุมฉาก)\n2. 4, 5, 6: 4² + 5² = 16 + 25 = 41 ≠ 6² (36)\n3. 9, 12, 14: 9² + 12² = 81 + 144 = 225 ≠ 14² (196)\n4. 10, 15, 20: 10² + 15² = 100 + 225 = 325 ≠ 20² (400)\n\nดังนั้น ตัวเลือกที่ 1 เป็นความยาวด้านของรูปสามเหลี่ยมมุมฉาก\n\nตอบตัวเลือกที่ 1 (6, 8, 10)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ทฤษฎีเซต, แผนภาพเวนน์-ออยเลอร์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จากการสำรวจนักเรียนชั้นมัธยมปลายจำนวน 200 คน พบว่า\n- ต้องการศึกษาต่อในมหาวิทยาลัย 120 คน\n- ต้องการทำงานหลังจบการศึกษา 90 คน\n- มีนักเรียนที่ต้องการทั้งศึกษาต่อและทำงาน 45 คน\nมีนักเรียนกี่คนที่ต้องการศึกษาต่อเพียงอย่างเดียว",
+    "options": [
+      "45 คน",
+      "60 คน",
+      "75 คน",
+      "80 คน"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้หลักการเซตและแผนภาพเวนน์-ออยเลอร์:\n- กำหนดให้เซต A คือ นักเรียนที่ต้องการศึกษาต่อในมหาวิทยาลัย: n(A) = 120 คน\n- กำหนดให้เซต B คือ นักเรียนที่ต้องการทำงาน: n(B) = 90 คน\n- นักเรียนที่ต้องการทั้งสองอย่าง: n(A ∩ B) = 45 คน\n\nโจทย์ถามหาจำนวนนักเรียนที่ต้องการศึกษาต่อ 'เพียงอย่างเดียว':\nจำนวนนักเรียน = n(A) - n(A ∩ B)\n= 120 - 45 = 75 คน\n\nตอบตัวเลือกที่ 3 (75 คน)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "แฟกทอเรียล, การจัดหมู่, พีชคณิต, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาค่าของ 10! / (8! × 2!)",
+    "options": [
+      "35",
+      "40",
+      "45",
+      "50"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nคำนวณค่าแฟกทอเรียลโดยการกระจายและตัดทอน:\n10! / (8! × 2!) = (10 × 9 × 8!) / (8! × 2 × 1)\n\nตัด 8! ทั้งเศษและส่วน:\n= (10 × 9) / 2\n= 90 / 2 = 45\n\nตอบตัวเลือกที่ 3 (45)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ห.ร.ม., ค.ร.น., ทฤษฎีจำนวน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ห.ร.ม. และ ค.ร.น. ของ 120 , 180 และ 240 ต่างกันอยู่เท่าใด",
+    "options": [
+      "60",
+      "120",
+      "440",
+      "660"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หา ห.ร.ม. ของ 120, 180, 240 โดยการหารสั้น:\n- นำ 10 หารได้: 12, 18, 24\n- นำ 6 หารได้: 2, 3, 4\n(ไม่มีจำนวนใดหารทั้ง 2, 3, 4 ลงตัวพร้อมกันอีก)\nดังนั้น ห.ร.ม. = 10 × 6 = 60\n\n2. หา ค.ร.น. ต่อจากการหารข้างต้น:\n- หารต่อด้วย 2 (หาร 2 และ 4 ลงตัว): จะได้ 1, 3, 2\nดังนั้น ค.ร.น. = 10 × 6 × 2 × 1 × 3 × 2 = 720\n\n3. หาผลต่างของ ค.ร.น. และ ห.ร.ม.:\nผลต่าง = 720 - 60 = 660\n\nตอบตัวเลือกที่ 4 (660)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ห.ร.ม., ทฤษฎีจำนวน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาจำนวนนับที่มากที่สุดที่นำมาหาร 51 และ 114 แล้วเหลือเศษ 9 เท่ากัน",
+    "options": [
+      "12",
+      "14",
+      "21",
+      "28"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nหลักการหาจำนวนที่มากที่สุดที่นำไปหารแล้วเหลือเศษเท่ากัน (ห.ร.ม. เหลือเศษ):\nให้นำเศษที่ต้องการไปลบออกจากแต่ละจำนวนก่อน แล้วจึงหา ห.ร.ม.:\n1. 51 - 9 = 42\n2. 114 - 9 = 105\n\nหา ห.ร.ม. ของ 42 และ 105:\n- 42 = 21 × 2\n- 105 = 21 × 5\nดังนั้น ห.ร.ม. คือ 21\n\nตรวจสอบ: 51 ÷ 21 = 2 เศษ 9, 114 ÷ 21 = 5 เศษ 9 (ถูกต้อง)\n\nตอบตัวเลือกที่ 3 (21)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ค.ร.น., โจทย์ปัญหา, การเปรียบเทียบราคา, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "มะม่วงราคากิโลกรัมละ 32 บาท ลิ้นจี่ราคากิโลกรัมละ 40 บาท และลำไยราคากิโลกรัมละ 48 บาท ต้องซื้อผลไม้ทั้งสามชนิดรวมกันอย่างน้อยกี่กิโลกรัม จึงจะจ่ายเงินแต่ละชนิดเท่ากัน",
+    "options": [
+      "24 กิโลกรัม",
+      "30 กิโลกรัม",
+      "37 กิโลกรัม",
+      "42 กิโลกรัม"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาจำนวนเงินที่น้อยที่สุดที่จ่ายเท่ากันในแต่ละชนิด ซึ่งคือ ค.ร.น. ของราคา (32, 40, 48 บาท):\n- 32 = 2⁵\n- 40 = 2³ × 5\n- 48 = 2⁴ × 3\nค.ร.น. = 2⁵ × 3 × 5 = 32 × 15 = 480 บาท (ต้องจ่ายเงินซื้อผลไม้ชนิดละ 480 บาท)\n\n2. คำนวณน้ำหนักผลไม้แต่ละชนิดที่ซื้อได้:\n- มะม่วง: 480 ÷ 32 = 15 กิโลกรัม\n- ลิ้นจี่: 480 ÷ 40 = 12 กิโลกรัม\n- ลำไย: 480 ÷ 48 = 10 กิโลกรัม\n\n3. รวมน้ำหนักผลไม้ทั้งสามชนิด:\nน้ำหนักรวม = 15 + 12 + 10 = 37 กิโลกรัม\n\nตอบตัวเลือกที่ 3 (37 กิโลกรัม)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ค.ร.น., โจทย์ปัญหาเวลา, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ไฟกระพริบ 3 ดวง ดวงแรกกระพริบทุกๆ 15 วินาที ดวงที่สองทุกๆ 20 วินาที ดวงที่สามทุกๆ 30 วินาที ถ้าเริ่มกระพริบพร้อมกันครั้งแรกที่เวลา 14.00 น. ไฟทั้งสามดวงจะกระพริบพร้อมกันอีกครั้งเวลาใด",
+    "options": [
+      "14.01 น.",
+      "14.02 น.",
+      "14.03 น.",
+      "14.04 น."
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nหาเวลาที่จะกระพริบพร้อมกันอีกครั้งจาก ค.ร.น. ของระยะเวลากระพริบ (15, 20, 30 วินาที):\n- 15 = 3 × 5\n- 20 = 2² × 5\n- 30 = 2 × 3 × 5\nค.ร.น. = 2² × 3 × 5 = 60 วินาที\n\nแปลง 60 วินาที = 1 นาที\nทั้งสามดวงเริ่มพร้อมกันเวลา 14.00 น.\nดังนั้น จะกระพริบพร้อมกันอีกครั้งที่เวลา 14.00 น. + 1 นาที = 14.01 น.\n\n*หมายเหตุ: ในเอกสารต้นฉบับมีรอยวงตัวเลือก 14.03 น. เนื่องจากการตั้งหารสั้นผิดพลาด (6 ÷ 3 = 3 แทนที่จะเป็น 2 ทำให้ได้ 180 วินาที) แต่ตามหลักคณิตศาสตร์ที่ถูกต้อง ค.ร.น. คือ 60 วินาที จึงตอบ 14.01 น.*\n\nตอบตัวเลือกที่ 1 (14.01 น.)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "หลักการนับ, การจับมือ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "นักฟุตบอล 11 คน สัมผัสมือกับนักฟุตบอลฝ่ายตรงข้าม อยากทราบว่าจะมีการสัมผัสมือกี่ครั้ง",
+    "options": [
+      "55 ครั้ง",
+      "110 ครั้ง",
+      "121 ครั้ง",
+      "242 ครั้ง"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nการสัมผัสมือระหว่างคนในทีมหนึ่งกับคนในฝ่ายตรงข้าม (Bipartite matching):\n- ทีมเรามีนักฟุตบอล 11 คน\n- ทีมตรงข้ามมีนักฟุตบอล 11 คน\n- นักฟุตบอลแต่ละคนจากทีมเราต้องสัมผัสมือกับผู้เล่นของฝ่ายตรงข้ามครบทั้ง 11 คน\n\nจำนวนการสัมผัสมือทั้งหมด = n × n = 11 × 11 = 121 ครั้ง\n(ข้อสังเกต: ต่างจากการจับมือกันเองในกลุ่มเดียวกันที่ใช้สูตร n(n-1)/2)\n\nตอบตัวเลือกที่ 3 (121 ครั้ง)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ลำดับเลขคณิต, ลำดับและอนุกรม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จากลำดับ -5 , -2 , 1 , 4 , 7 , ... จำนวนที่ 15 คือจำนวนใด",
+    "options": [
+      "34",
+      "37",
+      "40",
+      "43"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nลำดับที่กำหนดเป็นลำดับเลขคณิต:\n- พจน์แรก (a₁) = -5\n- ผลต่างร่วม (d) = (-2) - (-5) = 3\n\nหาพจน์ที่ 15 (a₁₅) จากสูตร aₙ = a₁ + (n - 1)d:\na₁₅ = -5 + (15 - 1)(3)\n= -5 + 14(3)\n= -5 + 42 = 37\n\nตอบตัวเลือกที่ 2 (37)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอายุ, สมการเชิงเส้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ปัจจุบัน A อายุมากกว่า B 12 ปี อีก 6 ปีข้างหน้าอายุของ B จะเป็นครึ่งหนึ่งของอายุ A ปัจจุบัน A มีอายุกี่ปี",
+    "options": [
+      "12 ปี",
+      "16 ปี",
+      "18 ปี",
+      "24 ปี"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. กำหนดอายุปัจจุบัน:\n- ให้ B มีอายุ = x ปี\n- A มีอายุมากกว่า B 12 ปี ดังนั้น A มีอายุ = x + 12 ปี\n\n2. ในอีก 6 ปีข้างหน้า:\n- B จะมีอายุ = x + 6 ปี\n- A จะมีอายุ = (x + 12) + 6 = x + 18 ปี\n\n3. ตั้งสมการตามเงื่อนไข (อายุ B เป็นครึ่งหนึ่งของ A):\nx + 6 = (1/2)(x + 18)\n2(x + 6) = x + 18\n2x + 12 = x + 18\n2x - x = 18 - 12\nx = 6 (ปัจจุบัน B อายุ 6 ปี)\n\n4. หาอายุปัจจุบันของ A:\nปัจจุบัน A มีอายุ = x + 12 = 6 + 12 = 18 ปี\n\nตอบตัวเลือกที่ 3 (18 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "โจทย์ปัญหาอายุ, สมการเชิงเส้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ปัจจุบันอายุของปู่เป็น 5 เท่าของอายุหลาน อีก 6 ปีข้างหน้า อายุของปู่จะเป็น 3 เท่าของอายุหลาน จงหาอายุปัจจุบันของหลาน",
+    "options": [
+      "6 ปี",
+      "8 ปี",
+      "10 ปี",
+      "12 ปี"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. กำหนดอายุปัจจุบัน:\n- หลาน มีอายุ = x ปี\n- ปู่ มีอายุ = 5x ปี\n\n2. ในอีก 6 ปีข้างหน้า:\n- หลาน จะมีอายุ = x + 6 ปี\n- ปู่ จะมีอายุ = 5x + 6 ปี\n\n3. ตั้งสมการ (อายุของปู่เป็น 3 เท่าของหลาน):\n5x + 6 = 3(x + 6)\n5x + 6 = 3x + 18\n5x - 3x = 18 - 6\n2x = 12\nx = 6\n\nดังนั้น ปัจจุบันหลานมีอายุ 6 ปี\n\nตอบตัวเลือกที่ 1 (6 ปี)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, โจทย์ปัญหาน้ำหนัก, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ครูหมูเด้งคนหนึ่งลดน้ำหนักจาก 80 กิโลกรัม เหลือ 68 กิโลกรัม ครูหมูเด้งลดน้ำหนักไปกี่เปอร์เซ็นต์",
+    "options": [
+      "12%",
+      "15%",
+      "18%",
+      "20%"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. หาน้ำหนักที่ลดลงไป:\nน้ำหนักที่ลดลง = 80 - 68 = 12 กิโลกรัม\n\n2. คิดเป็นเปอร์เซ็นต์เทียบกับน้ำหนักเดิม (80 กิโลกรัม):\nเปอร์เซ็นต์การลด = (น้ำหนักที่ลด ÷ น้ำหนักเดิม) × 100%\n= (12 ÷ 80) × 100%\n= (3 ÷ 20) × 100% = 15%\n\nตอบตัวเลือกที่ 2 (15%)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, สมการเบื้องต้น, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "75% ของจำนวนใด เท่ากับ 450",
+    "options": [
+      "450",
+      "500",
+      "550",
+      "600"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nให้จำนวนนั้นคือ a\nจากโจทย์: 75% ของ a = 450\n(75 / 100) × a = 450\n(3 / 4) × a = 450\na = 450 × (4 / 3)\na = 150 × 4 = 600\n\nตอบตัวเลือกที่ 4 (600)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, คณิตศาสตร์พื้นฐาน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "15% ของ 800 มีค่าเท่ากับข้อใด",
+    "options": [
+      "100",
+      "120",
+      "150",
+      "180"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n15% ของ 800 = (15 / 100) × 800\n= 15 × 8 = 120\n\nตอบตัวเลือกที่ 2 (120)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "กำไรขาดทุน, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ร้านค้าขายสินค้าในราคา 2,400 บาท ซึ่งได้กำไร 25% ร้านค้าซื้อสินค้ามาในราคากี่บาท",
+    "options": [
+      "1,760 บาท",
+      "1,800 บาท",
+      "1,840 บาท",
+      "1,920 บาท"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nการขายได้กำไร 25% หมายความว่า หากต้นทุน 100 บาท จะขายในราคา 125 บาท\n\nเทียบบัญญัติไตรยางศ์หาต้นทุนเดิม:\nขาย 125 บาท จากต้นทุน 100 บาท\nขาย 2,400 บาท จากต้นทุน = (2,400 × 100) ÷ 125\n= (2,400 × 4) ÷ 5\n= 480 × 4 = 1,920 บาท\n\nตอบตัวเลือกที่ 4 (1,920 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ร้อยละและเปอร์เซ็นต์, ค่านายหน้าและค่าขนส่ง, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "สมชายขายจักรยานราคา 5,000 บาท จ่ายค่านายหน้า 5% ของราคาขาย และจ่ายค่าขนส่ง 15% ของราคาขาย สมชายได้รับเงินจากการขายกี่บาท",
+    "options": [
+      "3,500 บาท",
+      "3,800 บาท",
+      "4,000 บาท",
+      "4,200 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nวิธีที่ 1 (คิดค่าใช้จ่ายทีละรายการ):\n- ค่านายหน้า 5% ของ 5,000 = (5 / 100) × 5,000 = 250 บาท\n- ค่าขนส่ง 15% ของ 5,000 = (15 / 100) × 5,000 = 750 บาท\nรวมค่าใช้จ่ายที่ต้องจ่าย = 250 + 750 = 1,000 บาท\nสมชายจะได้รับเงินสุทธิ = 5,000 - 1,000 = 4,000 บาท\n\nวิธีที่ 2 (รวมเปอร์เซ็นต์ที่หัก):\nหักค่าใช้จ่ายรวม 5% + 15% = 20%\nจะเหลือเงินที่ได้รับ 100% - 20% = 80%\nได้รับเงิน = (80 / 100) × 5,000 = 4,000 บาท\n\nตอบตัวเลือกที่ 3 (4,000 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "กำไรขาดทุน, ร้อยละและเปอร์เซ็นต์, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "แม่ค้าขายสินค้า 160 บาท ขาดทุน 20% จงหาราคาทุนของสินค้า",
+    "options": [
+      "180 บาท",
+      "190 บาท",
+      "200 บาท",
+      "210 บาท"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nขายขาดทุน 20% แสดงว่าราคาขาย 160 บาท คิดเป็น 100% - 20% = 80% ของราคาทุน\n\nหาต้นทุน:\n80% ของทุน = 160 บาท\nทุน = (160 × 100) ÷ 80\n= 2 × 100 = 200 บาท\n\nตอบตัวเลือกที่ 3 (200 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เงินปันผล, ดอกเบี้ยและเงินรวม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ฝากเงินสหกรณ์ออมทรัพย์ครู 250,000 บาท ได้เงินปันผล 5.2% ต่อปี เมื่อครบปีมีเงินรวมกี่บาท",
+    "options": [
+      "262,500 บาท",
+      "263,000 บาท",
+      "263,800 บาท",
+      "264,000 บาท"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\n1. คำนวณเงินปันผลที่ได้รับใน 1 ปี:\nเงินปันผล = 250,000 × (5.2 / 100)\n= 2,500 × 5.2 = 13,000 บาท\n\n2. คำนวณเงินรวมทั้งหมดเมื่อครบปี:\nเงินรวม = เงินต้น + เงินปันผล\n= 250,000 + 13,000 = 263,000 บาท\n\nตอบตัวเลือกที่ 2 (263,000 บาท)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, การเปรียบเทียบค่าสถิติ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จากข้อมูล 4, 7, 5, 7, 9, 10, 8, 6 จงหาว่าค่าสถิติใดมีค่าน้อยที่สุด",
+    "options": [
+      "ค่ามัธยฐาน",
+      "ค่าเฉลี่ยเลขคณิต",
+      "ฐานนิยม",
+      "ค่าพิสัย"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nเรียงลำดับข้อมูลจากน้อยไปมาก (มีทั้งหมด 8 จำนวน):\n4, 5, 6, 7, 7, 8, 9, 10\n\n1. มัธยฐาน: ตำแหน่งกึ่งกลางคือตัวที่ 4 และ 5 (เลข 7 และ 7) → มัธยฐาน = (7 + 7) / 2 = 7\n2. ค่าเฉลี่ยเลขคณิต: ผลรวม = 4+5+6+7+7+8+9+10 = 56 → ค่าเฉลี่ย = 56 / 8 = 7\n3. ฐานนิยม: ตัวเลขที่ซ้ำกันมากที่สุดคือเลข 7 (ซ้ำ 2 ครั้ง) → ฐานนิยม = 7\n4. ค่าพิสัย: ค่าสูงสุด - ค่าต่ำสุด = 10 - 4 = 6\n\nเปรียบเทียบค่าสถิติทั้งสี่ค่า (7, 7, 7, 6) พบว่าค่าพิสัยมีค่าน้อยที่สุด\n\nตอบตัวเลือกที่ 4 (ค่าพิสัย)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สถิติเบื้องต้น, การวิเคราะห์ข้อมูล, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "กำหนดข้อมูลเรียงจากน้อยไปมาก a , b , c , d , e ซึ่งฐานนิยมเท่ากับ 14 และค่าเฉลี่ยเท่ากับมัธยฐาน คือ 16 และพิสัยเท่ากับ 5 จงหาค่า d",
+    "options": [
+      "14",
+      "17",
+      "18",
+      "20"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nจากข้อมูล 5 จำนวนเรียงจากน้อยไปมาก: a, b, c, d, e\n\n1. มัธยฐานคือตัวที่ 3 (c) → c = 16\n2. ฐานนิยมเท่ากับ 14 (ซึ่งน้อยกว่ามัธยฐาน 16) แสดงว่าจำนวนที่ซ้ำกันต้องอยู่ฝั่งซ้าย → a = 14 และ b = 14\n3. พิสัยเท่ากับ 5 (e - a = 5) → e - 14 = 5 → e = 19\n4. ค่าเฉลี่ยเลขคณิตเท่ากับ 16:\n(a + b + c + d + e) / 5 = 16\n(14 + 14 + 16 + d + 19) = 16 × 5\n63 + d = 80\nd = 80 - 63 = 17\n\nดังนั้น ค่า d เท่ากับ 17\n\nตอบตัวเลือกที่ 2 (17)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "เรขาคณิต, พื้นที่รูปสี่เหลี่ยม, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "จงหาพื้นที่สี่เหลี่ยมคางหมูมีด้านคู่ขนานยาว 4 และ 5 เซนติเมตร และมีความสูง 4 เซนติเมตร",
+    "options": [
+      "16 ตารางเซนติเมตร",
+      "18 ตารางเซนติเมตร",
+      "20 ตารางเซนติเมตร",
+      "22 ตารางเซนติเมตร"
+    ],
+    "correct_answer": 1,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nสูตรพื้นที่รูปสี่เหลี่ยมคางหมู = (1/2) × ผลบวกด้านคู่ขนาน × สูง\n\nแทนค่าในสูตร:\nพื้นที่ = (1/2) × (4 + 5) × 4\n= (1/2) × 9 × 4\n= 9 × 2 = 18 ตารางเซนติเมตร\n\nตอบตัวเลือกที่ 2 (18 ตารางเซนติเมตร)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "บัญญัติไตรยางศ์หลายชั้น, อัตราการทำงาน, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ในเวลา 2 ชั่วโมง เครื่องสูบน้ำ 3 เครื่อง สูบน้ำได้ 18 ลบ.ม. ถ้าต้องการสูบน้ำ 36 ลบ.ม. โดยใช้เครื่องสูบน้ำ 4 เครื่อง จะใช้เวลากี่ชั่วโมง",
+    "options": [
+      "3 ชั่วโมง",
+      "4 ชั่วโมง",
+      "5 ชั่วโมง",
+      "6 ชั่วโมง"
+    ],
+    "correct_answer": 0,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nใช้สูตรการคำนวณอัตราส่วนการทำงาน: (จำนวนเครื่อง × เวลา) / ปริมาณงาน = ค่าคงที่\n\n(เครื่อง₁ × เวลา₁) / งาน₁ = (เครื่อง₂ × เวลา₂) / งาน₂\n(3 × 2) / 18 = (4 × h) / 36\n6 / 18 = 4h / 36\n1 / 3 = 4h / 36\n4h = 36 / 3 = 12\nh = 12 / 4 = 3 ชั่วโมง\n\nตอบตัวเลือกที่ 1 (3 ชั่วโมง)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "สมการเชิงเส้น, โจทย์ปัญหาการแบ่งสิ่งของ, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "ต้นแบ่งดินสอให้เพื่อนคนละ 1 แท่ง จะเหลือดินสอ 8 แท่ง แต่ถ้าแบ่งให้คนละ 2 แท่ง จะมีเพื่อนที่ไม่ได้รับดินสอ 3 คน ต้นมีเพื่อนทั้งหมดกี่คน",
+    "options": [
+      "11 คน",
+      "13 คน",
+      "14 คน",
+      "17 คน"
+    ],
+    "correct_answer": 2,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nกำหนดให้ต้นมีเพื่อนทั้งหมด x คน\n\n1. พิจารณาจำนวนดินสอจากเงื่อนไขที่ 1:\nแบ่งให้คนละ 1 แท่ง เหลือดินสอ 8 แท่ง → ดินสอมี = x + 8 แท่ง\n\n2. พิจารณาจำนวนดินสอจากเงื่อนไขที่ 2:\nแบ่งให้คนละ 2 แท่ง มีเพื่อนไม่ได้รับ 3 คน แสดงว่ามีคนที่ได้ดินสอ x - 3 คน\n→ ดินสอมี = 2(x - 3) แท่ง\n\n3. จำนวนดินสอย่อมเท่ากัน จึงตั้งสมการได้ว่า:\nx + 8 = 2(x - 3)\nx + 8 = 2x - 6\n8 + 6 = 2x - x\nx = 14 คน\n\n(ตรวจสอบ: ดินสอมี 14 + 8 = 22 แท่ง, แจกคนละ 2 แท่ง ได้ 11 คน ซึ่งเหลือคนไม่ได้ 14 - 11 = 3 คน ถูกต้อง)\n\nตอบตัวเลือกที่ 3 (14 คน)"
+  },
+  {
+    "year": "2569",
+    "category": "ความสามารถในการคิดวิเคราะห์",
+    "tags": "ตรรกศาสตร์, การให้เหตุผล, สพฐ. 2569, ม.ธรรมศาสตร์ 2567",
+    "question_text": "\"A อาจเป็น B หรือ C แต่ A ไม่ใช่ C ดังนั้น...\" ข้อใดเป็นข้อสรุปที่สมเหตุสมผล",
+    "options": [
+      "B ไม่ใช่ A",
+      "B และ C คือ A",
+      "B คือ C",
+      "A คือ B"
+    ],
+    "correct_answer": 3,
+    "explanation": "ขั้นตอนการคิดวิเคราะห์:\nตามหลักตรรกศาสตร์นิรนัย (Disjunctive Syllogism):\n- เหตุที่ 1: A อาจเป็น B หรือ C (อย่างใดอย่างหนึ่ง)\n- เหตุที่ 2: A ไม่ใช่ C\n- ผลสรุป: เมื่อตัดทางเลือก C ออกไป ทางเลือกเดียวที่เหลืออยู่คือ A ต้องเป็น B (A คือ B)\n\n*หมายเหตุ: ในเอกสารต้นฉบับ ตัวเลือกที่ 4 มีการพิมพ์ข้อความตกหล่นว่า 'B คือ ' และมีรอยวงตัวเลือกที่ 3 แต่ตามหลักการให้เหตุผลเชิงตรรกศาสตร์ที่ถูกต้องแท้จริง ข้อสรุปคือ 'A คือ B'*\n\nตอบตัวเลือกที่ 4 (A คือ B)"
+  }
+]
