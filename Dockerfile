@@ -1,5 +1,5 @@
 # Build stage
-FROM rust:1.80-slim as builder
+FROM rust:latest as builder
 
 WORKDIR /usr/src/app
 
@@ -8,11 +8,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 COPY Cargo.toml Cargo.lock ./
-RUN mkdir src && echo "fn main() {}" > src/main.rs
-RUN cargo build --release || true
-
 COPY src ./src
-RUN touch src/main.rs
+
 RUN cargo build --release
 
 # Runtime stage
